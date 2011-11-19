@@ -1,1 +1,7 @@
 instances/*
+*.csv
+*.out
+*.zip
+*.aux
+*.log
+*.pdf
