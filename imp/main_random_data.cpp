@@ -16,7 +16,7 @@ using namespace std;
 int main()
 {
 
-	cout<<"Serie,"<<"t,"<<"d,"<<"ans,"<<"min,"<<"med,"<<"max,"<<"av_time"<<endl;
+	cout<<"Serie,"<<"size,"<<"t,"<<"d,"<<"ans,"<<"min,"<<"med,"<<"max,"<<"av_time"<<endl;
 	for (int s = 1; s <= 4; ++s){ 	
 		ifstream f;
 		// string path = "/home/cvalentim/Mestrado/research/projeto_final_cpp/code/new_instances/serie";
@@ -83,10 +83,6 @@ int main()
 			//d -= 100;
 			//d *= 1.5;
 			//d *= 2;
-			//int t = rand()%A.size();
-			//int t = rand()%201 + 100;
-			//int d = rand()%A.size();
-			//int d = A.size()/(rand()%201 + 100);
 			long long ans = -1;
 			double av_time = 0;
 			vector<double> times;
@@ -104,7 +100,7 @@ int main()
 			av_time /= nrep;
 			total_query_time += av_time;
 			//cout<<"(t= "<<t<<" "<<"d= "<<d<<" ans= "<<ans<<") min="<<times[0]<<" med="<<times[times.size()/2]<<" max="<<times[nrep-1]<<" av_time="<<av_time<<endl;
-			cout<<s<<","<<t<<","<<d<<","<<ans<<","<<times[0]<<","<<times[times.size()/2]<<","<<times[nrep-1]<<","<<av_time<<endl;
+			cout<<s<<","<<A.size()<<","<<t<<","<<d<<","<<ans<<","<<times[0]<<","<<times[times.size()/2]<<","<<times[nrep-1]<<","<<av_time<<endl;
 		}
 		av_query_time = total_query_time/nqueries;
 		av_size /= (nqueries * nrep);

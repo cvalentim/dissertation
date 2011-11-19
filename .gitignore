@@ -4,4 +4,5 @@ imp/*.out
 imp/*.zip
 imp/*.aux
 imp/*.log
-imp*.pdf
+imp/*.pdf
+imp/*.swp
