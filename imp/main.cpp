@@ -25,7 +25,6 @@ int main(int argc, char* argv[])
 	if (use_rdataset){
 			data_set = new RandomDataHandler();
 			data_set->load_dataset("/home/cvalentim/Mestrado/research/data_structures/instances/random/");
-			cout<<"HAHA"<<endl;
 	}	
 	else{
 			data_set = new RealDataHandler();

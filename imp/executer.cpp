@@ -44,12 +44,14 @@ public:
 			h->preprocess(A);
 			clock.end();
 
-			int t = 1;
-			double d = 1;
+			int t = 4;
+			double d = A.size() - 1000;
 			for (int query = 0; query < nq; ++query){
 					if (t > A.size()) break;
-					t *= 2;
-					d *= 1.5;
+					//t *= 2;
+					//d *= 1.5;
+					t += 200;
+					d -= 20;
 					vector<double> times;
 					long long ans = -1;
 					for (int r = 0; r < nr; ++r){
