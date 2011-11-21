@@ -6,3 +6,5 @@ imp/*.aux
 imp/*.log
 imp/*.pdf
 imp/*.swp
+imp/*.o
+imp/*.exe
