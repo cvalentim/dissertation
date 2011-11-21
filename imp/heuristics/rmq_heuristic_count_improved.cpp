@@ -5,13 +5,13 @@
 #include <queue>
 #include <stack>
 #include "../../../rmq/cpp/rmq_naive.cpp"
+#include "heuristic.cpp"
 
 using namespace std;
 
 
 template<class T>
-class RMQHeuristicCount
-{
+class RMQHeuristicCount : public Heuristic<T>{
 	// =====================================================
     //  Preprocessing Structures
 	// ===================================================
@@ -105,6 +105,12 @@ public:
 	int get_presize(){
 		return delta_time2.size();
 	}
+	
+	string get_name(){
+			string name = "F-pairs, RMQNaive";
+			return name;
+	}
+
 
 	void preprocess(vector<T>& A){
 		seq = A;

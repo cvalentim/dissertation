@@ -2,12 +2,12 @@
 #include <assert.h>
 #include "../../../rmq/cpp/rmq_naive.cpp"
 #include "../../../rmq/cpp/rmq_st.cpp"
+#include "heuristic.cpp"
 
 using namespace std;
 
 template<class T>
-class PureRmq
-{
+class PureRmq : public Heuristic<T>{
 	RMQNaive<T> rmqMax;
 	vector<T> seq;
 	long long ans;
@@ -20,6 +20,10 @@ class PureRmq
 	int get_presize(){
 		//return rmqMax.length();
 		return 42;
+	}
+
+	string get_name(){
+		return "RMQHeuristic, RMQNaive";
 	}
 
 	void preprocess(vector<T>& A)
@@ -50,7 +54,7 @@ class PureRmq
 		calculate(f, m + 1, e, d); 
 	}
 
-	long long query(int t, int d){
+	long long query(int t, T d){
 		assert (t > 0);
 		ans = 0;
 		for (int i = 0; i < seq.size(); ++i){
