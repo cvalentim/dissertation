@@ -7,7 +7,7 @@
 #include <algorithm>
 
 #include "heuristics/pure_rmq.cpp"
-#include "heuristics/rmq_heuristic_count_improved.cpp"
+#include "heuristics/fpairs.cpp"
 //#include "heuristics/sort_heuristic.cpp"
 #include "data_set_handler.cpp"
 #include "executer.cpp"
@@ -23,8 +23,8 @@ int main()
 	while (1){
 		vector<double> A = data_set->get_next();
 		if (A.empty()) break;
-		//Heuristic<double> *h = new RMQHeuristicCount<double>();
-		Heuristic<double> *h = new PureRmq<double>();
+		Heuristic<double> *h = new FPairs<double>();
+		//Heuristic<double> *h = new PureRmq<double>();
 		//SortHeuristic h = SortHeuristic();
 		Executer<double> *env = new Executer<double>(h, 10, 10);
 		env->go(A);
