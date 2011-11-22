@@ -20,27 +20,27 @@ int main(int argc, char* argv[])
 	if (argc > 1 && strcmp(argv[1], "RANDOM_DATASET") == 0)	use_rdataset = true;
 	if (argc > 2 && strcmp(argv[2], "RMQ_H") == 0) use_rmqH = true;
 
-	cout<<"Heuristic, "<<"RMQ, "<<"Serie, "<<"t, "<<"d, "<<"ans, "<<"min, "<<"med, "<<"max, "<<"av_time"<<endl;
-	DataHandler *data_set;
 	if (use_rdataset){
-			data_set = new RandomDataHandler();
+			DataHandler<int> *data_set = new RandomDataHandler<int>();
 			data_set->load_dataset("/home/cvalentim/Mestrado/research/data_structures/instances/random/");
+			Heuristic<int>* h;
+			if (use_rmqH)
+				h = new PureRmq<int>();
+			else
+				h = new FPairs<int>();
+			Executer<int> *env = new Executer<int>();
+			env->exec(data_set, h, 30, 5);
 	}	
 	else{
-			data_set = new RealDataHandler();
+			DataHandler<double> *data_set = new RealDataHandler<double>();
 			data_set->load_dataset("/home/cvalentim/Mestrado/research/data_structures/instances/real_data/");
+			Heuristic<double> *h;
+			if (use_rmqH)
+				h = new PureRmq<double>();
+			else
+				h = new FPairs<double>();
+			Executer<double> *env = new Executer<double>();
+			env->exec(data_set, h, 30, 5);
 	}
-	while (1){
-		vector<double> A = data_set->get_next();
-		if (A.empty()) break;
-		Heuristic<double> *h;
-		if (use_rmqH)
-			h = new PureRmq<double>(); 
-		else 
-			h = new FPairs<double>();
-		Executer<double> *env = new Executer<double>(h, 10, 10);
-		env->go(A);
-		cout<<endl;
-	}
-
+	return 0;
 }
