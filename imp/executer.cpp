@@ -15,28 +15,47 @@ using namespace std;
 
 template<class T>
 class Executer{
-	int nq;
-	int nr;
-	Heuristic<T> *h;
+	void print_csv_header(){
+		cout<<left;
+		cout<<"Heuristic, "<<setw(6);
+		cout<<"RMQ, "<<setw(6);
+		cout<<"Serie, "<<setw(6);
+		cout<<"t, "<<setw(6);
+		cout<<"d, "<<setw(6);
+		cout<<"ans, "<<setw(6);
+		cout<<"av_time, "<<setw(6);
+		cout<<"min, "<<setw(6);
+		cout<<"med, "<<setw(6);
+		cout<<"max"<<endl;
+	}
 
-	void csv_printer(vector<T>& A, long long ans, int t, double d, vector<double>& times){
+	void csv_printer(Heuristic<T> *h, vector<T>& A, long long ans, int t, double d, vector<double>& times){
 		sort(times.begin(), times.end());
 		cout<<left;
 		cout<<h->get_name()<<", "<<setw(6);
 		cout<<A.size()<<", "<<setw(6);
 		cout<<t<<", "<<setw(6); 
-		cout<<setprecision(5)<<d<<", "<<setw(6);
-		//cout<<d<<", ";
+		cout<<fixed<<setprecision(1)<<d<<", "<<setw(6);
 		cout<<ans<<", "<<setw(6);
 		cout<<accumulate(times.begin(), times.end(), 0.0)/times.size()<<", "<<setw(6);
-		cout<<times[0]<<", "<<setw(6);
-		cout<<times[times.size()/2]<<", "<<setw(6);
-		cout<<times.back()<<endl;
+		cout<<fixed<<setprecision(2)<<times[0]<<", "<<setw(6);
+		cout<<fixed<<setprecision(2)<<times[times.size()/2]<<", "<<setw(6);
+		cout<<fixed<<setprecision(2)<<times.back()<<endl;
 	}
 		
 public:
-	Executer(Heuristic<T> *_h, int _nq, int _nr): h(_h), nq(_nq), nr(_nr){}
-	void go(vector<T>& A){
+	
+	void exec(DataHandler<T> *data_set, Heuristic<T> *h, int nq, int nr){
+			print_csv_header();
+			while (1){
+					vector<T> data = data_set->get_next();
+					if (data.empty()) break;
+					exec_q(data, h, nq, nr);
+					cout<<endl;		
+			}
+	}
+	
+	void exec_q(vector<T>& A, Heuristic<T> *h, int nq, int nr){
 			Clock clock = Clock();
 			
 			// timing the preprocessing time
@@ -50,8 +69,8 @@ public:
 					if (t > A.size()) break;
 					//t *= 2;
 					//d *= 1.5;
-					t += 200;
-					d -= 20;
+					t += 800;
+					d -= 700;
 					vector<double> times;
 					long long ans = -1;
 					for (int r = 0; r < nr; ++r){
@@ -63,7 +82,7 @@ public:
 							ans = res;
 							times.push_back(clock.elapsed());
 					}
-					csv_printer(A, ans, t, d, times);
+					csv_printer(h, A, ans, t, d, times);
 			}
 	}
 };
