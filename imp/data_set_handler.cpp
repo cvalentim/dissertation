@@ -8,16 +8,18 @@
 
 using namespace std;
 
+template<class T>
 class DataHandler{
+protected:
+	vector<vector<T> > data_set;
+	int ndata_sets;
+	virtual string get_data_path(string path, int ns) = 0;
 public:
-	virtual void load_dataset(string path) = 0;
-	virtual vector<double> get_next() = 0;
-};
+	~DataHandler(){
+			data_set.clear();
+	}
 
-class RandomDataHandler: public DataHandler{
-	vector<vector<double> > data_set;
-public:
-	void load_dataset(string path){
+	virtual void load_dataset(string path) {
 			if (path.empty()) {
 					cerr<<"load_dataset: Cannot load empty path"<<endl;
 					return;
@@ -25,64 +27,56 @@ public:
 			data_set.clear();
 			if (path[path.size() - 1] != '/') path += "/";
 			
-			for (int ns = 1; ns <= 5; ++ns){
+			for (int ns = 1; ns <= ndata_sets; ++ns){
+				string abs_path = get_data_path(path, ns);
+				ifstream fin; fin.open(abs_path.c_str());
+				if (!fin){
+						cerr<<"load_dataset: Cannot open "<<abs_path<<endl;
+						return;
+				}
+				T value;
+				vector<T> data;
+				while (fin >> value) data.push_back(value);
+				fin.close();
+				data_set.push_back(data);
+			}	
+	}
+
+	virtual vector<T> get_next() {
+			static int next = 0;
+			if (next == ndata_sets) return vector<T>();
+			return data_set[next++];
+	}
+};
+
+template<class T>
+class RandomDataHandler: public DataHandler<T>{
+protected:
+	virtual string get_data_path(string path, int ns){
 				char abs_path[100];
 				sprintf(abs_path, "%srandom_serie%d.in", path.c_str(), ns);
-				vector<double> data;
-				ifstream fin; fin.open(abs_path);
-				if (!fin){
-						cerr<<"load_dataset: Cannot open "<<abs_path<<endl;
-						return;
-				}
-				double value;
-				vector<double> A;
-				while (fin >> value) A.push_back(value);
-				fin.close();
-				data_set.push_back(A);
-			}
+				return string(abs_path);
 	}
 
-	vector<double> get_next(){
-			static int next = 0;
-			if (next == 6) return vector<double>();
-			return data_set[next++];
+public:
+	RandomDataHandler(){
+			DataHandler<T>::ndata_sets = 4;
 	}
+
 };
 
-
-class RealDataHandler: public DataHandler{
-	vector<vector<double> > data_set;
-public:
-	void load_dataset(string path){
-			if (path.empty()) {
-					cerr<<"load_dataset: Cannot load empty path"<<endl;
-					return;
-			}
-			data_set.clear();
-			if (path[path.size() - 1] != '/') path += "/";
-			
-			for (int ns = 1; ns <= 6; ++ns){
+template<class T>
+class RealDataHandler: public DataHandler<T>{
+	virtual string get_data_path(string path, int ns){
 				char abs_path[100];
 				sprintf(abs_path, "%sserie%d.in", path.c_str(), ns);
-				vector<double> data;
-				ifstream fin; fin.open(abs_path);
-				if (!fin){
-						cerr<<"load_dataset: Cannot open "<<abs_path<<endl;
-						return;
-				}
-				double value;
-				vector<double> A;
-				while (fin >> value) A.push_back(value);
-				fin.close();
-				data_set.push_back(A);
-			}
+				return string(abs_path);
 	}
-
-	vector<double> get_next(){
-			static int next = 0;
-			if (next == 6) return vector<double>();
-			return data_set[next++];
+public:
+	RealDataHandler(){
+			DataHandler<T>::ndata_sets = 6;
 	}
 };
+
 
 #endif
