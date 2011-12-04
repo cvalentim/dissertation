@@ -1,7 +1,5 @@
 Query Todos os Pares
-Gerar experimentos com valores de k de modo a cobrir a faixa [0,n]. IMPORTANTE
-Excel - incluir colunas tamanho, nome do metodo, estrutura de RMQ. IMPORTANTE
- Estimar memória. IMPORTANTE
+Estimar memória. IMPORTANTE
 Tentar Reduzir efeitos de cache cima da ideia David.
 *********************************************************************
 Query Ini
