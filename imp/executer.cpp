@@ -10,6 +10,7 @@
 #include <algorithm>
 #include <numeric>
 #include <iomanip>
+#include <unistd.h>
 
 using namespace std;
 
@@ -62,15 +63,23 @@ public:
 			clock.start();
 			h->preprocess(A);
 			clock.end();
-
-			int t = 4;
-			double d = A.size() - 1000;
+			cout<<clock.elapsed()<<endl;
+			sleep(10);
+			/*
+ 				NOTE: To generate the results from 12_dec
+				start with t=4 and d = A.size() - 1000 then
+				continue with t += 200 and d -= 20
+			*/
+			int t = 1;
+			//double d = *max_element(A.begin(), A.end()) - 80;
+			double d = 1.3;
 			for (int query = 0; query < nq; ++query){
 					if (t > A.size()) break;
-					//t *= 2;
-					//d *= 1.5;
-					t += 800;
-					d -= 700;
+					//t += 200;
+					//d -= 20;
+					t += 1;
+					d *= 1.2;
+	
 					vector<double> times;
 					long long ans = -1;
 					for (int r = 0; r < nr; ++r){

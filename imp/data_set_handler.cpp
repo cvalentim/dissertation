@@ -60,7 +60,7 @@ protected:
 
 public:
 	RandomDataHandler(){
-			DataHandler<T>::ndata_sets = 4;
+			DataHandler<T>::ndata_sets = 5;
 	}
 
 };
