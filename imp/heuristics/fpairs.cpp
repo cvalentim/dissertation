@@ -105,6 +105,10 @@ public:
 	int get_presize(){
 		return delta_time2.size();
 	}
+
+	int amount_fpair(){
+			return howMany[howMany.size() - 1];
+	}
 	
 	string get_name(){
 			string name = "F-pairs, RMQNaive";
