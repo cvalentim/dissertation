@@ -15,8 +15,8 @@
  *
  */
 
-#ifndef __BEG__RMQBASED__
-#define __BEG__RMQBASED__
+#ifndef __BEG__RANGE_LIST__
+#define __BEG__RANGE_LIST__
 
 #include <cassert> // for assert 
 #include <set> // for set
@@ -30,8 +30,6 @@
 #include "fpair_range_list.cpp"
 
 using namespace std;
-
-
 
 template<class T>
 class RangeList : public Heuristic<T>{
@@ -48,12 +46,10 @@ class RangeList : public Heuristic<T>{
 	long long ans;
 
 	//
-	RangeTreeFPair rtree;
+	RangeTreeFPair<T> rtree;
 	
 public:
-	RangeList(){
-		
-	}
+	RangeList(){}
 
 	// see the abstract heuristic class for
 	// a definition of this function
@@ -73,11 +69,8 @@ public:
 	void preprocess(vector<T>& A)
 	{
 			seq = A;
-			vector<FPair> fpairs = find_fpairs(seq);
-			//cout<<"There\n";
-		//	cout<<"num fpair = "<<fpairs.size()<<endl;
+			vector<FPair<T> > fpairs = find_fpairs(seq);
 			rtree.range_preprocess(fpairs);
-			//cout<<"Re\n";
 	}
 
 	// Find all beggings within the interval [a, b) 
@@ -163,7 +156,7 @@ public:
 	vector<int> _query(int delta_t, T delta_v){
 		// only positive deltas
 		assert (delta_t > 0);
-		vector<FPair> fpairs = rtree.range_query(0, delta_t, delta_v);
+		vector<FPair<T> > fpairs = rtree.range_query(0, delta_t, delta_v);
 		vector<int> endings;
 		for (int i = 0; i < fpairs.size(); ++i){
 			endings.push_back(fpairs[i].e);
