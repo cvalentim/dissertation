@@ -20,10 +20,10 @@
 
 #include <assert.h> // for assert 
 
-
 #include "../../../../rmq/cpp/rmq_naive.cpp" // for an <O(n), O(\log n)> RMQ
 #include "../../../../rmq/cpp/rmq_st.cpp" // for an <O(n \log n), O(1)> RMQ 
 #include "../heuristic.cpp" // for the abstract heuristic class
+
 using namespace std;
 
 
@@ -42,9 +42,7 @@ class RmqBased : public Heuristic<T>{
 	long long ans;
 	
 public:
-	RmqBased(){
-		
-	}
+	RmqBased(){}
 
 	// see the abstract heuristic class for
 	// a definition of this function
@@ -82,5 +80,4 @@ public:
 		return ans;
 	}
 };
-
 #endif
