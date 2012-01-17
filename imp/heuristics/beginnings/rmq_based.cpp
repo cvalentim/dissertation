@@ -42,6 +42,9 @@ class RmqBased : public Heuristic<T>{
 	long long ans;
 	
 public:
+	RmqBased(){
+		
+	}
 
 	// see the abstract heuristic class for
 	// a definition of this function
