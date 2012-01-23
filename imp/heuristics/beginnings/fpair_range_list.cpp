@@ -52,8 +52,8 @@
  * Now, what is left is how to find the nodes u and v quickly. But, since we dealing
  * with a balanced binary search tree, doing that in O(\log n) time is a standart textbook exercise.
  */
-#ifndef __RANGE_TREE__
-#define __RANGE_TREE__
+#ifndef __RANGE_TREE_FPAIR__
+#define __RANGE_TREE_FPAIR__
 
 #include <vector>
 #include <algorithm>
@@ -68,7 +68,7 @@ using namespace std;
 template<class T>
 struct TNode{
 		int  value;
-		vector<FPair<T> > range;
+		vector<int> range;
 		bool is_leaf;
 
 		TNode(){
@@ -80,7 +80,7 @@ struct TNode{
 			is_leaf = false;
 		}
 
-		virtual ~TNode(){
+		~TNode(){
 				range.clear();
 		}
 
@@ -88,12 +88,6 @@ struct TNode{
 				out<<x.value;
 				return out;
 		}		
-};
-
-template<class T>
-struct LNode: public TNode<T>{
-		int index;
-		LNode(int _value, int _index): TNode<T>(_value), index(_index){	}
 };
 
 template<class T>
@@ -106,40 +100,99 @@ bool lt_by_time(const FPair<T>& f1, const FPair<T>& f2){
 }
 
 template<class T>
-bool lt_by_value(const FPair<T>& f1, const FPair<T>& f2){
-		if (f1.get_delta_v() != f2.get_delta_v())
-				return f1.get_delta_v() < f2.get_delta_v();
-		if (f1.s != f2.s)
-				return f1.s < f2.s;
-		return f1.e < f2.e;
-}
+class RangeTreeFPair;
 
 template<class T>
-bool lt_lexicographic(const FPair<T>& f1, const FPair<T>& f2){
+bool lt_lexico(const FPair<T>& f1, const FPair<T>& f2){
 		if (f1.s != f2.s) return f1.s < f2.s;
 		return f1.e < f2.e;
 }
 
-template<class T>
-bool lt_by_end(const FPair<T>& f1, const FPair<T>& f2){
-	if (f1.e != f2.e) return f1.e < f2.e;
-	return f1.s < f2.s;
-}
 
 template<class T>
-bool equal_end(const FPair<T>& f1, const FPair<T>& f2){
-		return f1.e == f2.e;		
-}
+struct lt_by_end:std::binary_function<int , int, bool>
+{
+   	lt_by_end(RangeTreeFPair<T> *p):rangeTree(p) {}
+
+    bool operator() (const int& index1, const int& index2) {
+				if (rangeTree->seq[index1].e != rangeTree->seq[index2].e)
+						return rangeTree->seq[index1].e < rangeTree->seq[index2].e;
+				return rangeTree->seq[index1].s < rangeTree->seq[index2].s;
+    }
+    RangeTreeFPair<T> *rangeTree;
+};
+
+template<class T>
+struct lt_by_value:std::binary_function<int , int, bool>
+{
+   	lt_by_value(RangeTreeFPair<T> *p):rangeTree(p) {}
+
+    bool operator() (const int& index1, const int& index2) {
+				if (rangeTree->seq[index1].get_delta_v() != rangeTree->seq[index2].get_delta_v())
+						return rangeTree->seq[index1].get_delta_v() < rangeTree->seq[index2].get_delta_v();
+				if (rangeTree->seq[index1].s != rangeTree->seq[index2].s)
+						rangeTree->seq[index1].s <  rangeTree->seq[index2].s;
+				return rangeTree->seq[index1].e < rangeTree->seq[index2].e;
+    }
+    RangeTreeFPair<T> *rangeTree;
+};
+
+
+// Is this the correct way of doing binary predicate?
+template<class T>
+struct equal_end:std::binary_function<int , int, bool>
+{
+   	equal_end(RangeTreeFPair<T> *p):rangeTree(p) {}
+
+    bool operator()(const int& index1, const int& index2) {
+				return rangeTree->seq[index1].e == rangeTree->seq[index2].e;
+    }
+    RangeTreeFPair<T> *rangeTree;
+};
 
 template<class T>
 class RangeTreeFPair{
-		vector<FPair<T> > seq;
+
 		vector<TNode<T> > tree;
-		int l0, l1;
+		
+		vector<FPair<T> > seq;
+
+		int l1;
+
 		T hi;
 
+		int get_left(int x){
+				return 2 * x;
+		}
+	
+		int get_right(int x){
+				return 2 * x + 1;
+		}	
+	
+		bool is_leaf(int node){
+				return tree[node].is_leaf;
+		}
+
+		bool isValid(const FPair<T>& f){
+					return 0 <= f.get_delta_t() && f.get_delta_t() <= l1 && f.get_delta_v() >= hi;
+		}
+
+		void PrintPath(const vector<int>& path){
+					for (int i = 0; i < path.size(); ++i)
+							cout<<tree[path[i]]<<" -> ";
+					cout<<endl;
+		}
+
+		friend class equal_end<T>;
+		friend class lt_by_value<T>;
+		friend class lt_by_end<T>;
+
 public:
-		RangeTreeFPair(){}
+
+		RangeTreeFPair(){
+
+		}
+
 		~RangeTreeFPair(){
 				seq.clear();
 				tree.clear();
@@ -149,9 +202,12 @@ public:
 		int construct(int s, int e, int node){
 				// base case: an leaf.
 				// In this case the subtree has only one node
+				if (s >= e){
+						assert (0 == 1);
+				}
 				if (s + 1 == e){
-						tree[node] = LNode<T>(seq[s].get_delta_t(), s);
-						tree[node].range.push_back(seq[s]);
+						tree[node] = TNode<T>(seq[s].get_delta_t());
+						tree[node].range.push_back(s);
 						tree[node].is_leaf = true;
 						return seq[s].get_delta_t();
 				}
@@ -162,17 +218,19 @@ public:
 
 				// associates with this node a list of fpairs 
 				// in the interval [s, e) sorted decreasing by delta_v 
+				//for (int k = s; k < e; ++k)
+			  //	tree[node].range.push_back(seq[k]);
+			  vector<int>& range = tree[node].range;
 				for (int k = s; k < e; ++k)
-						tree[node].range.push_back(seq[k]);
+						range.push_back(k);
 
-				// TODO: Remove equal ends
-				sort(tree[node].range.begin(), tree[node].range.end(), lt_by_end<T>);
-				typename vector<FPair<T> >::iterator it = unique(tree[node].range.begin(), tree[node].range.end(), equal_end<T>);
-				tree[node].range.erase(it, tree[node].range.end());
+				// Remove equal ends
+				sort(range.begin(),range.end(), lt_by_end<T>(this));
+				typename vector<int>::iterator it = unique(range.begin(),range.end(), equal_end<T>(this));
+				range.erase(it, range.end());
 
 				// sort by increasing delta_v 
-				sort(tree[node].range.begin(), tree[node].range.end(), lt_by_value<T>);
-				reverse(tree[node].range.begin(), tree[node].range.end());
+				sort(range.rbegin(), range.rend(), lt_by_value<T>(this));
 				
 				int greatest_left = construct(s, m, 2*node);
 				int greatest_right = construct(m, e, 2*node + 1);
@@ -187,174 +245,67 @@ public:
 				return max(greatest_left, greatest_right);
 		}
 
-		bool is_leaf(int node){
-				return tree[node].is_leaf;
+		void add_left(int curr, vector<int>& res){
+				int node = get_left(curr);
+				const vector<int >& range = tree[node].range;
+				for (int i = 0; i < range.size(); ++i){
+							if (seq[range[i]].get_delta_v() < hi)
+													break;
+							res.push_back(seq[range[i]].e);
+				}
 		}
-
-		// Find the left path from the root
-		// to the leftmost node greater or equal to x.
-		vector<int> find_left_path(int x, int node){
-					int curr = node;
-					vector<int> path;
-					path.push_back(curr);
-					while (!is_leaf(curr)){
-							if (tree[curr].value < x)
-									curr = 2*curr + 1;
-							else
-									curr = 2*curr;
-							path.push_back(curr);
-					}
-					return path;
-		}
-
-		// Find the rightmost path from the root
-		// to the rightmost node smallest or equal to x,
-		vector<int> find_right_path(int x, int node){
-				int curr = node;
-				vector<int> path;
-				path.push_back(node);
+	
+	
+		void find_by_right_path(int x, vector<int >& res){
+				// starts at the root
+				int curr = 1;
 				while (!is_leaf(curr)){
 						if (tree[curr].value > x)
-							curr = 2*curr;	
-						else
-							curr = 2*curr + 1;
-						path.push_back(curr);
-				}
-				return path;
-		}
-
-		void find_left_solutions(const vector<int>& lpath, int nleft, vector<FPair<T> >& res){	
-				// find solutions in the left path
-				while (nleft < lpath.size()){
-							int curr = lpath[nleft];
-							// we are in a leaf
-							if (is_leaf(curr)) {
-									assert (tree[curr].range.size() == 1);
-									if (isValid(tree[curr].range[0]))
-											res.push_back(tree[curr].range[0]);
-									return;
-							}
-							int next = lpath[nleft + 1];
-							// we go right, don't need
-							// to add the solutions of the 
+							curr = get_left(curr);	
+						else{
+							// goes right, so add solutions
+							// in the left subtree of the
 							// current node
-							if (2*curr + 1 == next){
-										++nleft;
-										continue;	
-							}
-
-							// now we try to find all f-pair in the
-							// node which respect the delta_v restriction
-							const vector<FPair<T> >& range = tree[2*curr + 1].range;
-							for (int i = 0; i < range.size(); ++i){
-									if (range[i].get_delta_v() < hi)
-												break;
-									res.push_back(range[i]);
-							}
-							++nleft;
+							add_left(curr, res);
+							curr = get_right(curr);
+						}
 				}
-		}
-
-		
-		void find_right_solutions(const vector<int>& rpath, int nright, vector<FPair<T> >& res){
-				// find solutions in the right path
-					while (nright < rpath.size()){
-								int curr = rpath[nright];
-								// path end, we are on a leaf
-								if (is_leaf(curr)) {
-										assert (tree[curr].range.size() == 1);
-										if (isValid(tree[curr].range[0]))
-												res.push_back(tree[curr].range[0]);
-										return;
-								}
-								int next = rpath[nright + 1];
-
-								// we go left, so don't
-								// add solutions from the current node
-								if (2*curr == next){
-											++nright;
-											continue;
-								}
-
-								// Otherwise, we find all solutions in the
-								// left subtree of the current node
-								const vector<FPair<T> >& range = tree[2*curr].range;
-								for (int i = 0; i < range.size(); ++i){
-										if (range[i].get_delta_v() < hi)
-													break;
-										res.push_back(range[i]);
-								}
-								++nright;
-					}
+				// curr is a leaf
+				assert (tree[curr].range.size() == 1);
+				if (curr >= tree.size()){
+					printf("WARNING: curr = %d len(tree) = %d\n", curr, (int)tree.size());
+				}
+				if (isValid(seq[tree[curr].range[0]]))
+							res.push_back(seq[tree[curr].range[0]].e);
 		}
 
 
 		// Range Tree code begins here
 		void range_preprocess(const vector<FPair<T> >& A){
-				if (A.empty()){
+				if (A.empty())
 						return;
-				}
 				seq = A;
+				//printf("fpair size = %d\n", (int)seq.size());
 				tree.clear();
-				tree.resize(seq.size() * 4);
+				tree.resize(4*(int)seq.size() + 1);
 				sort(seq.begin(), seq.end(), lt_by_time<T>);
 				int n = seq.size();
 				construct(0, n, 1);
 		}
 
-		bool isValid(const FPair<T>& f){
-					return l0 <= f.get_delta_t() && f.get_delta_t() <= l1 && f.get_delta_v() >= hi;
-		}
-
-		void PrintPath(const vector<int>& path){
-					for (int i = 0; i < path.size(); ++i)
-							cout<<tree[path[i]]<<" -> ";
-					cout<<endl;
-		}
-		
-		// [l0, l1] 
-		vector<FPair<T> > range_query(int _l0, int _l1, T _hi){
-					// Invariant: There must be at least in the range tree
-					l0 = _l0, l1 = _l1, hi = _hi;
-					
-					vector<int> lpath, rpath;
-
-					lpath = find_left_path(l0, 1);
-					rpath = find_right_path(l1, 1);
-
-					// Invariant: there must be at least one
-					// node (the root) in both paths
-					assert (lpath.size() > 0 && rpath.size() > 0);
-
-					int nleft = 0, nright = 0;
-					while (nleft < lpath.size() && nright < rpath.size()){
-							if (lpath[nleft] == rpath[nright])
-									++nleft, ++nright;
-							else 
-									break;
-					}
-			
-					vector<FPair<T> > res;
-					if (nleft == lpath.size()){
-							int leaf = lpath[nleft - 1];
-							FPair<T> f = tree[leaf].range[0];
-							if (isValid(f))
-									res.push_back(f);
-							return res;
-					}
-
-					find_left_solutions(lpath, nleft, res);
-					find_right_solutions(rpath, nright, res);
 	
+		// [l0, l1] 
+		// Returns the endings of fpairs that are inside the
+		// range [0, l1]
+		vector<int> range_query(int _l1, T _hi, vector<int>& res){
+					l1 = _l1, hi = _hi;
+					find_by_right_path(l1, res);
 					// we can find more the once the same
 					// f-pair, so we remove repetitions now,
 					// before returning
-					sort(res.begin(), res.end(), lt_lexicographic<T>);
+					sort(res.begin(), res.end());
 					res.erase(unique(res.begin(), res.end()), res.end());				
-
 					return res;
 		}
 }; 
-
-
 #endif

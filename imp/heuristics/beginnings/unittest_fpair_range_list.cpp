@@ -72,7 +72,7 @@ int brute_force(const vector<FPair<int> >& A, int l0, int l1, double hi){
 		for (int i = 0; i < A.size(); ++i)
 			if (l0 <= A[i].get_delta_t() && A[i].get_delta_t() <= l1 && A[i].get_delta_v() >= hi)
 				res.push_back(A[i]);
-		sort(res.begin(), res.end(), lt_lexicographic<int>);
+		sort(res.begin(), res.end(), lt_lexico<int>);
 		res.erase(unique(res.begin(), res.end()), res.end());		
 		return res.size();
 }

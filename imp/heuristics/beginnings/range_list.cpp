@@ -32,12 +32,26 @@
 using namespace std;
 
 template<class T>
+class RangeList;
+
+template<class T>
+struct lt_by_d : std::binary_function<int , int, bool>
+{
+   	lt_by_d(RangeList<T> *p):rangeList(p) {}
+
+    bool operator() (const int& index1, const int& index2) {
+				return rangeList->seq[index1] < rangeList->seq[index2];
+    }
+    RangeList<T> *rangeList;
+};
+
+template<class T>
 class RangeList : public Heuristic<T>{
 	// RMQ used to find the maximum in a given sequence
 	// interval. Note that it works both for min and max,
 	// depeding on the compare function given during 
 	// the preprocessing and query answering. See below.
-	RMQNaive<T> rmqMax;
+	RMQNaive<T> rmqMin;
 
 	// a copy of the input sequence
 	vector<T> seq;
@@ -47,7 +61,9 @@ class RangeList : public Heuristic<T>{
 
 	//
 	RangeTreeFPair<T> rtree;
-	
+
+	friend class lt_by_d<T>;	
+
 public:
 	RangeList(){}
 
@@ -69,7 +85,9 @@ public:
 	void preprocess(vector<T>& A)
 	{
 			seq = A;
-			vector<FPair<T> > fpairs = find_fpairs(seq);
+			rmqMin.preprocess(A);
+			vector<FPair<T> > fpairs;
+			find_fpairs(seq, fpairs);
 			rtree.range_preprocess(fpairs);
 	}
 
@@ -79,10 +97,7 @@ public:
 	void findByEnd(int end, int a, int b, vector<int>& beg, T delta_v){
 				assert (b <= end);
 				if (a >= b) return;
-				int m = a;
-				for (int i = a + 1; i < b; ++i)
-						if (seq[i] < seq[m]) m = i;
-				//int m = rmq_min->query(a, b);
+				int m = rmqMin.query(a, b-1);
 				if (seq[end] - seq[m] < delta_v) return;
 				//beg.push_back(m);
 				++ans;
@@ -90,31 +105,10 @@ public:
 				findByEnd(end, m + 1, b, beg, delta_v);
 	}
 
-	// My own sort function backed by the STL sort.
-	// I had to do that because I don't know how
-	// to make a compare function that uses an internal
-	// atribute (in this case seq). I want to sort
-	// the vector of indexes by its values in 'seq'
-	// but since is internal to this classe I can
-	// make a external sort comparetor, and if I try
-	// to make the compare function inside the class (method)
-	// it doesn't work as well.
-	void Sort(vector<int>& E){
-		vector<pair<int, int> > pE;
-		for (vector<int>::iterator it = E.begin(); it != E.end(); ++it)
-				pE.push_back(make_pair(seq[*it], *it));
-		sort(pE.begin(), pE.end());
-		reverse(pE.begin(), pE.end());
-		// how can we do that with iterators?
-		for (int i = 0; i < pE.size(); ++i)
-			E[i] = pE[i].second;
-
-	}
-
-	vector<int> BegByEnd(vector<int> E, int delta_t, T delta_v){
+	vector<int> BegByEnd(vector<int>& E, int delta_t, T delta_v){
 				// for this strategy to work we must process the
 				// intervals from the greatest to the smallest
-				Sort(E);
+				sort(E.rbegin(), E.rend(), lt_by_d<T>(this));
 
 				// this set keeps endings already processed	
 				set<int> covered;
@@ -146,21 +140,16 @@ public:
 
 	long long query(int delta_t, T delta_v){
 			ans = 0;
-			//return _query(delta_t, delta_v).size();
 			vector<int> beg = _query(delta_t, delta_v);
 			assert (beg.size() == 0);
-			//cout<<"k = "<<k<<endl;
 			return ans;
 	}
 
 	vector<int> _query(int delta_t, T delta_v){
 		// only positive deltas
 		assert (delta_t > 0);
-		vector<FPair<T> > fpairs = rtree.range_query(0, delta_t, delta_v);
 		vector<int> endings;
-		for (int i = 0; i < fpairs.size(); ++i){
-			endings.push_back(fpairs[i].e);
-		}
+		rtree.range_query(delta_t, delta_v, endings);
 		return BegByEnd(endings, delta_t, delta_v);
 	}
 

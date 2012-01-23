@@ -58,15 +58,13 @@ void construct(int s, int e, vector<T>& A, RMQNaive<T>& rmq_max, RMQNaive<T>& rm
 }
 
 template<typename T>
-vector<FPair<T> > find_fpairs(vector<T>& A){
-	vector<FPair<T> > res;
+void find_fpairs(vector<T>& A, vector<FPair<T> >& res){
 	RMQNaive<T> rmq_max, rmq_min;
 
 	rmq_max.preprocess(A, greater<T>());
 	rmq_min.preprocess(A);
 
 	construct(0, A.size() - 1, A, rmq_max, rmq_min, res);
-	return res;
 }
 
 #endif
