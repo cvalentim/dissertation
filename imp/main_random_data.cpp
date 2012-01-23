@@ -6,8 +6,9 @@
 #include <stdlib.h>
 #include <algorithm>
 
-#include "heuristics/pure_rmq.cpp"
-#include "heuristics/rmq_heuristic_count_improved.cpp"
+//#include "heuristics/pure_rmq.cpp"
+//#include "heuristics/rmq_heuristic_count_improved.cpp"
+#include "heuristics/beginnings/range_list.cpp"
 //#include "heuristics/sort_heuristic.cpp"
 #include "timer/clock.cpp"
 
@@ -29,7 +30,7 @@ int main()
 			cout<<"Could not open instance file."<<endl;
 			return 1;	
 		}
-		vector<double> A;
+		vector<int> A;
 		string value;
 		double smallest = -1, biggest = -1;
 		while (f >> value){
@@ -48,7 +49,7 @@ int main()
 		Clock clock = Clock();		
 
 		//RMQHeuristicCount<double> h;
-		PureRmq<double> h;
+		RangeList<int> h;
 		//SortHeuristic h = SortHeuristic();
 	
 		// preprocessing 

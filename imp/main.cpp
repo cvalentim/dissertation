@@ -7,8 +7,11 @@
 #include <algorithm>
 #include <cstring>
 
-#include "heuristics/pure_rmq.cpp"
-#include "heuristics/fpairs.cpp"
+//#include "heuristics/pure_rmq.cpp"
+//#include "heuristics/fpairs.cpp"
+#include "heuristics/beginnings/range_list.cpp"
+#include "heuristics/beginnings/rmq_based.cpp"
+#include "heuristics/heuristic.cpp"
 #include "data_set_handler.cpp"
 #include "executer.cpp"
 
@@ -25,7 +28,9 @@ void help(){
 
 int main(int argc, char* argv[])
 {
-	bool use_rdataset = false, use_rmqH = false;
+	bool use_rdataset = false;
+	bool use_rmqH = false;
+
 	if (argc < 2) {
 			help();
 	}
@@ -38,27 +43,32 @@ int main(int argc, char* argv[])
 	else if (strcmp(argv[2], "FPAIR_H") == 0) use_rmqH = false;
 	else help();
 
+
 	if (use_rdataset){
 			DataHandler<int> *data_set = new RandomDataHandler<int>();
 			data_set->load_dataset("/home/cvalentim/Mestrado/research/data_structures/instances/random/");
-			Heuristic<int>* h;
+			
+			Heuristic<int> *h;
 			if (use_rmqH)
-				h = new PureRmq<int>();
+					h = new RmqBased<int>();
 			else
-				h = new FPairs<int>();
+				  h = new RangeList<int>();
 			Executer<int> *env = new Executer<int>();
-			env->exec(data_set, h, 30, 5);
+			// execute 30 queries and repeat each query five times
+			env->exec(data_set, h, 2, 5);
 	}	
 	else{
 			DataHandler<double> *data_set = new RealDataHandler<double>();
 			data_set->load_dataset("/home/cvalentim/Mestrado/research/data_structures/instances/real_data/");
+
 			Heuristic<double> *h;
 			if (use_rmqH)
-				h = new PureRmq<double>();
+				h = new RmqBased<double>;
 			else
-				h = new FPairs<double>();
+				h = new RangeList<double>();
 			Executer<double> *env = new Executer<double>();
-			env->exec(data_set, h, 30, 5);
+			// execute 30 queries and repeat each query five times
+			env->exec(data_set, h, 10, 5);
 	}
 	return 0;
 }

@@ -48,11 +48,14 @@ public:
 	
 	void exec(DataHandler<T> *data_set, Heuristic<T> *h, int nq, int nr){
 			print_csv_header();
+			int serie = 1;
 			while (1){
+					cout<<"serie = "<<serie<<endl;
 					vector<T> data = data_set->get_next();
 					if (data.empty()) break;
 					exec_q(data, h, nq, nr);
 					cout<<endl;		
+					++serie;
 			}
 	}
 	
