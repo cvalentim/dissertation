@@ -22,7 +22,7 @@ long long brute_force(const vector<int>& A, int t, int d){
 
 
 void test_random(){
-		int n = 8;
+		int n = 13;
 		int interations = 100000;
 		vector<int> A(n);
 		for (int i = 0; i < n; ++i) A[i] = i + 1;
@@ -32,7 +32,9 @@ void test_random(){
 		for (int i = 0; i < interations; ++i){
 				cout<<"Test "<<i<<": ";
 				random_shuffle(A.begin(), A.end());
+				vector<int> backupA = A;
 				h.preprocess(A);
+				assert(A == backupA);
 				for (int t = 2; t <= n; ++t)
 					for (int d = 2; d <= n; ++d){
 							long long got = h.query(t, d);

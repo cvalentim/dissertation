@@ -26,7 +26,6 @@
 
 using namespace std;
 
-
 template<class T>
 class RmqBased : public Heuristic<T>{
 	// RMQ used to find the maximum in a given sequence
@@ -54,7 +53,7 @@ public:
 	// to discover the heuristic name and
 	// type of RMQ being used
 	string get_name(){
-		return "RMQHeuristic, RMQNaive";
+		return "RMQHeuristic, RMQSt";
 	}
 
 	// this heuristic preprocessing is
@@ -63,7 +62,7 @@ public:
 	{
 		seq = A;
 		// we want a max RMQ, so the 'greater' argument
-		rmqMax.preprocess(seq, greater<double>());
+		rmqMax.preprocess(seq, greater<T>());
 	}
 
 	long long query(int delta_t, T delta_v){
@@ -74,7 +73,7 @@ public:
 		// this loop fix each possible beginning 
 		// and checks inside it if it is valid
 		for (int i = 0; i < seq.size(); ++i){
-			int m = rmqMax.query(i, (i + delta_t < n )? (i+delta_t): n - 1, greater<double>());
+			int m = rmqMax.query(i, (i + delta_t < n )? (i+delta_t): n - 1, greater<T>());
 			if (seq[m] - seq[i] >= delta_v) ++ans;
 		}
 		return ans;

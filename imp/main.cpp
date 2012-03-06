@@ -59,7 +59,7 @@ int main(int argc, char* argv[])
 	}	
 	else{
 			DataHandler<double> *data_set = new RealDataHandler<double>();
-			data_set->load_dataset("/home/cvalentim/Mestrado/research/data_structures/instances/real_data/");
+			data_set->load_dataset("/home/cvalentim/Mestrado/research/data_structures/instances/real_data/normal/");
 
 			Heuristic<double> *h;
 			if (use_rmqH)
@@ -68,7 +68,7 @@ int main(int argc, char* argv[])
 				h = new RangeList<double>();
 			Executer<double> *env = new Executer<double>();
 			// execute 30 queries and repeat each query five times
-			env->exec(data_set, h, 10, 5);
+			env->exec(data_set, h, 12, 5);
 	}
 	return 0;
 }
