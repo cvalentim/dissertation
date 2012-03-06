@@ -50,7 +50,8 @@ public:
 			print_csv_header();
 			int serie = 1;
 			while (1){
-					cout<<"serie = "<<serie<<endl;
+					//cout<<"serie = "<<serie<<endl;
+					cout<<endl;
 					vector<T> data = data_set->get_next();
 					if (data.empty()) break;
 					exec_q(data, h, nq, nr);
@@ -78,11 +79,11 @@ public:
 			double d = 1.3;
 			for (int query = 0; query < nq; ++query){
 					if (t > A.size()) break;
-					//t += 200;
-					//d -= 20;
-					t += 1;
-					d *= 1.2;
-	
+					//t += 2;
+					//d *= 1.2;
+					t += 4;
+					d *= 1.1;
+
 					vector<double> times;
 					long long ans = -1;
 					for (int r = 0; r < nr; ++r){

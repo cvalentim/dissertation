@@ -186,11 +186,11 @@ class RangeTreeFPair{
 		friend class equal_end<T>;
 		friend class lt_by_value<T>;
 		friend class lt_by_end<T>;
-
+		int total_ends, total_ends_unique;
 public:
 
 		RangeTreeFPair(){
-
+			total_ends = total_ends_unique = 0;
 		}
 
 		~RangeTreeFPair(){
@@ -224,10 +224,14 @@ public:
 				for (int k = s; k < e; ++k)
 						range.push_back(k);
 
+				total_ends += (e - s);
+
 				// Remove equal ends
 				sort(range.begin(),range.end(), lt_by_end<T>(this));
 				typename vector<int>::iterator it = unique(range.begin(),range.end(), equal_end<T>(this));
 				range.erase(it, range.end());
+
+				total_ends_unique += range.size();
 
 				// sort by increasing delta_v 
 				sort(range.rbegin(), range.rend(), lt_by_value<T>(this));
@@ -291,6 +295,7 @@ public:
 				sort(seq.begin(), seq.end(), lt_by_time<T>);
 				int n = seq.size();
 				construct(0, n, 1);
+				printf("ends = %d ends_unique = %d delta = %d\n", total_ends, total_ends_unique, total_ends - total_ends_unique);
 		}
 
 	

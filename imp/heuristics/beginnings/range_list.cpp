@@ -22,6 +22,7 @@
 #include <set> // for set
 #include <algorithm> //for sort
 #include <iostream>
+#include <queue>
 
 #include "../../../../rmq/cpp/rmq_naive.cpp" // for an <O(n), O(\log n)> RMQ
 #include "../../../../rmq/cpp/rmq_st.cpp" // for an <O(n \log n), O(1)> RMQ 
@@ -63,7 +64,7 @@ class RangeList : public Heuristic<T>{
 	RangeTreeFPair<T> rtree;
 
 	friend class lt_by_d<T>;	
-
+	
 public:
 	RangeList(){}
 
@@ -88,6 +89,7 @@ public:
 			rmqMin.preprocess(A);
 			vector<FPair<T> > fpairs;
 			find_fpairs(seq, fpairs);
+			//cout<<fpairs.size()<<endl;	
 			rtree.range_preprocess(fpairs);
 	}
 
@@ -99,7 +101,6 @@ public:
 				if (a >= b) return;
 				int m = rmqMin.query(a, b-1);
 				if (seq[end] - seq[m] < delta_v) return;
-				//beg.push_back(m);
 				++ans;
 				findByEnd(end, a, m, beg, delta_v);
 				findByEnd(end, m + 1, b, beg, delta_v);
@@ -135,7 +136,36 @@ public:
 							findByEnd(*it, a, b, beginnings, delta_v);
 							covered.insert(*it);
 				}
-				return beginnings;					
+				return beginnings;				
+	}
+
+	vector<int> BegByEnd2(vector<int>& E, int delta_t, T delta_v){
+			vector<int> beg;
+			// sort in decreasing index order
+			E.push_back(0);
+			sort(E.begin(), E.end());
+			deque<int> Q;
+			Q.push_front(E[E.size() -1]);
+			int currHigh = Q.front();
+			for (int i = E.size() - 2; i >= 0; --i){
+						int e = Q.front();
+						while (e - delta_t >= E[i]){
+								findByEnd(e, e - delta_t, currHigh, beg, delta_v);
+								Q.pop_front();
+								currHigh = e - delta_t; 
+								if (Q.empty()) {
+											e = -1;
+											break;
+								}
+								e = Q.front();
+						}
+						if (e != -1)
+							findByEnd(e, E[i], currHigh, beg, delta_v);
+						while (!Q.empty() && seq[Q.back()] < seq[E[i]]) Q.pop_back();
+						Q.push_back(E[i]);
+						currHigh = E[i];						
+			}
+			return beg; 
 	}
 
 	long long query(int delta_t, T delta_v){
@@ -150,7 +180,8 @@ public:
 		assert (delta_t > 0);
 		vector<int> endings;
 		rtree.range_query(delta_t, delta_v, endings);
-		return BegByEnd(endings, delta_t, delta_v);
+		//cout<<"#fins = "<<endings.size()<<endl;
+		return BegByEnd2(endings, delta_t, delta_v);
 	}
 
 };
