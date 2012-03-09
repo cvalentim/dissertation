@@ -20,9 +20,8 @@
 
 #include <assert.h> // for assert 
 
-#include "../../../../rmq/cpp/rmq_naive.cpp" // for an <O(n), O(\log n)> RMQ
-#include "../../../../rmq/cpp/rmq_st.cpp" // for an <O(n \log n), O(1)> RMQ 
 #include "../heuristic.cpp" // for the abstract heuristic class
+#include "../../../../rmq/cpp/abstract_rmq.cpp" 
 
 using namespace std;
 
@@ -32,7 +31,7 @@ class RmqBased : public Heuristic<T>{
 	// interval. Note that it works both for min and max,
 	// depeding on the compare function given during 
 	// the preprocessing and query answering. See below.
-	RMQNaive<T> rmqMax;
+	RMQ<T> *rmqMax;
 
 	// a copy of the input sequence
 	vector<T> seq;
@@ -41,7 +40,13 @@ class RmqBased : public Heuristic<T>{
 	long long ans;
 	
 public:
-	RmqBased(){}
+	RmqBased(RMQ<T> *_rmqMax){
+		rmqMax = _rmqMax;
+	}
+
+	~RmqBased(){
+		delete rmqMax;
+	}
 
 	// see the abstract heuristic class for
 	// a definition of this function
@@ -49,11 +54,8 @@ public:
 		return 42;
 	}
 
-	// horrible hard-coded method used
-	// to discover the heuristic name and
-	// type of RMQ being used
 	string get_name(){
-		return "RMQHeuristic, RMQSt";
+		return "RMQH with " + rmqMax->name();
 	}
 
 	// this heuristic preprocessing is
@@ -62,7 +64,7 @@ public:
 	{
 		seq = A;
 		// we want a max RMQ, so the 'greater' argument
-		rmqMax.preprocess(seq, greater<T>());
+		rmqMax->preprocess(seq);
 	}
 
 	long long query(int delta_t, T delta_v){
@@ -73,7 +75,7 @@ public:
 		// this loop fix each possible beginning 
 		// and checks inside it if it is valid
 		for (int i = 0; i < seq.size(); ++i){
-			int m = rmqMax.query(i, (i + delta_t < n )? (i+delta_t): n - 1, greater<T>());
+			int m = rmqMax->query(i, (i + delta_t < n )? (i+delta_t): n - 1);
 			if (seq[m] - seq[i] >= delta_v) ++ans;
 		}
 		return ans;
