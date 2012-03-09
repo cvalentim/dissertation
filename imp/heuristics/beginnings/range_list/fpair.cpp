@@ -1,9 +1,9 @@
-#ifndef __FPAIR__
-#define __FPAIR__ 
+#ifndef __FPAIR_HELPER_
+#define __FPAIR_HELPER_
 
 #include <vector>
 
-#include "../../../../rmq/cpp/rmq_naive.cpp"
+#include "../../../../../rmq/cpp/rmq_bucket.cpp"
 
 using namespace std;
 
@@ -45,9 +45,9 @@ struct FPair{
 };
 
 template<typename T>
-void construct(int s, int e, vector<T>& A, RMQNaive<T>& rmq_max, RMQNaive<T>& rmq_min, vector<FPair<T> >& res ){
+void construct(int s, int e, vector<T>& A, RMQBucket<T>& rmq_max, RMQBucket<T>& rmq_min, vector<FPair<T> >& res ){
 		if (s > e) return;
-		int hi = rmq_max.query(s, e, greater<T>());
+		int hi = rmq_max.query(s, e);
 		int lo = rmq_min.query(s, hi);
 		while (lo < hi && A[lo] < A[hi]){
 			res.push_back(FPair<T>(lo, hi, A[lo], A[hi]));
@@ -59,9 +59,9 @@ void construct(int s, int e, vector<T>& A, RMQNaive<T>& rmq_max, RMQNaive<T>& rm
 
 template<typename T>
 void find_fpairs(vector<T>& A, vector<FPair<T> >& res){
-	RMQNaive<T> rmq_max, rmq_min;
+	RMQBucket<T> rmq_max(RMQTypes_t::MAX()), rmq_min(RMQTypes_t::MIN());
 
-	rmq_max.preprocess(A, greater<T>());
+	rmq_max.preprocess(A);
 	rmq_min.preprocess(A);
 
 	construct(0, A.size() - 1, A, rmq_max, rmq_min, res);

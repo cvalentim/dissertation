@@ -20,15 +20,16 @@
 
 #include <cassert> // for assert 
 #include <set> // for set
+#include <queue>
 #include <algorithm> //for sort
 #include <iostream>
-#include <queue>
 
-#include "../../../../rmq/cpp/rmq_naive.cpp" // for an <O(n), O(\log n)> RMQ
-#include "../../../../rmq/cpp/rmq_st.cpp" // for an <O(n \log n), O(1)> RMQ 
-#include "../heuristic.cpp" // for the abstract heuristic class
 #include "fpair.cpp"
 #include "fpair_range_list.cpp"
+
+#include "../../../../../rmq/cpp/rmq_bucket.cpp" // for an <O(n), O(\log n)> RMQ
+#include "../../heuristic.cpp" // for the abstract heuristic class
+
 
 using namespace std;
 
@@ -52,7 +53,7 @@ class RangeList : public Heuristic<T>{
 	// interval. Note that it works both for min and max,
 	// depeding on the compare function given during 
 	// the preprocessing and query answering. See below.
-	RMQNaive<T> rmqMin;
+	RMQ<T> *rmqMin;
 
 	// a copy of the input sequence
 	vector<T> seq;
@@ -66,7 +67,9 @@ class RangeList : public Heuristic<T>{
 	friend class lt_by_d<T>;	
 	
 public:
-	RangeList(){}
+	RangeList(){
+		rmqMin = new RMQBucket<T>(RMQTypes_t::MIN());
+	}
 
 	// see the abstract heuristic class for
 	// a definition of this function
@@ -78,7 +81,7 @@ public:
 	// to discover the heuristic name and
 	// type of RMQ being used
 	string get_name(){
-		return "RMQHeuristic, RMQNaive";
+		return "RangeList with " + rmqMin->name();
 	}
 
 	// this heuristic preprocessing is
@@ -86,7 +89,7 @@ public:
 	void preprocess(vector<T>& A)
 	{
 			seq = A;
-			rmqMin.preprocess(A);
+			rmqMin->preprocess(A);
 			vector<FPair<T> > fpairs;
 			find_fpairs(seq, fpairs);
 			//cout<<fpairs.size()<<endl;	
@@ -99,7 +102,7 @@ public:
 	void findByEnd(int end, int a, int b, vector<int>& beg, T delta_v){
 				assert (b <= end);
 				if (a >= b) return;
-				int m = rmqMin.query(a, b-1);
+				int m = rmqMin->query(a, b-1);
 				if (seq[end] - seq[m] < delta_v) return;
 				++ans;
 				findByEnd(end, a, m, beg, delta_v);

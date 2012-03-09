@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <cassert>
 
-#include "range_list.cpp"
+#include "../range_list/range_list.cpp"
 
 using namespace std;
 

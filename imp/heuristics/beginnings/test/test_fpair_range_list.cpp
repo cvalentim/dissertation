@@ -1,18 +1,30 @@
-#include "fpair_range_list.cpp"
-#include "fpair.cpp"
+#include "../range_list/fpair_range_list.cpp"
+#include "../range_list/fpair.cpp"
 
 void test_range_query_one_node(){
 	RangeTreeFPair<int> rtree;
 	vector<FPair<int> > A;
 	A.push_back(FPair<int>(0, 1, 5, 7));
 
-	rtree.range_preprocess(A);		
-	assert(rtree.range_query(0, 2, 1).size() == 1);
-	assert(rtree.range_query(0, 1, 1).size() == 1);
-	assert(rtree.range_query(0, 1, 2).size() == 1);
-	assert(rtree.range_query(0, 1, 3).size() == 0);
-	assert(rtree.range_query(0, 0, 2).size() == 0);
-	assert(rtree.range_query(1, 1, 2).size() == 1);
+	rtree.range_preprocess(A);	
+	vector<int> res;	
+	rtree.range_query(0, 2, res);
+	assert (res.size() == 1); res.clear();
+
+	rtree.range_query(0, 1, res);
+	assert (res.size() == 1); res.clear();
+
+	rtree.range_query(0, 1, res);
+	assert(res.size() == 1); res.clear();
+
+	rtree.range_query(0, 1, res);
+	assert (res.size() == 0); res.clear();
+
+	rtree.range_query(0, 0, res);
+	assert(res.size() == 0); res.clear();
+
+	rtree.range_query(1, 1, res);
+	assert(res.size() == 1); res.clear();
 		
 	cout<<"Range Query One Node: Successful!!!"<<endl;
 }
@@ -25,15 +37,33 @@ void test_range_query_two_nodes(){
 	A.push_back(FPair<int>(3, 7, 10, 15));
 
 	rtree.range_preprocess(A);		
-	assert(rtree.range_query(0, 2, 1).size() == 1);
-	assert(rtree.range_query(0, 1, 1).size() == 1);
-	assert(rtree.range_query(0, 1, 2).size() == 1);
-	assert(rtree.range_query(0, 1, 3).size() == 0);
-	assert(rtree.range_query(0, 0, 2).size() == 0);
-	assert(rtree.range_query(1, 1, 2).size() == 1);
-	assert(rtree.range_query(0, 10, 0).size() == 2);
-	assert(rtree.range_query(1, 4, 2).size() == 2);
-	assert(rtree.range_query(1, 4, 5).size() == 1);
+	vector<int> res;
+	rtree.range_query(0, 2, res);
+	assert(res.size() == 1); res.clear();
+
+	rtree.range_query(0, 1, res);
+	assert(res.size() == 1); res.clear();
+
+	rtree.range_query(0, 1, res);
+	assert(res.size() == 1); res.clear();
+
+	rtree.range_query(0, 1, res);
+	assert(res.size() == 0); res.clear();
+
+	rtree.range_query(0, 0, res);
+	assert(res.size() == 0); res.clear();
+
+	rtree.range_query(1, 1, res);
+	assert(res.size() == 1); res.clear();
+
+	rtree.range_query(0, 10, res);
+	assert(res.size() == 2); res.clear();
+
+	rtree.range_query(1, 4, res);
+	assert(res.size() == 2); res.clear();
+
+	rtree.range_query(1, 4, res);
+	assert(res.size() == 1); res.clear();
 		
 	cout<<"Range Query Two Nodes: Successful!!!"<<endl;
 }

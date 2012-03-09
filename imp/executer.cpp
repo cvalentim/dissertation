@@ -1,8 +1,6 @@
 #ifndef __EXECUTER__
 #define __EXECUTER__
 
-#include "timer/clock.cpp"
-#include "heuristics/heuristic.cpp"
 
 #include <vector>
 #include <iostream>
@@ -12,7 +10,15 @@
 #include <iomanip>
 #include <unistd.h>
 
+
+#include "timer/clock.cpp"
+#include "heuristics/heuristic.cpp"
+#include "data_set_handler.cpp"
+
 using namespace std;
+
+#define SMALL_OUTPUT 0
+#define LARGE_OUTPUT 1
 
 template<class T>
 class Executer{
@@ -46,7 +52,7 @@ class Executer{
 		
 public:
 	
-	void exec(DataHandler<T> *data_set, Heuristic<T> *h, int nq, int nr){
+	void exec(DataHandler<T> *data_set, Heuristic<T> *h, int nq, int nr, int outsize){
 			print_csv_header();
 			int serie = 1;
 			while (1){
@@ -54,13 +60,13 @@ public:
 					cout<<endl;
 					vector<T> data = data_set->get_next();
 					if (data.empty()) break;
-					exec_q(data, h, nq, nr);
+					exec_q(data, h, nq, nr, outsize);
 					cout<<endl;		
 					++serie;
 			}
 	}
 	
-	void exec_q(vector<T>& A, Heuristic<T> *h, int nq, int nr){
+	void exec_q(vector<T>& A, Heuristic<T> *h, int nq, int nr, int outsize){
 			Clock clock = Clock();
 			
 			// timing the preprocessing time
@@ -79,10 +85,16 @@ public:
 			double d = 1.3;
 			for (int query = 0; query < nq; ++query){
 					if (t > A.size()) break;
-					//t += 2;
-					//d *= 1.2;
-					t += 4;
-					d *= 1.1;
+
+					if (outsize == SMALL_OUTPUT){
+						t += 2;
+						d *= 1.2;
+					}
+					if (outsize == LARGE_OUTPUT){
+						// large output size
+						t += 4;
+						d *= 1.1;
+					}
 
 					vector<double> times;
 					long long ans = -1;
