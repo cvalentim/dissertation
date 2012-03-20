@@ -64,10 +64,16 @@ class RangeList : public Heuristic<T>{
 	//
 	RangeTreeFPair<T> rtree;
 
+
 	friend class lt_by_d<T>;	
 	
 public:
+	// number of ends in the last query
+	int last_query_ends;
+
+
 	RangeList(){
+		last_query_ends = -1;
 		rmqMin = new RMQBucket<T>(RMQTypes_t::MIN());
 	}
 
@@ -107,39 +113,6 @@ public:
 				++ans;
 				findByEnd(end, a, m, beg, delta_v);
 				findByEnd(end, m + 1, b, beg, delta_v);
-	}
-
-	vector<int> BegByEnd(vector<int>& E, int delta_t, T delta_v){
-				// for this strategy to work we must process the
-				// intervals from the greatest to the smallest
-				sort(E.rbegin(), E.rend(), lt_by_d<T>(this));
-
-				// this set keeps endings already processed	
-				set<int> covered;
-
-				// this function return, all the beginings
-				// we find through the endings we have
-				vector<int> beginnings;
-
-				for (vector<int>::iterator it = E.begin(); it != E.end(); ++it){
-							// the current it(end) can find new beginings within the interval [a, b)
-							int b = *it;
-							int a = max(*it - delta_t, 0);
-							// now we try to prune the interval [a, b)
-							// using the fact that the current end doesn't have to 
-							// explore regions already explored by previous endings
-							set<int>::iterator post = covered.lower_bound(*it);
-							
-							if (post != covered.end())
-									b = min(b, *post - delta_t);
-							if (post != covered.begin())
-									a = max(a, *(--post));
-							if (b <= 0 || b <= a)	
-									continue;
-							findByEnd(*it, a, b, beginnings, delta_v);
-							covered.insert(*it);
-				}
-				return beginnings;				
 	}
 
 	vector<int> BegByEnd2(vector<int>& E, int delta_t, T delta_v){
@@ -183,9 +156,8 @@ public:
 		assert (delta_t > 0);
 		vector<int> endings;
 		rtree.range_query(delta_t, delta_v, endings);
-		//cout<<"#fins = "<<endings.size()<<endl;
+		last_query_ends = (int) endings.size();
 		return BegByEnd2(endings, delta_t, delta_v);
 	}
-
 };
 #endif
