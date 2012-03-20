@@ -9,3 +9,6 @@ imp/*.swp
 imp/*.o
 imp/*.exe
 imp/report/
+imp/sandbox_*
+*.swp
+a.out

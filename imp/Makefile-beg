@@ -1,0 +1,8 @@
+beg : main_beg.o
+			 g++ -o beg.exe main_beg.o -O2
+
+main_beg.o : main_beg.cpp 
+			 g++ -c main_beg.cpp -O2
+
+clean: 
+			 rm main_beg.o beg.exe

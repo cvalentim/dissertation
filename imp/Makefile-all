@@ -1,0 +1,7 @@
+all.exe : main_all.o
+			 g++ -o all.exe main_all.o -O2
+
+main_all.o: main_all.cpp
+			 g++ -c main_all.cpp -O2
+clean: 
+			 rm main_all.o all.exe
