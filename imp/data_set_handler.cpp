@@ -8,6 +8,7 @@
 
 using namespace std;
 
+// Abstract class to handle a dataset type
 template<class T>
 class DataHandler{
 protected:
@@ -25,6 +26,7 @@ public:
 					return;
 			}
 			data_set.clear();
+			// make sure the path ends with "/" for directory
 			if (path[path.size() - 1] != '/') path += "/";
 			
 			for (int ns = 1; ns <= ndata_sets; ++ns){
@@ -74,7 +76,11 @@ class RealDataHandler: public DataHandler<T>{
 	}
 public:
 	RealDataHandler(){
-			DataHandler<T>::ndata_sets = 6;
+			// there are twelve different input files in the
+			// real data set. The first six (1...6) are stock data from
+			// the stock market, the next six (7...12) are the first
+			// six series reversed, in order to simulate the negative query.
+			DataHandler<T>::ndata_sets = 12;
 	}
 };
 
