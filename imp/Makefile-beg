@@ -1,5 +1,5 @@
 beg : main_beg.o
-			 g++ -o beg.exe main_beg.o -O2
+			 g++ -o beg.exe main_beg.o -O2 -lrt
 
 main_beg.o : main_beg.cpp 
 			 g++ -c main_beg.cpp -O2

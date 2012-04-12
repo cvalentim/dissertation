@@ -19,7 +19,7 @@ def parse_line(line):
 def get_key(t_line):
     # SerieID, Heuristic,  SerieSize, t,    d,    ans,  av_time, min,  med,  max, ends
     # (serie_id, serie_size, t, d, ans)
-    print >>sys.stderr, ', '.join(t_line)
+    #print >>sys.stderr, ', '.join(t_line)
     return (int(t_line[0]), int(t_line[2]), float(t_line[3]), float(t_line[4]), int(t_line[5]))
 
 

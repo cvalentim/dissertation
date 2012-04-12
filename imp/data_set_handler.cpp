@@ -34,7 +34,7 @@ public:
 				ifstream fin; fin.open(abs_path.c_str());
 				if (!fin){
 						cerr<<"load_dataset: Cannot open "<<abs_path<<endl;
-						return;
+						continue;
 				}
 				T value;
 				vector<T> data;
@@ -51,26 +51,11 @@ public:
 	}
 };
 
-template<class T>
-class RandomDataHandler: public DataHandler<T>{
-protected:
-	virtual string get_data_path(string path, int ns){
-				char abs_path[100];
-				sprintf(abs_path, "%srandom_serie%d.in", path.c_str(), ns);
-				return string(abs_path);
-	}
-
-public:
-	RandomDataHandler(){
-			DataHandler<T>::ndata_sets = 5;
-	}
-
-};
 
 template<class T>
 class RealDataHandler: public DataHandler<T>{
 	virtual string get_data_path(string path, int ns){
-				char abs_path[100];
+				char abs_path[200];
 				sprintf(abs_path, "%sserie%d.in", path.c_str(), ns);
 				return string(abs_path);
 	}

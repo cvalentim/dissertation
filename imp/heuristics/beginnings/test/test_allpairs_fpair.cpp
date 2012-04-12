@@ -36,6 +36,8 @@ int main(){
 		RmqBased<double> h2_d(new RMQBucket<double>(RMQTypes_t::MAX()));
 		h_d.preprocess(B);
 		h2_d.preprocess(B);
+        //cout<<h_d.query(1,2)<<endl;
+        //cout<<h2_d.query(1,2)<<endl;
 		assert (h_d.query(1, 2) == h2_d.query(1, 2));
 		assert (h_d.query(1, 1.5) == h2_d.query(1, 1.5));
 		assert (h_d.query(1, 3.2) == h2_d.query(1, 3.2));

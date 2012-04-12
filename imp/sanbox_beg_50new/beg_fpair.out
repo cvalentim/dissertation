@@ -1,0 +1,1804 @@
+SerieID, Heuristic, Serie, t,    d,    ans,  av_time, min,  med,  max,  ends  
+
+2064.98
+1, RangeList with RMQBucket, 229875, 3     , 0.1   , 994   , 0.2   , 0.19  , 0.19  , 0.36  , 660
+1 , RangeList with RMQBucket, 229875, 5     , 0.1   , 1280  , 0.3   , 0.24  , 0.24  , 0.31  , 697
+1 , RangeList with RMQBucket, 229875, 7     , 0.2   , 1301  , 0.2   , 0.21  , 0.21  , 0.25  , 596
+1 , RangeList with RMQBucket, 229875, 9     , 0.2   , 1153  , 0.2   , 0.18  , 0.18  , 0.21  , 479
+1 , RangeList with RMQBucket, 229875, 11    , 0.2   , 953   , 0.2   , 0.14  , 0.14  , 0.18  , 349
+1 , RangeList with RMQBucket, 229875, 13    , 0.3   , 715   , 0.1   , 0.10  , 0.10  , 0.12  , 260
+1 , RangeList with RMQBucket, 229875, 15    , 0.4   , 438   , 0.1   , 0.07  , 0.07  , 0.08  , 153
+1 , RangeList with RMQBucket, 229875, 17    , 0.4   , 301   , 0.0   , 0.04  , 0.04  , 0.05  , 84
+1 , RangeList with RMQBucket, 229875, 19    , 0.5   , 186   , 0.0   , 0.03  , 0.03  , 0.03  , 48
+1 , RangeList with RMQBucket, 229875, 21    , 0.6   , 82    , 0.0   , 0.01  , 0.01  , 0.02  , 17
+1 , RangeList with RMQBucket, 229875, 23    , 0.7   , 31    , 0.0   , 0.01  , 0.01  , 0.01  , 3
+1 , RangeList with RMQBucket, 229875, 25    , 0.9   , 25    , 0.0   , 0.00  , 0.00  , 0.01  , 1
+1 , RangeList with RMQBucket, 229875, 27    , 1.1   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+1 , RangeList with RMQBucket, 229875, 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+1 , RangeList with RMQBucket, 229875, 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+1511.64
+2, RangeList with RMQBucket, 229875, 3     , 0.1   , 2789  , 0.7   , 0.60  , 0.60  , 0.92  , 1849
+2 , RangeList with RMQBucket, 229875, 5     , 0.1   , 3269  , 0.6   , 0.56  , 0.57  , 0.65  , 1688
+2 , RangeList with RMQBucket, 229875, 7     , 0.2   , 2947  , 0.5   , 0.50  , 0.50  , 0.55  , 1310
+2 , RangeList with RMQBucket, 229875, 9     , 0.2   , 2481  , 0.4   , 0.40  , 0.40  , 0.43  , 918
+2 , RangeList with RMQBucket, 229875, 11    , 0.2   , 1909  , 0.3   , 0.28  , 0.28  , 0.31  , 626
+2 , RangeList with RMQBucket, 229875, 13    , 0.3   , 1395  , 0.2   , 0.20  , 0.20  , 0.22  , 414
+2 , RangeList with RMQBucket, 229875, 15    , 0.4   , 887   , 0.1   , 0.13  , 0.13  , 0.14  , 231
+2 , RangeList with RMQBucket, 229875, 17    , 0.4   , 581   , 0.1   , 0.08  , 0.08  , 0.12  , 131
+2 , RangeList with RMQBucket, 229875, 19    , 0.5   , 326   , 0.0   , 0.04  , 0.04  , 0.05  , 68
+2 , RangeList with RMQBucket, 229875, 21    , 0.6   , 192   , 0.0   , 0.02  , 0.02  , 0.03  , 33
+2 , RangeList with RMQBucket, 229875, 23    , 0.7   , 105   , 0.0   , 0.01  , 0.01  , 0.02  , 17
+2 , RangeList with RMQBucket, 229875, 25    , 0.9   , 79    , 0.0   , 0.01  , 0.01  , 0.01  , 11
+2 , RangeList with RMQBucket, 229875, 27    , 1.1   , 58    , 0.0   , 0.01  , 0.01  , 0.01  , 8
+2 , RangeList with RMQBucket, 229875, 29    , 1.3   , 55    , 0.0   , 0.01  , 0.01  , 0.01  , 6
+2 , RangeList with RMQBucket, 229875, 31    , 1.5   , 22    , 0.0   , 0.00  , 0.00  , 0.01  , 3
+
+
+3980.66
+3, RangeList with RMQBucket, 229875, 3     , 0.1   , 2583  , 0.6   , 0.54  , 0.54  , 0.87  , 1924
+3 , RangeList with RMQBucket, 229875, 5     , 0.1   , 3605  , 0.8   , 0.76  , 0.77  , 0.88  , 2219
+3 , RangeList with RMQBucket, 229875, 7     , 0.2   , 3656  , 0.8   , 0.75  , 0.75  , 0.86  , 1956
+3 , RangeList with RMQBucket, 229875, 9     , 0.2   , 3348  , 0.6   , 0.61  , 0.61  , 0.67  , 1598
+3 , RangeList with RMQBucket, 229875, 11    , 0.2   , 2951  , 0.5   , 0.52  , 0.52  , 0.60  , 1247
+3 , RangeList with RMQBucket, 229875, 13    , 0.3   , 2388  , 0.4   , 0.42  , 0.42  , 0.45  , 925
+3 , RangeList with RMQBucket, 229875, 15    , 0.4   , 1813  , 0.3   , 0.31  , 0.31  , 0.33  , 714
+3 , RangeList with RMQBucket, 229875, 17    , 0.4   , 1329  , 0.2   , 0.22  , 0.23  , 0.24  , 500
+3 , RangeList with RMQBucket, 229875, 19    , 0.5   , 894   , 0.1   , 0.14  , 0.14  , 0.15  , 292
+3 , RangeList with RMQBucket, 229875, 21    , 0.6   , 581   , 0.1   , 0.09  , 0.09  , 0.10  , 186
+3 , RangeList with RMQBucket, 229875, 23    , 0.7   , 312   , 0.1   , 0.05  , 0.05  , 0.06  , 96
+3 , RangeList with RMQBucket, 229875, 25    , 0.9   , 149   , 0.0   , 0.02  , 0.02  , 0.03  , 56
+3 , RangeList with RMQBucket, 229875, 27    , 1.1   , 90    , 0.0   , 0.01  , 0.01  , 0.02  , 25
+3 , RangeList with RMQBucket, 229875, 29    , 1.3   , 54    , 0.0   , 0.01  , 0.01  , 0.01  , 13
+3 , RangeList with RMQBucket, 229875, 31    , 1.5   , 20    , 0.0   , 0.00  , 0.00  , 0.01  , 7
+
+
+4651.67
+4, RangeList with RMQBucket, 229875, 3     , 0.1   , 2020  , 0.5   , 0.40  , 0.40  , 0.71  , 1518
+4 , RangeList with RMQBucket, 229875, 5     , 0.1   , 3033  , 0.7   , 0.65  , 0.65  , 0.81  , 1919
+4 , RangeList with RMQBucket, 229875, 7     , 0.2   , 3185  , 0.6   , 0.58  , 0.58  , 0.66  , 1731
+4 , RangeList with RMQBucket, 229875, 9     , 0.2   , 2891  , 0.6   , 0.55  , 0.55  , 0.61  , 1393
+4 , RangeList with RMQBucket, 229875, 11    , 0.2   , 2490  , 0.5   , 0.45  , 0.45  , 0.49  , 1057
+4 , RangeList with RMQBucket, 229875, 13    , 0.3   , 1943  , 0.3   , 0.33  , 0.33  , 0.36  , 743
+4 , RangeList with RMQBucket, 229875, 15    , 0.4   , 1488  , 0.3   , 0.24  , 0.24  , 0.27  , 527
+4 , RangeList with RMQBucket, 229875, 17    , 0.4   , 1011  , 0.2   , 0.16  , 0.16  , 0.17  , 339
+4 , RangeList with RMQBucket, 229875, 19    , 0.5   , 673   , 0.1   , 0.10  , 0.10  , 0.12  , 212
+4 , RangeList with RMQBucket, 229875, 21    , 0.6   , 421   , 0.1   , 0.06  , 0.06  , 0.07  , 121
+4 , RangeList with RMQBucket, 229875, 23    , 0.7   , 234   , 0.0   , 0.03  , 0.03  , 0.04  , 62
+4 , RangeList with RMQBucket, 229875, 25    , 0.9   , 107   , 0.0   , 0.01  , 0.01  , 0.02  , 29
+4 , RangeList with RMQBucket, 229875, 27    , 1.1   , 54    , 0.0   , 0.01  , 0.01  , 0.01  , 20
+4 , RangeList with RMQBucket, 229875, 29    , 1.3   , 24    , 0.0   , 0.00  , 0.01  , 0.01  , 10
+4 , RangeList with RMQBucket, 229875, 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+1727.07
+5, RangeList with RMQBucket, 229875, 3     , 0.1   , 361   , 0.1   , 0.06  , 0.06  , 0.12  , 212
+5 , RangeList with RMQBucket, 229875, 5     , 0.1   , 450   , 0.1   , 0.07  , 0.07  , 0.09  , 204
+5 , RangeList with RMQBucket, 229875, 7     , 0.2   , 412   , 0.1   , 0.06  , 0.06  , 0.08  , 172
+5 , RangeList with RMQBucket, 229875, 9     , 0.2   , 353   , 0.1   , 0.05  , 0.05  , 0.06  , 139
+5 , RangeList with RMQBucket, 229875, 11    , 0.2   , 280   , 0.0   , 0.04  , 0.04  , 0.05  , 97
+5 , RangeList with RMQBucket, 229875, 13    , 0.3   , 159   , 0.0   , 0.02  , 0.02  , 0.03  , 53
+5 , RangeList with RMQBucket, 229875, 15    , 0.4   , 93    , 0.0   , 0.01  , 0.01  , 0.02  , 33
+5 , RangeList with RMQBucket, 229875, 17    , 0.4   , 74    , 0.0   , 0.01  , 0.01  , 0.02  , 27
+5 , RangeList with RMQBucket, 229875, 19    , 0.5   , 42    , 0.0   , 0.01  , 0.01  , 0.01  , 17
+5 , RangeList with RMQBucket, 229875, 21    , 0.6   , 19    , 0.0   , 0.00  , 0.00  , 0.01  , 9
+5 , RangeList with RMQBucket, 229875, 23    , 0.7   , 11    , 0.0   , 0.00  , 0.00  , 0.01  , 3
+5 , RangeList with RMQBucket, 229875, 25    , 0.9   , 1     , 0.0   , 0.00  , 0.00  , 0.00  , 1
+5 , RangeList with RMQBucket, 229875, 27    , 1.1   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+5 , RangeList with RMQBucket, 229875, 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+5 , RangeList with RMQBucket, 229875, 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+4389.30
+6, RangeList with RMQBucket, 229875, 3     , 0.1   , 6360  , 1.7   , 1.64  , 1.65  , 2.07  , 4914
+6 , RangeList with RMQBucket, 229875, 5     , 0.1   , 8425  , 2.3   , 2.24  , 2.25  , 2.30  , 5476
+6 , RangeList with RMQBucket, 229875, 7     , 0.2   , 8200  , 1.9   , 1.91  , 1.92  , 2.00  , 4624
+6 , RangeList with RMQBucket, 229875, 9     , 0.2   , 7347  , 1.6   , 1.61  , 1.63  , 1.70  , 3612
+6 , RangeList with RMQBucket, 229875, 11    , 0.2   , 6431  , 1.3   , 1.26  , 1.27  , 1.35  , 2822
+6 , RangeList with RMQBucket, 229875, 13    , 0.3   , 5274  , 1.0   , 0.99  , 0.99  , 1.09  , 2088
+6 , RangeList with RMQBucket, 229875, 15    , 0.4   , 4296  , 0.8   , 0.75  , 0.77  , 0.83  , 1542
+6 , RangeList with RMQBucket, 229875, 17    , 0.4   , 3397  , 0.6   , 0.57  , 0.57  , 0.62  , 1127
+6 , RangeList with RMQBucket, 229875, 19    , 0.5   , 2568  , 0.4   , 0.36  , 0.36  , 0.39  , 821
+6 , RangeList with RMQBucket, 229875, 21    , 0.6   , 1784  , 0.3   , 0.26  , 0.26  , 0.28  , 586
+6 , RangeList with RMQBucket, 229875, 23    , 0.7   , 1225  , 0.2   , 0.18  , 0.18  , 0.20  , 383
+6 , RangeList with RMQBucket, 229875, 25    , 0.9   , 738   , 0.1   , 0.11  , 0.11  , 0.12  , 206
+6 , RangeList with RMQBucket, 229875, 27    , 1.1   , 439   , 0.1   , 0.06  , 0.06  , 0.07  , 114
+6 , RangeList with RMQBucket, 229875, 29    , 1.3   , 223   , 0.0   , 0.03  , 0.03  , 0.04  , 48
+6 , RangeList with RMQBucket, 229875, 31    , 1.5   , 138   , 0.0   , 0.02  , 0.02  , 0.02  , 24
+
+
+3295.41
+7, RangeList with RMQBucket, 229875, 3     , 0.1   , 2566  , 0.6   , 0.56  , 0.57  , 0.92  , 1912
+7 , RangeList with RMQBucket, 229875, 5     , 0.1   , 3456  , 0.7   , 0.71  , 0.71  , 0.84  , 2125
+7 , RangeList with RMQBucket, 229875, 7     , 0.2   , 3531  , 0.8   , 0.74  , 0.75  , 0.81  , 1908
+7 , RangeList with RMQBucket, 229875, 9     , 0.2   , 3331  , 0.6   , 0.59  , 0.59  , 0.64  , 1571
+7 , RangeList with RMQBucket, 229875, 11    , 0.2   , 2818  , 0.5   , 0.50  , 0.50  , 0.54  , 1164
+7 , RangeList with RMQBucket, 229875, 13    , 0.3   , 2202  , 0.4   , 0.37  , 0.38  , 0.41  , 832
+7 , RangeList with RMQBucket, 229875, 15    , 0.4   , 1653  , 0.3   , 0.27  , 0.27  , 0.29  , 565
+7 , RangeList with RMQBucket, 229875, 17    , 0.4   , 1099  , 0.2   , 0.17  , 0.17  , 0.19  , 377
+7 , RangeList with RMQBucket, 229875, 19    , 0.5   , 757   , 0.1   , 0.11  , 0.11  , 0.12  , 238
+7 , RangeList with RMQBucket, 229875, 21    , 0.6   , 568   , 0.1   , 0.07  , 0.07  , 0.08  , 136
+7 , RangeList with RMQBucket, 229875, 23    , 0.7   , 301   , 0.0   , 0.04  , 0.04  , 0.05  , 76
+7 , RangeList with RMQBucket, 229875, 25    , 0.9   , 206   , 0.0   , 0.02  , 0.02  , 0.03  , 49
+7 , RangeList with RMQBucket, 229875, 27    , 1.1   , 133   , 0.0   , 0.01  , 0.01  , 0.02  , 28
+7 , RangeList with RMQBucket, 229875, 29    , 1.3   , 52    , 0.0   , 0.01  , 0.01  , 0.01  , 11
+7 , RangeList with RMQBucket, 229875, 31    , 1.5   , 24    , 0.0   , 0.00  , 0.00  , 0.01  , 3
+
+
+2660.12
+8, RangeList with RMQBucket, 229875, 3     , 0.1   , 999   , 0.2   , 0.18  , 0.18  , 0.34  , 661
+8 , RangeList with RMQBucket, 229875, 5     , 0.1   , 1298  , 0.2   , 0.23  , 0.23  , 0.29  , 674
+8 , RangeList with RMQBucket, 229875, 7     , 0.2   , 1349  , 0.2   , 0.21  , 0.21  , 0.25  , 594
+8 , RangeList with RMQBucket, 229875, 9     , 0.2   , 1186  , 0.2   , 0.18  , 0.18  , 0.21  , 453
+8 , RangeList with RMQBucket, 229875, 11    , 0.2   , 1059  , 0.2   , 0.15  , 0.15  , 0.17  , 340
+8 , RangeList with RMQBucket, 229875, 13    , 0.3   , 835   , 0.1   , 0.11  , 0.11  , 0.13  , 251
+8 , RangeList with RMQBucket, 229875, 15    , 0.4   , 610   , 0.1   , 0.08  , 0.08  , 0.09  , 161
+8 , RangeList with RMQBucket, 229875, 17    , 0.4   , 411   , 0.1   , 0.05  , 0.05  , 0.06  , 85
+8 , RangeList with RMQBucket, 229875, 19    , 0.5   , 259   , 0.0   , 0.03  , 0.03  , 0.04  , 48
+8 , RangeList with RMQBucket, 229875, 21    , 0.6   , 151   , 0.0   , 0.02  , 0.02  , 0.02  , 27
+8 , RangeList with RMQBucket, 229875, 23    , 0.7   , 98    , 0.0   , 0.01  , 0.01  , 0.02  , 16
+8 , RangeList with RMQBucket, 229875, 25    , 0.9   , 43    , 0.0   , 0.01  , 0.01  , 0.01  , 8
+8 , RangeList with RMQBucket, 229875, 27    , 1.1   , 20    , 0.0   , 0.00  , 0.00  , 0.01  , 7
+8 , RangeList with RMQBucket, 229875, 29    , 1.3   , 20    , 0.0   , 0.00  , 0.00  , 0.01  , 7
+8 , RangeList with RMQBucket, 229875, 31    , 1.5   , 20    , 0.0   , 0.00  , 0.00  , 0.01  , 5
+
+
+3092.20
+9, RangeList with RMQBucket, 229875, 3     , 0.1   , 8334  , 2.3   , 2.23  , 2.27  , 2.58  , 6114
+9 , RangeList with RMQBucket, 229875, 5     , 0.1   , 10739 , 2.8   , 2.74  , 2.78  , 2.82  , 6476
+9 , RangeList with RMQBucket, 229875, 7     , 0.2   , 10860 , 2.7   , 2.66  , 2.68  , 2.72  , 5647
+9 , RangeList with RMQBucket, 229875, 9     , 0.2   , 10192 , 1.9   , 1.91  , 1.92  , 1.99  , 4730
+9 , RangeList with RMQBucket, 229875, 11    , 0.2   , 9054  , 1.8   , 1.73  , 1.73  , 1.80  , 3806
+9 , RangeList with RMQBucket, 229875, 13    , 0.3   , 7555  , 1.3   , 1.32  , 1.34  , 1.42  , 2958
+9 , RangeList with RMQBucket, 229875, 15    , 0.4   , 6194  , 1.1   , 1.10  , 1.10  , 1.22  , 2268
+9 , RangeList with RMQBucket, 229875, 17    , 0.4   , 4989  , 0.9   , 0.85  , 0.85  , 0.91  , 1662
+9 , RangeList with RMQBucket, 229875, 19    , 0.5   , 3848  , 0.6   , 0.63  , 0.63  , 0.68  , 1211
+9 , RangeList with RMQBucket, 229875, 21    , 0.6   , 3014  , 0.5   , 0.46  , 0.46  , 0.52  , 926
+9 , RangeList with RMQBucket, 229875, 23    , 0.7   , 2163  , 0.3   , 0.33  , 0.34  , 0.36  , 628
+9 , RangeList with RMQBucket, 229875, 25    , 0.9   , 1430  , 0.2   , 0.21  , 0.21  , 0.23  , 401
+9 , RangeList with RMQBucket, 229875, 27    , 1.1   , 839   , 0.1   , 0.13  , 0.13  , 0.14  , 242
+9 , RangeList with RMQBucket, 229875, 29    , 1.3   , 489   , 0.1   , 0.07  , 0.07  , 0.08  , 128
+9 , RangeList with RMQBucket, 229875, 31    , 1.5   , 353   , 0.0   , 0.05  , 0.05  , 0.05  , 78
+
+
+3252.96
+10, RangeList with RMQBucket, 229875, 3     , 0.1   , 8777  , 2.6   , 2.46  , 2.47  , 2.82  , 6577
+10, RangeList with RMQBucket, 229875, 5     , 0.1   , 10972 , 2.9   , 2.88  , 2.89  , 2.94  , 6780
+10, RangeList with RMQBucket, 229875, 7     , 0.2   , 10950 , 2.8   , 2.77  , 2.78  , 2.82  , 5821
+10, RangeList with RMQBucket, 229875, 9     , 0.2   , 9935  , 2.5   , 2.46  , 2.48  , 2.53  , 4756
+10, RangeList with RMQBucket, 229875, 11    , 0.2   , 8637  , 1.8   , 1.74  , 1.75  , 1.88  , 3738
+10, RangeList with RMQBucket, 229875, 13    , 0.3   , 7004  , 1.4   , 1.34  , 1.35  , 1.45  , 2739
+10, RangeList with RMQBucket, 229875, 15    , 0.4   , 5409  , 0.9   , 0.92  , 0.94  , 1.00  , 1922
+10, RangeList with RMQBucket, 229875, 17    , 0.4   , 4174  , 0.7   , 0.70  , 0.70  , 0.80  , 1379
+10, RangeList with RMQBucket, 229875, 19    , 0.5   , 2911  , 0.5   , 0.46  , 0.46  , 0.49  , 901
+10, RangeList with RMQBucket, 229875, 21    , 0.6   , 2024  , 0.3   , 0.31  , 0.31  , 0.34  , 584
+10, RangeList with RMQBucket, 229875, 23    , 0.7   , 1417  , 0.2   , 0.20  , 0.20  , 0.21  , 392
+10, RangeList with RMQBucket, 229875, 25    , 0.9   , 1004  , 0.1   , 0.13  , 0.13  , 0.14  , 247
+10, RangeList with RMQBucket, 229875, 27    , 1.1   , 542   , 0.1   , 0.08  , 0.08  , 0.09  , 147
+10, RangeList with RMQBucket, 229875, 29    , 1.3   , 256   , 0.0   , 0.04  , 0.04  , 0.05  , 70
+10, RangeList with RMQBucket, 229875, 31    , 1.5   , 111   , 0.0   , 0.01  , 0.01  , 0.02  , 22
+
+
+1460.14
+11, RangeList with RMQBucket, 185250, 3     , 0.1   , 7733  , 1.8   , 1.70  , 1.72  , 2.06  , 5696
+11, RangeList with RMQBucket, 185250, 5     , 0.1   , 9605  , 2.3   , 2.27  , 2.28  , 2.33  , 5820
+11, RangeList with RMQBucket, 185250, 7     , 0.2   , 10274 , 2.4   , 2.32  , 2.36  , 2.38  , 5310
+11, RangeList with RMQBucket, 185250, 9     , 0.2   , 9023  , 2.0   , 1.92  , 1.95  , 2.09  , 4150
+11, RangeList with RMQBucket, 185250, 11    , 0.2   , 8242  , 1.6   , 1.52  , 1.56  , 1.71  , 3451
+11, RangeList with RMQBucket, 185250, 13    , 0.3   , 6826  , 1.2   , 1.20  , 1.20  , 1.29  , 2590
+11, RangeList with RMQBucket, 185250, 15    , 0.4   , 5290  , 0.9   , 0.88  , 0.88  , 0.95  , 1837
+11, RangeList with RMQBucket, 185250, 17    , 0.4   , 3829  , 0.6   , 0.62  , 0.62  , 0.67  , 1259
+11, RangeList with RMQBucket, 185250, 19    , 0.5   , 2839  , 0.5   , 0.47  , 0.47  , 0.50  , 875
+11, RangeList with RMQBucket, 185250, 21    , 0.6   , 2007  , 0.3   , 0.31  , 0.31  , 0.33  , 588
+11, RangeList with RMQBucket, 185250, 23    , 0.7   , 1247  , 0.2   , 0.20  , 0.20  , 0.22  , 341
+11, RangeList with RMQBucket, 185250, 25    , 0.9   , 718   , 0.1   , 0.11  , 0.11  , 0.12  , 192
+11, RangeList with RMQBucket, 185250, 27    , 1.1   , 367   , 0.1   , 0.05  , 0.05  , 0.06  , 95
+11, RangeList with RMQBucket, 185250, 29    , 1.3   , 259   , 0.0   , 0.03  , 0.03  , 0.04  , 45
+11, RangeList with RMQBucket, 185250, 31    , 1.5   , 219   , 0.0   , 0.02  , 0.03  , 0.03  , 35
+
+
+1308.24
+12, RangeList with RMQBucket, 185250, 3     , 0.1   , 7733  , 1.8   , 1.71  , 1.73  , 2.06  , 5696
+12, RangeList with RMQBucket, 185250, 5     , 0.1   , 9605  , 2.3   , 2.27  , 2.30  , 2.33  , 5820
+12, RangeList with RMQBucket, 185250, 7     , 0.2   , 10274 , 2.3   , 2.32  , 2.32  , 2.38  , 5310
+12, RangeList with RMQBucket, 185250, 9     , 0.2   , 9023  , 1.9   , 1.91  , 1.92  , 1.98  , 4150
+12, RangeList with RMQBucket, 185250, 11    , 0.2   , 8242  , 1.5   , 1.52  , 1.52  , 1.59  , 3451
+12, RangeList with RMQBucket, 185250, 13    , 0.3   , 6826  , 1.2   , 1.20  , 1.20  , 1.29  , 2590
+12, RangeList with RMQBucket, 185250, 15    , 0.4   , 5290  , 0.9   , 0.88  , 0.90  , 1.00  , 1837
+12, RangeList with RMQBucket, 185250, 17    , 0.4   , 3829  , 0.6   , 0.62  , 0.62  , 0.67  , 1259
+12, RangeList with RMQBucket, 185250, 19    , 0.5   , 2839  , 0.5   , 0.47  , 0.47  , 0.50  , 875
+12, RangeList with RMQBucket, 185250, 21    , 0.6   , 2007  , 0.3   , 0.31  , 0.31  , 0.33  , 588
+12, RangeList with RMQBucket, 185250, 23    , 0.7   , 1247  , 0.2   , 0.20  , 0.20  , 0.22  , 341
+12, RangeList with RMQBucket, 185250, 25    , 0.9   , 718   , 0.1   , 0.11  , 0.11  , 0.12  , 192
+12, RangeList with RMQBucket, 185250, 27    , 1.1   , 367   , 0.1   , 0.05  , 0.05  , 0.06  , 95
+12, RangeList with RMQBucket, 185250, 29    , 1.3   , 259   , 0.0   , 0.03  , 0.03  , 0.04  , 45
+12, RangeList with RMQBucket, 185250, 31    , 1.5   , 219   , 0.0   , 0.02  , 0.02  , 0.03  , 35
+
+
+3143.39
+13, RangeList with RMQBucket, 222375, 3     , 0.1   , 573   , 0.1   , 0.10  , 0.10  , 0.22  , 385
+13, RangeList with RMQBucket, 222375, 5     , 0.1   , 752   , 0.1   , 0.13  , 0.13  , 0.17  , 418
+13, RangeList with RMQBucket, 222375, 7     , 0.2   , 744   , 0.1   , 0.12  , 0.12  , 0.15  , 352
+13, RangeList with RMQBucket, 222375, 9     , 0.2   , 639   , 0.1   , 0.10  , 0.10  , 0.13  , 269
+13, RangeList with RMQBucket, 222375, 11    , 0.2   , 471   , 0.1   , 0.07  , 0.07  , 0.09  , 179
+13, RangeList with RMQBucket, 222375, 13    , 0.3   , 321   , 0.1   , 0.05  , 0.05  , 0.06  , 121
+13, RangeList with RMQBucket, 222375, 15    , 0.4   , 225   , 0.0   , 0.03  , 0.03  , 0.04  , 70
+13, RangeList with RMQBucket, 222375, 17    , 0.4   , 137   , 0.0   , 0.02  , 0.02  , 0.03  , 43
+13, RangeList with RMQBucket, 222375, 19    , 0.5   , 96    , 0.0   , 0.01  , 0.01  , 0.02  , 27
+13, RangeList with RMQBucket, 222375, 21    , 0.6   , 8     , 0.0   , 0.00  , 0.00  , 0.01  , 3
+13, RangeList with RMQBucket, 222375, 23    , 0.7   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+13, RangeList with RMQBucket, 222375, 25    , 0.9   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+13, RangeList with RMQBucket, 222375, 27    , 1.1   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+13, RangeList with RMQBucket, 222375, 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+13, RangeList with RMQBucket, 222375, 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+3291.19
+14, RangeList with RMQBucket, 222375, 3     , 0.1   , 573   , 0.1   , 0.10  , 0.10  , 0.21  , 385
+14, RangeList with RMQBucket, 222375, 5     , 0.1   , 752   , 0.1   , 0.13  , 0.13  , 0.17  , 418
+14, RangeList with RMQBucket, 222375, 7     , 0.2   , 744   , 0.1   , 0.12  , 0.12  , 0.15  , 352
+14, RangeList with RMQBucket, 222375, 9     , 0.2   , 639   , 0.1   , 0.10  , 0.10  , 0.12  , 269
+14, RangeList with RMQBucket, 222375, 11    , 0.2   , 471   , 0.1   , 0.07  , 0.07  , 0.09  , 179
+14, RangeList with RMQBucket, 222375, 13    , 0.3   , 321   , 0.1   , 0.05  , 0.05  , 0.06  , 121
+14, RangeList with RMQBucket, 222375, 15    , 0.4   , 225   , 0.0   , 0.03  , 0.03  , 0.04  , 70
+14, RangeList with RMQBucket, 222375, 17    , 0.4   , 137   , 0.0   , 0.02  , 0.02  , 0.03  , 43
+14, RangeList with RMQBucket, 222375, 19    , 0.5   , 96    , 0.0   , 0.01  , 0.01  , 0.02  , 27
+14, RangeList with RMQBucket, 222375, 21    , 0.6   , 8     , 0.0   , 0.00  , 0.00  , 0.01  , 3
+14, RangeList with RMQBucket, 222375, 23    , 0.7   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+14, RangeList with RMQBucket, 222375, 25    , 0.9   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+14, RangeList with RMQBucket, 222375, 27    , 1.1   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+14, RangeList with RMQBucket, 222375, 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+14, RangeList with RMQBucket, 222375, 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+4268.06
+15, RangeList with RMQBucket, 222375, 3     , 0.1   , 2976  , 0.7   , 0.67  , 0.67  , 1.07  , 2321
+15, RangeList with RMQBucket, 222375, 5     , 0.1   , 4235  , 1.1   , 1.03  , 1.06  , 1.14  , 2742
+15, RangeList with RMQBucket, 222375, 7     , 0.2   , 4328  , 0.9   , 0.91  , 0.91  , 1.02  , 2416
+15, RangeList with RMQBucket, 222375, 9     , 0.2   , 4051  , 0.8   , 0.77  , 0.79  , 0.84  , 2006
+15, RangeList with RMQBucket, 222375, 11    , 0.2   , 3620  , 0.7   , 0.66  , 0.67  , 0.73  , 1546
+15, RangeList with RMQBucket, 222375, 13    , 0.3   , 3144  , 0.6   , 0.54  , 0.54  , 0.60  , 1186
+15, RangeList with RMQBucket, 222375, 15    , 0.4   , 2526  , 0.4   , 0.38  , 0.38  , 0.41  , 882
+15, RangeList with RMQBucket, 222375, 17    , 0.4   , 1962  , 0.3   , 0.29  , 0.29  , 0.32  , 643
+15, RangeList with RMQBucket, 222375, 19    , 0.5   , 1259  , 0.2   , 0.19  , 0.19  , 0.21  , 405
+15, RangeList with RMQBucket, 222375, 21    , 0.6   , 801   , 0.1   , 0.12  , 0.12  , 0.15  , 238
+15, RangeList with RMQBucket, 222375, 23    , 0.7   , 476   , 0.1   , 0.07  , 0.07  , 0.08  , 131
+15, RangeList with RMQBucket, 222375, 25    , 0.9   , 251   , 0.0   , 0.03  , 0.03  , 0.04  , 64
+15, RangeList with RMQBucket, 222375, 27    , 1.1   , 87    , 0.0   , 0.01  , 0.01  , 0.02  , 21
+15, RangeList with RMQBucket, 222375, 29    , 1.3   , 31    , 0.0   , 0.01  , 0.01  , 0.01  , 7
+15, RangeList with RMQBucket, 222375, 31    , 1.5   , 33    , 0.0   , 0.00  , 0.01  , 0.01  , 6
+
+
+3440.57
+16, RangeList with RMQBucket, 222375, 3     , 0.1   , 2544  , 0.6   , 0.55  , 0.55  , 0.90  , 1885
+16, RangeList with RMQBucket, 222375, 5     , 0.1   , 3591  , 0.8   , 0.75  , 0.76  , 0.88  , 2226
+16, RangeList with RMQBucket, 222375, 7     , 0.2   , 3653  , 0.7   , 0.71  , 0.72  , 0.78  , 1911
+16, RangeList with RMQBucket, 222375, 9     , 0.2   , 3475  , 0.7   , 0.64  , 0.74  , 0.82  , 1549
+16, RangeList with RMQBucket, 222375, 11    , 0.2   , 3080  , 0.6   , 0.56  , 0.57  , 0.62  , 1250
+16, RangeList with RMQBucket, 222375, 13    , 0.3   , 2631  , 0.4   , 0.40  , 0.40  , 0.43  , 919
+16, RangeList with RMQBucket, 222375, 15    , 0.4   , 2087  , 0.3   , 0.31  , 0.31  , 0.33  , 668
+16, RangeList with RMQBucket, 222375, 17    , 0.4   , 1573  , 0.2   , 0.24  , 0.24  , 0.26  , 514
+16, RangeList with RMQBucket, 222375, 19    , 0.5   , 1049  , 0.2   , 0.16  , 0.16  , 0.17  , 336
+16, RangeList with RMQBucket, 222375, 21    , 0.6   , 611   , 0.1   , 0.09  , 0.10  , 0.11  , 192
+16, RangeList with RMQBucket, 222375, 23    , 0.7   , 379   , 0.1   , 0.05  , 0.05  , 0.06  , 111
+16, RangeList with RMQBucket, 222375, 25    , 0.9   , 200   , 0.0   , 0.03  , 0.03  , 0.03  , 45
+16, RangeList with RMQBucket, 222375, 27    , 1.1   , 119   , 0.0   , 0.02  , 0.02  , 0.02  , 32
+16, RangeList with RMQBucket, 222375, 29    , 1.3   , 78    , 0.0   , 0.01  , 0.01  , 0.01  , 15
+16, RangeList with RMQBucket, 222375, 31    , 1.5   , 38    , 0.0   , 0.01  , 0.01  , 0.01  , 9
+
+
+2782.09
+17, RangeList with RMQBucket, 222375, 3     , 0.1   , 2741  , 0.7   , 0.58  , 0.58  , 0.93  , 2067
+17, RangeList with RMQBucket, 222375, 5     , 0.1   , 3680  , 0.9   , 0.83  , 0.83  , 0.95  , 2360
+17, RangeList with RMQBucket, 222375, 7     , 0.2   , 3702  , 0.7   , 0.69  , 0.70  , 0.77  , 2035
+17, RangeList with RMQBucket, 222375, 9     , 0.2   , 3311  , 0.6   , 0.60  , 0.60  , 0.65  , 1658
+17, RangeList with RMQBucket, 222375, 11    , 0.2   , 2798  , 0.5   , 0.51  , 0.51  , 0.55  , 1247
+17, RangeList with RMQBucket, 222375, 13    , 0.3   , 2276  , 0.4   , 0.37  , 0.37  , 0.40  , 927
+17, RangeList with RMQBucket, 222375, 15    , 0.4   , 1796  , 0.3   , 0.31  , 0.31  , 0.33  , 704
+17, RangeList with RMQBucket, 222375, 17    , 0.4   , 1353  , 0.2   , 0.23  , 0.23  , 0.25  , 504
+17, RangeList with RMQBucket, 222375, 19    , 0.5   , 865   , 0.1   , 0.13  , 0.13  , 0.14  , 303
+17, RangeList with RMQBucket, 222375, 21    , 0.6   , 584   , 0.1   , 0.09  , 0.09  , 0.10  , 196
+17, RangeList with RMQBucket, 222375, 23    , 0.7   , 357   , 0.1   , 0.05  , 0.05  , 0.06  , 108
+17, RangeList with RMQBucket, 222375, 25    , 0.9   , 273   , 0.0   , 0.04  , 0.04  , 0.05  , 72
+17, RangeList with RMQBucket, 222375, 27    , 1.1   , 226   , 0.0   , 0.03  , 0.03  , 0.04  , 49
+17, RangeList with RMQBucket, 222375, 29    , 1.3   , 148   , 0.0   , 0.02  , 0.02  , 0.03  , 29
+17, RangeList with RMQBucket, 222375, 31    , 1.5   , 89    , 0.0   , 0.01  , 0.01  , 0.02  , 17
+
+
+3743.22
+18, RangeList with RMQBucket, 219750, 3     , 0.1   , 3247  , 0.8   , 0.73  , 0.73  , 1.14  , 2358
+18, RangeList with RMQBucket, 219750, 5     , 0.1   , 4427  , 1.0   , 0.93  , 0.94  , 1.06  , 2670
+18, RangeList with RMQBucket, 219750, 7     , 0.2   , 4534  , 0.9   , 0.91  , 0.91  , 0.99  , 2345
+18, RangeList with RMQBucket, 219750, 9     , 0.2   , 4284  , 0.8   , 0.80  , 0.82  , 0.88  , 1907
+18, RangeList with RMQBucket, 219750, 11    , 0.2   , 3789  , 0.6   , 0.58  , 0.58  , 0.64  , 1482
+18, RangeList with RMQBucket, 219750, 13    , 0.3   , 3043  , 0.5   , 0.48  , 0.48  , 0.52  , 1100
+18, RangeList with RMQBucket, 219750, 15    , 0.4   , 2344  , 0.4   , 0.36  , 0.36  , 0.39  , 750
+18, RangeList with RMQBucket, 219750, 17    , 0.4   , 1699  , 0.3   , 0.25  , 0.25  , 0.28  , 490
+18, RangeList with RMQBucket, 219750, 19    , 0.5   , 1110  , 0.2   , 0.16  , 0.16  , 0.17  , 292
+18, RangeList with RMQBucket, 219750, 21    , 0.6   , 716   , 0.1   , 0.09  , 0.09  , 0.10  , 160
+18, RangeList with RMQBucket, 219750, 23    , 0.7   , 443   , 0.1   , 0.06  , 0.06  , 0.06  , 104
+18, RangeList with RMQBucket, 219750, 25    , 0.9   , 261   , 0.0   , 0.03  , 0.03  , 0.04  , 62
+18, RangeList with RMQBucket, 219750, 27    , 1.1   , 147   , 0.0   , 0.02  , 0.02  , 0.03  , 31
+18, RangeList with RMQBucket, 219750, 29    , 1.3   , 67    , 0.0   , 0.01  , 0.01  , 0.01  , 14
+18, RangeList with RMQBucket, 219750, 31    , 1.5   , 32    , 0.0   , 0.01  , 0.01  , 0.01  , 12
+
+
+1347.39
+19, RangeList with RMQBucket, 222375, 3     , 0.1   , 390   , 0.1   , 0.06  , 0.06  , 0.13  , 213
+19, RangeList with RMQBucket, 222375, 5     , 0.1   , 482   , 0.1   , 0.07  , 0.07  , 0.09  , 201
+19, RangeList with RMQBucket, 222375, 7     , 0.2   , 444   , 0.1   , 0.06  , 0.06  , 0.07  , 155
+19, RangeList with RMQBucket, 222375, 9     , 0.2   , 358   , 0.0   , 0.04  , 0.04  , 0.05  , 105
+19, RangeList with RMQBucket, 222375, 11    , 0.2   , 219   , 0.0   , 0.03  , 0.03  , 0.04  , 61
+19, RangeList with RMQBucket, 222375, 13    , 0.3   , 127   , 0.0   , 0.01  , 0.02  , 0.02  , 33
+19, RangeList with RMQBucket, 222375, 15    , 0.4   , 82    , 0.0   , 0.01  , 0.01  , 0.02  , 23
+19, RangeList with RMQBucket, 222375, 17    , 0.4   , 62    , 0.0   , 0.01  , 0.01  , 0.01  , 11
+19, RangeList with RMQBucket, 222375, 19    , 0.5   , 20    , 0.0   , 0.00  , 0.00  , 0.01  , 4
+19, RangeList with RMQBucket, 222375, 21    , 0.6   , 21    , 0.0   , 0.00  , 0.00  , 0.01  , 3
+19, RangeList with RMQBucket, 222375, 23    , 0.7   , 22    , 0.0   , 0.00  , 0.00  , 0.01  , 2
+19, RangeList with RMQBucket, 222375, 25    , 0.9   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+19, RangeList with RMQBucket, 222375, 27    , 1.1   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+19, RangeList with RMQBucket, 222375, 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+19, RangeList with RMQBucket, 222375, 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+2859.10
+20, RangeList with RMQBucket, 222375, 3     , 0.1   , 695   , 0.2   , 0.13  , 0.13  , 0.31  , 458
+20, RangeList with RMQBucket, 222375, 5     , 0.1   , 974   , 0.2   , 0.17  , 0.17  , 0.21  , 520
+20, RangeList with RMQBucket, 222375, 7     , 0.2   , 1026  , 0.2   , 0.18  , 0.18  , 0.21  , 469
+20, RangeList with RMQBucket, 222375, 9     , 0.2   , 991   , 0.2   , 0.16  , 0.16  , 0.18  , 401
+20, RangeList with RMQBucket, 222375, 11    , 0.2   , 840   , 0.1   , 0.13  , 0.13  , 0.14  , 295
+20, RangeList with RMQBucket, 222375, 13    , 0.3   , 637   , 0.1   , 0.09  , 0.09  , 0.10  , 215
+20, RangeList with RMQBucket, 222375, 15    , 0.4   , 426   , 0.1   , 0.06  , 0.06  , 0.09  , 131
+20, RangeList with RMQBucket, 222375, 17    , 0.4   , 242   , 0.0   , 0.03  , 0.03  , 0.04  , 74
+20, RangeList with RMQBucket, 222375, 19    , 0.5   , 141   , 0.0   , 0.02  , 0.02  , 0.02  , 33
+20, RangeList with RMQBucket, 222375, 21    , 0.6   , 82    , 0.0   , 0.01  , 0.01  , 0.02  , 21
+20, RangeList with RMQBucket, 222375, 23    , 0.7   , 7     , 0.0   , 0.00  , 0.00  , 0.01  , 7
+20, RangeList with RMQBucket, 222375, 25    , 0.9   , 6     , 0.0   , 0.00  , 0.00  , 0.01  , 3
+20, RangeList with RMQBucket, 222375, 27    , 1.1   , 1     , 0.0   , 0.00  , 0.00  , 0.00  , 1
+20, RangeList with RMQBucket, 222375, 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+20, RangeList with RMQBucket, 222375, 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+3077.91
+21, RangeList with RMQBucket, 215625, 3     , 0.1   , 2107  , 0.5   , 0.46  , 0.46  , 0.77  , 1609
+21, RangeList with RMQBucket, 215625, 5     , 0.1   , 3099  , 0.7   , 0.66  , 0.66  , 0.80  , 1990
+21, RangeList with RMQBucket, 215625, 7     , 0.2   , 3301  , 0.7   , 0.69  , 0.70  , 0.79  , 1816
+21, RangeList with RMQBucket, 215625, 9     , 0.2   , 3138  , 0.6   , 0.55  , 0.55  , 0.60  , 1528
+21, RangeList with RMQBucket, 215625, 11    , 0.2   , 2920  , 0.5   , 0.49  , 0.49  , 0.54  , 1206
+21, RangeList with RMQBucket, 215625, 13    , 0.3   , 2494  , 0.4   , 0.41  , 0.41  , 0.44  , 961
+21, RangeList with RMQBucket, 215625, 15    , 0.4   , 2094  , 0.3   , 0.33  , 0.33  , 0.36  , 730
+21, RangeList with RMQBucket, 215625, 17    , 0.4   , 1625  , 0.3   , 0.26  , 0.26  , 0.28  , 539
+21, RangeList with RMQBucket, 215625, 19    , 0.5   , 1133  , 0.2   , 0.17  , 0.17  , 0.19  , 383
+21, RangeList with RMQBucket, 215625, 21    , 0.6   , 734   , 0.1   , 0.11  , 0.11  , 0.12  , 222
+21, RangeList with RMQBucket, 215625, 23    , 0.7   , 432   , 0.1   , 0.06  , 0.06  , 0.07  , 125
+21, RangeList with RMQBucket, 215625, 25    , 0.9   , 177   , 0.0   , 0.02  , 0.02  , 0.03  , 49
+21, RangeList with RMQBucket, 215625, 27    , 1.1   , 114   , 0.0   , 0.01  , 0.01  , 0.02  , 25
+21, RangeList with RMQBucket, 215625, 29    , 1.3   , 106   , 0.0   , 0.01  , 0.01  , 0.02  , 21
+21, RangeList with RMQBucket, 215625, 31    , 1.5   , 41    , 0.0   , 0.01  , 0.01  , 0.01  , 15
+
+
+3303.76
+22, RangeList with RMQBucket, 215625, 3     , 0.1   , 2580  , 0.6   , 0.56  , 0.56  , 0.91  , 1946
+22, RangeList with RMQBucket, 215625, 5     , 0.1   , 3655  , 0.9   , 0.82  , 0.83  , 0.96  , 2352
+22, RangeList with RMQBucket, 215625, 7     , 0.2   , 3921  , 0.8   , 0.79  , 0.79  , 0.87  , 2146
+22, RangeList with RMQBucket, 215625, 9     , 0.2   , 3703  , 0.7   , 0.67  , 0.67  , 0.73  , 1734
+22, RangeList with RMQBucket, 215625, 11    , 0.2   , 3388  , 0.6   , 0.59  , 0.59  , 0.64  , 1425
+22, RangeList with RMQBucket, 215625, 13    , 0.3   , 2888  , 0.5   , 0.50  , 0.50  , 0.54  , 1074
+22, RangeList with RMQBucket, 215625, 15    , 0.4   , 2336  , 0.3   , 0.34  , 0.34  , 0.37  , 797
+22, RangeList with RMQBucket, 215625, 17    , 0.4   , 1870  , 0.3   , 0.27  , 0.27  , 0.29  , 579
+22, RangeList with RMQBucket, 215625, 19    , 0.5   , 1270  , 0.2   , 0.18  , 0.18  , 0.20  , 365
+22, RangeList with RMQBucket, 215625, 21    , 0.6   , 815   , 0.1   , 0.12  , 0.12  , 0.13  , 237
+22, RangeList with RMQBucket, 215625, 23    , 0.7   , 581   , 0.1   , 0.08  , 0.08  , 0.09  , 141
+22, RangeList with RMQBucket, 215625, 25    , 0.9   , 383   , 0.0   , 0.05  , 0.05  , 0.06  , 71
+22, RangeList with RMQBucket, 215625, 27    , 1.1   , 209   , 0.0   , 0.03  , 0.03  , 0.03  , 35
+22, RangeList with RMQBucket, 215625, 29    , 1.3   , 111   , 0.0   , 0.01  , 0.01  , 0.02  , 15
+22, RangeList with RMQBucket, 215625, 31    , 1.5   , 101   , 0.0   , 0.01  , 0.01  , 0.02  , 9
+
+
+2193.75
+23, RangeList with RMQBucket, 229875, 3     , 0.1   , 994   , 0.2   , 0.18  , 0.18  , 0.37  , 660
+23, RangeList with RMQBucket, 229875, 5     , 0.1   , 1280  , 0.3   , 0.24  , 0.24  , 0.31  , 697
+23, RangeList with RMQBucket, 229875, 7     , 0.2   , 1301  , 0.2   , 0.21  , 0.21  , 0.25  , 596
+23, RangeList with RMQBucket, 229875, 9     , 0.2   , 1153  , 0.2   , 0.18  , 0.18  , 0.21  , 479
+23, RangeList with RMQBucket, 229875, 11    , 0.2   , 953   , 0.1   , 0.14  , 0.14  , 0.17  , 349
+23, RangeList with RMQBucket, 229875, 13    , 0.3   , 715   , 0.1   , 0.10  , 0.10  , 0.12  , 260
+23, RangeList with RMQBucket, 229875, 15    , 0.4   , 438   , 0.1   , 0.07  , 0.07  , 0.08  , 153
+23, RangeList with RMQBucket, 229875, 17    , 0.4   , 301   , 0.0   , 0.04  , 0.04  , 0.05  , 84
+23, RangeList with RMQBucket, 229875, 19    , 0.5   , 186   , 0.0   , 0.03  , 0.03  , 0.03  , 48
+23, RangeList with RMQBucket, 229875, 21    , 0.6   , 82    , 0.0   , 0.01  , 0.01  , 0.02  , 17
+23, RangeList with RMQBucket, 229875, 23    , 0.7   , 31    , 0.0   , 0.01  , 0.01  , 0.01  , 3
+23, RangeList with RMQBucket, 229875, 25    , 0.9   , 25    , 0.0   , 0.00  , 0.00  , 0.01  , 1
+23, RangeList with RMQBucket, 229875, 27    , 1.1   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+23, RangeList with RMQBucket, 229875, 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+23, RangeList with RMQBucket, 229875, 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+2376.55
+24, RangeList with RMQBucket, 215625, 3     , 0.1   , 2941  , 0.7   , 0.59  , 0.60  , 0.94  , 2085
+24, RangeList with RMQBucket, 215625, 5     , 0.1   , 3656  , 0.7   , 0.72  , 0.72  , 0.82  , 2093
+24, RangeList with RMQBucket, 215625, 7     , 0.2   , 3643  , 0.7   , 0.64  , 0.64  , 0.70  , 1747
+24, RangeList with RMQBucket, 215625, 9     , 0.2   , 3322  , 0.6   , 0.57  , 0.57  , 0.69  , 1400
+24, RangeList with RMQBucket, 215625, 11    , 0.2   , 2818  , 0.5   , 0.48  , 0.48  , 0.52  , 1049
+24, RangeList with RMQBucket, 215625, 13    , 0.3   , 2207  , 0.4   , 0.35  , 0.35  , 0.38  , 741
+24, RangeList with RMQBucket, 215625, 15    , 0.4   , 1639  , 0.3   , 0.25  , 0.25  , 0.27  , 500
+24, RangeList with RMQBucket, 215625, 17    , 0.4   , 1168  , 0.2   , 0.18  , 0.18  , 0.19  , 321
+24, RangeList with RMQBucket, 215625, 19    , 0.5   , 860   , 0.1   , 0.12  , 0.12  , 0.13  , 206
+24, RangeList with RMQBucket, 215625, 21    , 0.6   , 527   , 0.1   , 0.07  , 0.07  , 0.08  , 136
+24, RangeList with RMQBucket, 215625, 23    , 0.7   , 356   , 0.0   , 0.04  , 0.04  , 0.05  , 69
+24, RangeList with RMQBucket, 215625, 25    , 0.9   , 217   , 0.0   , 0.03  , 0.03  , 0.03  , 38
+24, RangeList with RMQBucket, 215625, 27    , 1.1   , 110   , 0.0   , 0.01  , 0.01  , 0.02  , 19
+24, RangeList with RMQBucket, 215625, 29    , 1.3   , 85    , 0.0   , 0.01  , 0.01  , 0.01  , 8
+24, RangeList with RMQBucket, 215625, 31    , 1.5   , 62    , 0.0   , 0.01  , 0.01  , 0.01  , 6
+
+
+432.17
+25, RangeList with RMQBucket, 43500 , 3     , 0.1   , 2810  , 0.6   , 0.59  , 0.61  , 0.79  , 2095
+25, RangeList with RMQBucket, 43500 , 5     , 0.1   , 3322  , 0.7   , 0.65  , 0.66  , 0.74  , 2068
+25, RangeList with RMQBucket, 43500 , 7     , 0.2   , 3241  , 0.6   , 0.63  , 0.63  , 0.65  , 1747
+25, RangeList with RMQBucket, 43500 , 9     , 0.2   , 2971  , 0.5   , 0.54  , 0.54  , 0.56  , 1414
+25, RangeList with RMQBucket, 43500 , 11    , 0.2   , 2542  , 0.5   , 0.45  , 0.46  , 0.47  , 1081
+25, RangeList with RMQBucket, 43500 , 13    , 0.3   , 2172  , 0.4   , 0.37  , 0.37  , 0.39  , 818
+25, RangeList with RMQBucket, 43500 , 15    , 0.4   , 1733  , 0.3   , 0.29  , 0.29  , 0.32  , 603
+25, RangeList with RMQBucket, 43500 , 17    , 0.4   , 1291  , 0.2   , 0.21  , 0.21  , 0.22  , 397
+25, RangeList with RMQBucket, 43500 , 19    , 0.5   , 945   , 0.1   , 0.13  , 0.13  , 0.14  , 253
+25, RangeList with RMQBucket, 43500 , 21    , 0.6   , 631   , 0.1   , 0.08  , 0.08  , 0.09  , 160
+25, RangeList with RMQBucket, 43500 , 23    , 0.7   , 379   , 0.1   , 0.05  , 0.05  , 0.06  , 104
+25, RangeList with RMQBucket, 43500 , 25    , 0.9   , 191   , 0.0   , 0.03  , 0.03  , 0.03  , 58
+25, RangeList with RMQBucket, 43500 , 27    , 1.1   , 106   , 0.0   , 0.02  , 0.02  , 0.02  , 30
+25, RangeList with RMQBucket, 43500 , 29    , 1.3   , 72    , 0.0   , 0.01  , 0.01  , 0.01  , 11
+25, RangeList with RMQBucket, 43500 , 31    , 1.5   , 44    , 0.0   , 0.01  , 0.01  , 0.01  , 3
+
+
+1626.42
+26, RangeList with RMQBucket, 215625, 3     , 0.1   , 300   , 0.1   , 0.05  , 0.05  , 0.11  , 169
+26, RangeList with RMQBucket, 215625, 5     , 0.1   , 372   , 0.1   , 0.05  , 0.05  , 0.07  , 164
+26, RangeList with RMQBucket, 215625, 7     , 0.2   , 333   , 0.1   , 0.05  , 0.05  , 0.06  , 134
+26, RangeList with RMQBucket, 215625, 9     , 0.2   , 247   , 0.0   , 0.03  , 0.03  , 0.04  , 95
+26, RangeList with RMQBucket, 215625, 11    , 0.2   , 173   , 0.0   , 0.02  , 0.02  , 0.04  , 61
+26, RangeList with RMQBucket, 215625, 13    , 0.3   , 105   , 0.0   , 0.01  , 0.01  , 0.02  , 38
+26, RangeList with RMQBucket, 215625, 15    , 0.4   , 62    , 0.0   , 0.01  , 0.01  , 0.02  , 30
+26, RangeList with RMQBucket, 215625, 17    , 0.4   , 37    , 0.0   , 0.01  , 0.01  , 0.01  , 20
+26, RangeList with RMQBucket, 215625, 19    , 0.5   , 25    , 0.0   , 0.00  , 0.01  , 0.01  , 15
+26, RangeList with RMQBucket, 215625, 21    , 0.6   , 4     , 0.0   , 0.00  , 0.00  , 0.01  , 9
+26, RangeList with RMQBucket, 215625, 23    , 0.7   , 3     , 0.0   , 0.00  , 0.00  , 0.01  , 8
+26, RangeList with RMQBucket, 215625, 25    , 0.9   , 3     , 0.0   , 0.00  , 0.00  , 0.01  , 8
+26, RangeList with RMQBucket, 215625, 27    , 1.1   , 3     , 0.0   , 0.00  , 0.00  , 0.01  , 8
+26, RangeList with RMQBucket, 215625, 29    , 1.3   , 3     , 0.0   , 0.00  , 0.00  , 0.01  , 9
+26, RangeList with RMQBucket, 215625, 31    , 1.5   , 3     , 0.0   , 0.00  , 0.00  , 0.01  , 9
+
+
+4632.88
+27, RangeList with RMQBucket, 215625, 3     , 0.1   , 3699  , 0.9   , 0.82  , 0.82  , 1.20  , 2936
+27, RangeList with RMQBucket, 215625, 5     , 0.1   , 5481  , 1.4   , 1.32  , 1.34  , 1.41  , 3625
+27, RangeList with RMQBucket, 215625, 7     , 0.2   , 5740  , 1.4   , 1.37  , 1.38  , 1.46  , 3275
+27, RangeList with RMQBucket, 215625, 9     , 0.2   , 5347  , 1.2   , 1.11  , 1.13  , 1.24  , 2747
+27, RangeList with RMQBucket, 215625, 11    , 0.2   , 4603  , 1.0   , 0.93  , 0.93  , 1.05  , 2129
+27, RangeList with RMQBucket, 215625, 13    , 0.3   , 3602  , 0.7   , 0.64  , 0.65  , 0.75  , 1557
+27, RangeList with RMQBucket, 215625, 15    , 0.4   , 2676  , 0.5   , 0.47  , 0.47  , 0.51  , 1055
+27, RangeList with RMQBucket, 215625, 17    , 0.4   , 2000  , 0.3   , 0.33  , 0.33  , 0.36  , 732
+27, RangeList with RMQBucket, 215625, 19    , 0.5   , 1462  , 0.2   , 0.23  , 0.23  , 0.26  , 496
+27, RangeList with RMQBucket, 215625, 21    , 0.6   , 995   , 0.1   , 0.14  , 0.14  , 0.16  , 333
+27, RangeList with RMQBucket, 215625, 23    , 0.7   , 519   , 0.1   , 0.08  , 0.08  , 0.09  , 165
+27, RangeList with RMQBucket, 215625, 25    , 0.9   , 259   , 0.0   , 0.04  , 0.04  , 0.05  , 90
+27, RangeList with RMQBucket, 215625, 27    , 1.1   , 142   , 0.0   , 0.02  , 0.02  , 0.03  , 51
+27, RangeList with RMQBucket, 215625, 29    , 1.3   , 61    , 0.0   , 0.01  , 0.01  , 0.04  , 14
+27, RangeList with RMQBucket, 215625, 31    , 1.5   , 58    , 0.0   , 0.01  , 0.01  , 0.01  , 11
+
+
+1416.64
+28, RangeList with RMQBucket, 215625, 3     , 0.1   , 332   , 0.1   , 0.05  , 0.06  , 0.12  , 192
+28, RangeList with RMQBucket, 215625, 5     , 0.1   , 417   , 0.1   , 0.06  , 0.06  , 0.08  , 187
+28, RangeList with RMQBucket, 215625, 7     , 0.2   , 431   , 0.1   , 0.06  , 0.06  , 0.07  , 155
+28, RangeList with RMQBucket, 215625, 9     , 0.2   , 370   , 0.1   , 0.05  , 0.05  , 0.06  , 119
+28, RangeList with RMQBucket, 215625, 11    , 0.2   , 295   , 0.0   , 0.04  , 0.04  , 0.07  , 84
+28, RangeList with RMQBucket, 215625, 13    , 0.3   , 166   , 0.0   , 0.02  , 0.02  , 0.03  , 39
+28, RangeList with RMQBucket, 215625, 15    , 0.4   , 84    , 0.0   , 0.01  , 0.01  , 0.02  , 19
+28, RangeList with RMQBucket, 215625, 17    , 0.4   , 48    , 0.0   , 0.01  , 0.01  , 0.01  , 7
+28, RangeList with RMQBucket, 215625, 19    , 0.5   , 35    , 0.0   , 0.01  , 0.01  , 0.01  , 5
+28, RangeList with RMQBucket, 215625, 21    , 0.6   , 16    , 0.0   , 0.00  , 0.00  , 0.01  , 5
+28, RangeList with RMQBucket, 215625, 23    , 0.7   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+28, RangeList with RMQBucket, 215625, 25    , 0.9   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+28, RangeList with RMQBucket, 215625, 27    , 1.1   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+28, RangeList with RMQBucket, 215625, 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+28, RangeList with RMQBucket, 215625, 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+974.23
+29, RangeList with RMQBucket, 229875, 3     , 0.1   , 81    , 0.0   , 0.01  , 0.01  , 0.04  , 43
+29, RangeList with RMQBucket, 229875, 5     , 0.1   , 77    , 0.0   , 0.01  , 0.01  , 0.02  , 28
+29, RangeList with RMQBucket, 229875, 7     , 0.2   , 59    , 0.0   , 0.01  , 0.01  , 0.01  , 20
+29, RangeList with RMQBucket, 229875, 9     , 0.2   , 40    , 0.0   , 0.01  , 0.01  , 0.01  , 9
+29, RangeList with RMQBucket, 229875, 11    , 0.2   , 17    , 0.0   , 0.00  , 0.00  , 0.01  , 4
+29, RangeList with RMQBucket, 229875, 13    , 0.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+29, RangeList with RMQBucket, 229875, 15    , 0.4   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+29, RangeList with RMQBucket, 229875, 17    , 0.4   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+29, RangeList with RMQBucket, 229875, 19    , 0.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+29, RangeList with RMQBucket, 229875, 21    , 0.6   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+29, RangeList with RMQBucket, 229875, 23    , 0.7   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+29, RangeList with RMQBucket, 229875, 25    , 0.9   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+29, RangeList with RMQBucket, 229875, 27    , 1.1   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+29, RangeList with RMQBucket, 229875, 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+29, RangeList with RMQBucket, 229875, 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+2473.39
+30, RangeList with RMQBucket, 229875, 3     , 0.1   , 635   , 0.1   , 0.11  , 0.11  , 0.22  , 401
+30, RangeList with RMQBucket, 229875, 5     , 0.1   , 893   , 0.2   , 0.15  , 0.15  , 0.19  , 462
+30, RangeList with RMQBucket, 229875, 7     , 0.2   , 943   , 0.1   , 0.14  , 0.14  , 0.17  , 400
+30, RangeList with RMQBucket, 229875, 9     , 0.2   , 854   , 0.1   , 0.13  , 0.13  , 0.14  , 317
+30, RangeList with RMQBucket, 229875, 11    , 0.2   , 710   , 0.1   , 0.10  , 0.11  , 0.13  , 236
+30, RangeList with RMQBucket, 229875, 13    , 0.3   , 538   , 0.1   , 0.07  , 0.07  , 0.08  , 162
+30, RangeList with RMQBucket, 229875, 15    , 0.4   , 326   , 0.0   , 0.04  , 0.04  , 0.05  , 92
+30, RangeList with RMQBucket, 229875, 17    , 0.4   , 160   , 0.0   , 0.02  , 0.02  , 0.04  , 49
+30, RangeList with RMQBucket, 229875, 19    , 0.5   , 74    , 0.0   , 0.01  , 0.01  , 0.02  , 17
+30, RangeList with RMQBucket, 229875, 21    , 0.6   , 51    , 0.0   , 0.01  , 0.01  , 0.01  , 10
+30, RangeList with RMQBucket, 229875, 23    , 0.7   , 18    , 0.0   , 0.00  , 0.00  , 0.01  , 1
+30, RangeList with RMQBucket, 229875, 25    , 0.9   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+30, RangeList with RMQBucket, 229875, 27    , 1.1   , 0     , 0.0   , 0.00  , 0.00  , 0.01  , 0
+30, RangeList with RMQBucket, 229875, 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+30, RangeList with RMQBucket, 229875, 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+2231.49
+31, RangeList with RMQBucket, 217500, 3     , 0.1   , 2389  , 0.5   , 0.47  , 0.47  , 0.81  , 1644
+31, RangeList with RMQBucket, 217500, 5     , 0.1   , 3027  , 0.6   , 0.58  , 0.58  , 0.68  , 1652
+31, RangeList with RMQBucket, 217500, 7     , 0.2   , 2908  , 0.5   , 0.47  , 0.47  , 0.53  , 1344
+31, RangeList with RMQBucket, 217500, 9     , 0.2   , 2534  , 0.4   , 0.40  , 0.41  , 0.47  , 1014
+31, RangeList with RMQBucket, 217500, 11    , 0.2   , 2085  , 0.3   , 0.32  , 0.32  , 0.36  , 741
+31, RangeList with RMQBucket, 217500, 13    , 0.3   , 1601  , 0.3   , 0.25  , 0.25  , 0.27  , 526
+31, RangeList with RMQBucket, 217500, 15    , 0.4   , 1079  , 0.2   , 0.17  , 0.17  , 0.18  , 331
+31, RangeList with RMQBucket, 217500, 17    , 0.4   , 757   , 0.1   , 0.10  , 0.10  , 0.12  , 207
+31, RangeList with RMQBucket, 217500, 19    , 0.5   , 430   , 0.1   , 0.06  , 0.06  , 0.07  , 117
+31, RangeList with RMQBucket, 217500, 21    , 0.6   , 267   , 0.0   , 0.03  , 0.04  , 0.04  , 69
+31, RangeList with RMQBucket, 217500, 23    , 0.7   , 190   , 0.0   , 0.02  , 0.02  , 0.03  , 34
+31, RangeList with RMQBucket, 217500, 25    , 0.9   , 91    , 0.0   , 0.01  , 0.01  , 0.02  , 18
+31, RangeList with RMQBucket, 217500, 27    , 1.1   , 27    , 0.0   , 0.00  , 0.00  , 0.01  , 1
+31, RangeList with RMQBucket, 217500, 29    , 1.3   , 11    , 0.0   , 0.00  , 0.00  , 0.01  , 1
+31, RangeList with RMQBucket, 217500, 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+6528.76
+32, RangeList with RMQBucket, 229875, 3     , 0.1   , 12233 , 3.6   , 3.46  , 3.47  , 3.87  , 9285
+32, RangeList with RMQBucket, 229875, 5     , 0.1   , 15567 , 4.4   , 4.32  , 4.37  , 4.39  , 9865
+32, RangeList with RMQBucket, 229875, 7     , 0.2   , 15609 , 3.7   , 3.71  , 3.72  , 3.76  , 8625
+32, RangeList with RMQBucket, 229875, 9     , 0.2   , 14507 , 3.4   , 3.40  , 3.42  , 3.48  , 7185
+32, RangeList with RMQBucket, 229875, 11    , 0.2   , 12799 , 3.1   , 3.04  , 3.06  , 3.13  , 5779
+32, RangeList with RMQBucket, 229875, 13    , 0.3   , 10671 , 2.3   , 2.26  , 2.32  , 2.36  , 4401
+32, RangeList with RMQBucket, 229875, 15    , 0.4   , 8396  , 1.8   , 1.76  , 1.77  , 1.84  , 3248
+32, RangeList with RMQBucket, 229875, 17    , 0.4   , 6454  , 1.3   , 1.30  , 1.31  , 1.41  , 2359
+32, RangeList with RMQBucket, 229875, 19    , 0.5   , 4749  , 0.9   , 0.86  , 0.87  , 0.99  , 1659
+32, RangeList with RMQBucket, 229875, 21    , 0.6   , 3406  , 0.6   , 0.58  , 0.59  , 0.64  , 1101
+32, RangeList with RMQBucket, 229875, 23    , 0.7   , 2185  , 0.4   , 0.38  , 0.38  , 0.41  , 692
+32, RangeList with RMQBucket, 229875, 25    , 0.9   , 1363  , 0.2   , 0.20  , 0.20  , 0.23  , 412
+32, RangeList with RMQBucket, 229875, 27    , 1.1   , 798   , 0.1   , 0.12  , 0.12  , 0.14  , 243
+32, RangeList with RMQBucket, 229875, 29    , 1.3   , 465   , 0.1   , 0.07  , 0.07  , 0.08  , 148
+32, RangeList with RMQBucket, 229875, 31    , 1.5   , 185   , 0.0   , 0.03  , 0.03  , 0.04  , 75
+
+
+2221.13
+33, RangeList with RMQBucket, 229875, 3     , 0.1   , 2377  , 0.5   , 0.47  , 0.48  , 0.81  , 1619
+33, RangeList with RMQBucket, 229875, 5     , 0.1   , 2972  , 0.6   , 0.58  , 0.58  , 0.67  , 1624
+33, RangeList with RMQBucket, 229875, 7     , 0.2   , 3000  , 0.5   , 0.51  , 0.51  , 0.56  , 1431
+33, RangeList with RMQBucket, 229875, 9     , 0.2   , 2732  , 0.5   , 0.45  , 0.45  , 0.48  , 1133
+33, RangeList with RMQBucket, 229875, 11    , 0.2   , 2241  , 0.4   , 0.37  , 0.37  , 0.40  , 845
+33, RangeList with RMQBucket, 229875, 13    , 0.3   , 1885  , 0.3   , 0.27  , 0.27  , 0.29  , 599
+33, RangeList with RMQBucket, 229875, 15    , 0.4   , 1577  , 0.2   , 0.22  , 0.22  , 0.25  , 440
+33, RangeList with RMQBucket, 229875, 17    , 0.4   , 1215  , 0.2   , 0.17  , 0.17  , 0.18  , 307
+33, RangeList with RMQBucket, 229875, 19    , 0.5   , 930   , 0.1   , 0.12  , 0.12  , 0.13  , 197
+33, RangeList with RMQBucket, 229875, 21    , 0.6   , 613   , 0.1   , 0.08  , 0.08  , 0.09  , 127
+33, RangeList with RMQBucket, 229875, 23    , 0.7   , 418   , 0.1   , 0.05  , 0.05  , 0.06  , 72
+33, RangeList with RMQBucket, 229875, 25    , 0.9   , 253   , 0.0   , 0.03  , 0.03  , 0.04  , 39
+33, RangeList with RMQBucket, 229875, 27    , 1.1   , 210   , 0.0   , 0.02  , 0.02  , 0.03  , 24
+33, RangeList with RMQBucket, 229875, 29    , 1.3   , 119   , 0.0   , 0.01  , 0.01  , 0.02  , 15
+33, RangeList with RMQBucket, 229875, 31    , 1.5   , 66    , 0.0   , 0.01  , 0.01  , 0.01  , 4
+
+
+3588.67
+34, RangeList with RMQBucket, 229875, 3     , 0.1   , 963   , 0.2   , 0.17  , 0.17  , 0.34  , 655
+34, RangeList with RMQBucket, 229875, 5     , 0.1   , 1386  , 0.2   , 0.24  , 0.24  , 0.30  , 730
+34, RangeList with RMQBucket, 229875, 7     , 0.2   , 1429  , 0.3   , 0.24  , 0.24  , 0.28  , 646
+34, RangeList with RMQBucket, 229875, 9     , 0.2   , 1333  , 0.2   , 0.21  , 0.21  , 0.24  , 532
+34, RangeList with RMQBucket, 229875, 11    , 0.2   , 1005  , 0.2   , 0.16  , 0.16  , 0.18  , 396
+34, RangeList with RMQBucket, 229875, 13    , 0.3   , 747   , 0.1   , 0.12  , 0.12  , 0.14  , 273
+34, RangeList with RMQBucket, 229875, 15    , 0.4   , 528   , 0.1   , 0.08  , 0.08  , 0.10  , 196
+34, RangeList with RMQBucket, 229875, 17    , 0.4   , 344   , 0.1   , 0.05  , 0.05  , 0.06  , 125
+34, RangeList with RMQBucket, 229875, 19    , 0.5   , 182   , 0.0   , 0.03  , 0.03  , 0.04  , 64
+34, RangeList with RMQBucket, 229875, 21    , 0.6   , 102   , 0.0   , 0.01  , 0.02  , 0.02  , 30
+34, RangeList with RMQBucket, 229875, 23    , 0.7   , 35    , 0.0   , 0.01  , 0.01  , 0.01  , 11
+34, RangeList with RMQBucket, 229875, 25    , 0.9   , 4     , 0.0   , 0.00  , 0.00  , 0.01  , 4
+34, RangeList with RMQBucket, 229875, 27    , 1.1   , 1     , 0.0   , 0.00  , 0.00  , 0.01  , 2
+34, RangeList with RMQBucket, 229875, 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+34, RangeList with RMQBucket, 229875, 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+1892.80
+35, RangeList with RMQBucket, 219375, 3     , 0.1   , 7901  , 2.0   , 1.89  , 1.92  , 2.29  , 5288
+35, RangeList with RMQBucket, 219375, 5     , 0.1   , 9323  , 2.2   , 2.18  , 2.20  , 2.24  , 5039
+35, RangeList with RMQBucket, 219375, 7     , 0.2   , 8896  , 1.8   , 1.72  , 1.74  , 1.79  , 4131
+35, RangeList with RMQBucket, 219375, 9     , 0.2   , 7974  , 1.5   , 1.47  , 1.51  , 1.54  , 3216
+35, RangeList with RMQBucket, 219375, 11    , 0.2   , 6933  , 1.2   , 1.18  , 1.18  , 1.27  , 2475
+35, RangeList with RMQBucket, 219375, 13    , 0.3   , 5696  , 1.0   , 0.93  , 0.94  , 1.02  , 1826
+35, RangeList with RMQBucket, 219375, 15    , 0.4   , 4346  , 0.7   , 0.65  , 0.65  , 0.70  , 1305
+35, RangeList with RMQBucket, 219375, 17    , 0.4   , 3268  , 0.5   , 0.47  , 0.47  , 0.50  , 866
+35, RangeList with RMQBucket, 219375, 19    , 0.5   , 2298  , 0.3   , 0.31  , 0.32  , 0.33  , 546
+35, RangeList with RMQBucket, 219375, 21    , 0.6   , 1776  , 0.2   , 0.23  , 0.23  , 0.26  , 383
+35, RangeList with RMQBucket, 219375, 23    , 0.7   , 1238  , 0.2   , 0.17  , 0.17  , 0.19  , 253
+35, RangeList with RMQBucket, 219375, 25    , 0.9   , 782   , 0.1   , 0.10  , 0.10  , 0.11  , 157
+35, RangeList with RMQBucket, 219375, 27    , 1.1   , 496   , 0.1   , 0.06  , 0.06  , 0.07  , 90
+35, RangeList with RMQBucket, 219375, 29    , 1.3   , 252   , 0.0   , 0.03  , 0.03  , 0.04  , 40
+35, RangeList with RMQBucket, 219375, 31    , 1.5   , 156   , 0.0   , 0.02  , 0.02  , 0.02  , 15
+
+
+1743.18
+36, RangeList with RMQBucket, 219375, 3     , 0.1   , 7901  , 2.0   , 1.88  , 1.89  , 2.28  , 5288
+36, RangeList with RMQBucket, 219375, 5     , 0.1   , 9323  , 2.2   , 2.18  , 2.19  , 2.24  , 5039
+36, RangeList with RMQBucket, 219375, 7     , 0.2   , 8896  , 1.7   , 1.71  , 1.72  , 1.84  , 4131
+36, RangeList with RMQBucket, 219375, 9     , 0.2   , 7974  , 1.5   , 1.46  , 1.47  , 1.58  , 3216
+36, RangeList with RMQBucket, 219375, 11    , 0.2   , 6933  , 1.2   , 1.19  , 1.21  , 1.27  , 2475
+36, RangeList with RMQBucket, 219375, 13    , 0.3   , 5696  , 0.9   , 0.93  , 0.93  , 1.01  , 1826
+36, RangeList with RMQBucket, 219375, 15    , 0.4   , 4346  , 0.7   , 0.65  , 0.66  , 0.70  , 1305
+36, RangeList with RMQBucket, 219375, 17    , 0.4   , 3268  , 0.5   , 0.47  , 0.47  , 0.50  , 866
+36, RangeList with RMQBucket, 219375, 19    , 0.5   , 2298  , 0.3   , 0.31  , 0.31  , 0.33  , 546
+36, RangeList with RMQBucket, 219375, 21    , 0.6   , 1776  , 0.2   , 0.23  , 0.23  , 0.24  , 383
+36, RangeList with RMQBucket, 219375, 23    , 0.7   , 1238  , 0.2   , 0.17  , 0.17  , 0.18  , 253
+36, RangeList with RMQBucket, 219375, 25    , 0.9   , 782   , 0.1   , 0.10  , 0.10  , 0.11  , 157
+36, RangeList with RMQBucket, 219375, 27    , 1.1   , 496   , 0.1   , 0.06  , 0.06  , 0.07  , 90
+36, RangeList with RMQBucket, 219375, 29    , 1.3   , 252   , 0.0   , 0.03  , 0.03  , 0.04  , 40
+36, RangeList with RMQBucket, 219375, 31    , 1.5   , 156   , 0.0   , 0.02  , 0.02  , 0.02  , 15
+
+
+1750.08
+37, RangeList with RMQBucket, 73125 , 3     , 0.1   , 333   , 0.1   , 0.06  , 0.06  , 0.16  , 214
+37, RangeList with RMQBucket, 73125 , 5     , 0.1   , 485   , 0.1   , 0.08  , 0.08  , 0.17  , 251
+37, RangeList with RMQBucket, 73125 , 7     , 0.2   , 481   , 0.1   , 0.07  , 0.07  , 0.09  , 220
+37, RangeList with RMQBucket, 73125 , 9     , 0.2   , 412   , 0.1   , 0.07  , 0.07  , 0.09  , 178
+37, RangeList with RMQBucket, 73125 , 11    , 0.2   , 372   , 0.1   , 0.06  , 0.06  , 0.08  , 150
+37, RangeList with RMQBucket, 73125 , 13    , 0.3   , 276   , 0.0   , 0.04  , 0.04  , 0.05  , 86
+37, RangeList with RMQBucket, 73125 , 15    , 0.4   , 163   , 0.0   , 0.02  , 0.02  , 0.03  , 55
+37, RangeList with RMQBucket, 73125 , 17    , 0.4   , 96    , 0.0   , 0.01  , 0.01  , 0.02  , 42
+37, RangeList with RMQBucket, 73125 , 19    , 0.5   , 71    , 0.0   , 0.01  , 0.01  , 0.02  , 27
+37, RangeList with RMQBucket, 73125 , 21    , 0.6   , 63    , 0.0   , 0.01  , 0.01  , 0.01  , 17
+37, RangeList with RMQBucket, 73125 , 23    , 0.7   , 47    , 0.0   , 0.01  , 0.01  , 0.01  , 10
+37, RangeList with RMQBucket, 73125 , 25    , 0.9   , 18    , 0.0   , 0.00  , 0.00  , 0.01  , 4
+37, RangeList with RMQBucket, 73125 , 27    , 1.1   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+37, RangeList with RMQBucket, 73125 , 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+37, RangeList with RMQBucket, 73125 , 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+1861.35
+38, RangeList with RMQBucket, 73125 , 3     , 0.1   , 2786  , 0.7   , 0.60  , 0.60  , 0.90  , 2083
+38, RangeList with RMQBucket, 73125 , 5     , 0.1   , 3521  , 0.8   , 0.74  , 0.78  , 0.84  , 2249
+38, RangeList with RMQBucket, 73125 , 7     , 0.2   , 3467  , 0.7   , 0.73  , 0.73  , 0.78  , 1929
+38, RangeList with RMQBucket, 73125 , 9     , 0.2   , 3133  , 0.6   , 0.56  , 0.56  , 0.59  , 1554
+38, RangeList with RMQBucket, 73125 , 11    , 0.2   , 2772  , 0.5   , 0.47  , 0.47  , 0.50  , 1202
+38, RangeList with RMQBucket, 73125 , 13    , 0.3   , 2268  , 0.4   , 0.39  , 0.39  , 0.42  , 900
+38, RangeList with RMQBucket, 73125 , 15    , 0.4   , 1770  , 0.3   , 0.29  , 0.30  , 0.32  , 641
+38, RangeList with RMQBucket, 73125 , 17    , 0.4   , 1316  , 0.2   , 0.20  , 0.20  , 0.22  , 427
+38, RangeList with RMQBucket, 73125 , 19    , 0.5   , 945   , 0.1   , 0.14  , 0.14  , 0.15  , 279
+38, RangeList with RMQBucket, 73125 , 21    , 0.6   , 682   , 0.1   , 0.10  , 0.10  , 0.11  , 184
+38, RangeList with RMQBucket, 73125 , 23    , 0.7   , 449   , 0.1   , 0.06  , 0.06  , 0.07  , 117
+38, RangeList with RMQBucket, 73125 , 25    , 0.9   , 250   , 0.0   , 0.04  , 0.04  , 0.05  , 77
+38, RangeList with RMQBucket, 73125 , 27    , 1.1   , 153   , 0.0   , 0.02  , 0.02  , 0.03  , 41
+38, RangeList with RMQBucket, 73125 , 29    , 1.3   , 50    , 0.0   , 0.01  , 0.01  , 0.01  , 14
+38, RangeList with RMQBucket, 73125 , 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+1183.75
+39, RangeList with RMQBucket, 73125 , 3     , 0.1   , 99    , 0.0   , 0.01  , 0.01  , 0.04  , 50
+39, RangeList with RMQBucket, 73125 , 5     , 0.1   , 106   , 0.0   , 0.01  , 0.01  , 0.02  , 44
+39, RangeList with RMQBucket, 73125 , 7     , 0.2   , 70    , 0.0   , 0.01  , 0.01  , 0.02  , 29
+39, RangeList with RMQBucket, 73125 , 9     , 0.2   , 66    , 0.0   , 0.01  , 0.01  , 0.01  , 19
+39, RangeList with RMQBucket, 73125 , 11    , 0.2   , 58    , 0.0   , 0.01  , 0.01  , 0.01  , 9
+39, RangeList with RMQBucket, 73125 , 13    , 0.3   , 33    , 0.0   , 0.00  , 0.00  , 0.01  , 4
+39, RangeList with RMQBucket, 73125 , 15    , 0.4   , 11    , 0.0   , 0.00  , 0.00  , 0.01  , 1
+39, RangeList with RMQBucket, 73125 , 17    , 0.4   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+39, RangeList with RMQBucket, 73125 , 19    , 0.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+39, RangeList with RMQBucket, 73125 , 21    , 0.6   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+39, RangeList with RMQBucket, 73125 , 23    , 0.7   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+39, RangeList with RMQBucket, 73125 , 25    , 0.9   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+39, RangeList with RMQBucket, 73125 , 27    , 1.1   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+39, RangeList with RMQBucket, 73125 , 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+39, RangeList with RMQBucket, 73125 , 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+1284.46
+40, RangeList with RMQBucket, 73125 , 3     , 0.1   , 3302  , 0.8   , 0.75  , 0.75  , 1.06  , 2701
+40, RangeList with RMQBucket, 73125 , 5     , 0.1   , 4476  , 1.0   , 1.00  , 1.00  , 1.11  , 3109
+40, RangeList with RMQBucket, 73125 , 7     , 0.2   , 4504  , 1.0   , 0.98  , 0.99  , 1.03  , 2744
+40, RangeList with RMQBucket, 73125 , 9     , 0.2   , 4069  , 0.9   , 0.88  , 0.88  , 0.93  , 2260
+40, RangeList with RMQBucket, 73125 , 11    , 0.2   , 3511  , 0.7   , 0.64  , 0.64  , 0.69  , 1768
+40, RangeList with RMQBucket, 73125 , 13    , 0.3   , 2818  , 0.5   , 0.53  , 0.53  , 0.56  , 1329
+40, RangeList with RMQBucket, 73125 , 15    , 0.4   , 2233  , 0.4   , 0.38  , 0.38  , 0.41  , 943
+40, RangeList with RMQBucket, 73125 , 17    , 0.4   , 1704  , 0.3   , 0.30  , 0.30  , 0.32  , 703
+40, RangeList with RMQBucket, 73125 , 19    , 0.5   , 1249  , 0.2   , 0.21  , 0.21  , 0.22  , 488
+40, RangeList with RMQBucket, 73125 , 21    , 0.6   , 886   , 0.2   , 0.15  , 0.15  , 0.16  , 349
+40, RangeList with RMQBucket, 73125 , 23    , 0.7   , 585   , 0.1   , 0.09  , 0.09  , 0.10  , 241
+40, RangeList with RMQBucket, 73125 , 25    , 0.9   , 394   , 0.1   , 0.06  , 0.06  , 0.07  , 164
+40, RangeList with RMQBucket, 73125 , 27    , 1.1   , 250   , 0.0   , 0.04  , 0.04  , 0.05  , 102
+40, RangeList with RMQBucket, 73125 , 29    , 1.3   , 176   , 0.0   , 0.03  , 0.03  , 0.03  , 68
+40, RangeList with RMQBucket, 73125 , 31    , 1.5   , 66    , 0.0   , 0.01  , 0.01  , 0.02  , 30
+
+
+1249.50
+41, RangeList with RMQBucket, 73125 , 3     , 0.1   , 1130  , 0.3   , 0.25  , 0.25  , 0.46  , 915
+41, RangeList with RMQBucket, 73125 , 5     , 0.1   , 1642  , 0.3   , 0.33  , 0.34  , 0.42  , 1085
+41, RangeList with RMQBucket, 73125 , 7     , 0.2   , 1721  , 0.4   , 0.33  , 0.34  , 0.40  , 992
+41, RangeList with RMQBucket, 73125 , 9     , 0.2   , 1577  , 0.3   , 0.30  , 0.32  , 0.34  , 805
+41, RangeList with RMQBucket, 73125 , 11    , 0.2   , 1388  , 0.2   , 0.22  , 0.22  , 0.24  , 629
+41, RangeList with RMQBucket, 73125 , 13    , 0.3   , 1229  , 0.2   , 0.20  , 0.20  , 0.22  , 510
+41, RangeList with RMQBucket, 73125 , 15    , 0.4   , 1055  , 0.2   , 0.16  , 0.16  , 0.18  , 383
+41, RangeList with RMQBucket, 73125 , 17    , 0.4   , 787   , 0.1   , 0.12  , 0.12  , 0.14  , 302
+41, RangeList with RMQBucket, 73125 , 19    , 0.5   , 587   , 0.1   , 0.09  , 0.09  , 0.10  , 216
+41, RangeList with RMQBucket, 73125 , 21    , 0.6   , 423   , 0.1   , 0.07  , 0.07  , 0.08  , 162
+41, RangeList with RMQBucket, 73125 , 23    , 0.7   , 242   , 0.0   , 0.04  , 0.04  , 0.05  , 103
+41, RangeList with RMQBucket, 73125 , 25    , 0.9   , 136   , 0.0   , 0.02  , 0.02  , 0.03  , 58
+41, RangeList with RMQBucket, 73125 , 27    , 1.1   , 57    , 0.0   , 0.01  , 0.01  , 0.01  , 14
+41, RangeList with RMQBucket, 73125 , 29    , 1.3   , 24    , 0.0   , 0.00  , 0.00  , 0.01  , 4
+41, RangeList with RMQBucket, 73125 , 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+825.33
+42, RangeList with RMQBucket, 73125 , 3     , 0.1   , 2663  , 0.7   , 0.60  , 0.61  , 0.97  , 2062
+42, RangeList with RMQBucket, 73125 , 5     , 0.1   , 3454  , 0.7   , 0.67  , 0.67  , 0.75  , 2249
+42, RangeList with RMQBucket, 73125 , 7     , 0.2   , 3551  , 0.7   , 0.70  , 0.70  , 0.76  , 2010
+42, RangeList with RMQBucket, 73125 , 9     , 0.2   , 3271  , 0.6   , 0.60  , 0.61  , 0.64  , 1682
+42, RangeList with RMQBucket, 73125 , 11    , 0.2   , 2853  , 0.5   , 0.53  , 0.53  , 0.57  , 1335
+42, RangeList with RMQBucket, 73125 , 13    , 0.3   , 2354  , 0.4   , 0.42  , 0.42  , 0.45  , 1008
+42, RangeList with RMQBucket, 73125 , 15    , 0.4   , 1955  , 0.3   , 0.34  , 0.34  , 0.36  , 758
+42, RangeList with RMQBucket, 73125 , 17    , 0.4   , 1588  , 0.3   , 0.27  , 0.27  , 0.29  , 565
+42, RangeList with RMQBucket, 73125 , 19    , 0.5   , 1193  , 0.2   , 0.18  , 0.18  , 0.21  , 394
+42, RangeList with RMQBucket, 73125 , 21    , 0.6   , 872   , 0.1   , 0.13  , 0.13  , 0.14  , 256
+42, RangeList with RMQBucket, 73125 , 23    , 0.7   , 629   , 0.1   , 0.09  , 0.09  , 0.10  , 173
+42, RangeList with RMQBucket, 73125 , 25    , 0.9   , 351   , 0.1   , 0.05  , 0.05  , 0.06  , 91
+42, RangeList with RMQBucket, 73125 , 27    , 1.1   , 143   , 0.0   , 0.02  , 0.02  , 0.03  , 45
+42, RangeList with RMQBucket, 73125 , 29    , 1.3   , 68    , 0.0   , 0.01  , 0.01  , 0.02  , 27
+42, RangeList with RMQBucket, 73125 , 31    , 1.5   , 15    , 0.0   , 0.00  , 0.00  , 0.01  , 2
+
+
+1002.55
+43, RangeList with RMQBucket, 73125 , 3     , 0.1   , 318   , 0.1   , 0.06  , 0.06  , 0.12  , 206
+43, RangeList with RMQBucket, 73125 , 5     , 0.1   , 452   , 0.1   , 0.07  , 0.07  , 0.09  , 231
+43, RangeList with RMQBucket, 73125 , 7     , 0.2   , 469   , 0.1   , 0.07  , 0.07  , 0.09  , 217
+43, RangeList with RMQBucket, 73125 , 9     , 0.2   , 421   , 0.1   , 0.06  , 0.06  , 0.08  , 169
+43, RangeList with RMQBucket, 73125 , 11    , 0.2   , 385   , 0.1   , 0.06  , 0.06  , 0.07  , 142
+43, RangeList with RMQBucket, 73125 , 13    , 0.3   , 298   , 0.0   , 0.04  , 0.04  , 0.05  , 101
+43, RangeList with RMQBucket, 73125 , 15    , 0.4   , 247   , 0.0   , 0.03  , 0.03  , 0.05  , 74
+43, RangeList with RMQBucket, 73125 , 17    , 0.4   , 130   , 0.0   , 0.02  , 0.02  , 0.03  , 32
+43, RangeList with RMQBucket, 73125 , 19    , 0.5   , 60    , 0.0   , 0.01  , 0.01  , 0.02  , 13
+43, RangeList with RMQBucket, 73125 , 21    , 0.6   , 10    , 0.0   , 0.00  , 0.00  , 0.01  , 5
+43, RangeList with RMQBucket, 73125 , 23    , 0.7   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+43, RangeList with RMQBucket, 73125 , 25    , 0.9   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+43, RangeList with RMQBucket, 73125 , 27    , 1.1   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+43, RangeList with RMQBucket, 73125 , 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+43, RangeList with RMQBucket, 73125 , 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+620.19
+44, RangeList with RMQBucket, 73125 , 3     , 0.1   , 194   , 0.0   , 0.03  , 0.03  , 0.07  , 118
+44, RangeList with RMQBucket, 73125 , 5     , 0.1   , 234   , 0.0   , 0.04  , 0.04  , 0.05  , 127
+44, RangeList with RMQBucket, 73125 , 7     , 0.2   , 250   , 0.0   , 0.03  , 0.03  , 0.05  , 109
+44, RangeList with RMQBucket, 73125 , 9     , 0.2   , 207   , 0.0   , 0.03  , 0.03  , 0.04  , 76
+44, RangeList with RMQBucket, 73125 , 11    , 0.2   , 188   , 0.0   , 0.02  , 0.02  , 0.04  , 51
+44, RangeList with RMQBucket, 73125 , 13    , 0.3   , 172   , 0.0   , 0.02  , 0.02  , 0.05  , 39
+44, RangeList with RMQBucket, 73125 , 15    , 0.4   , 160   , 0.0   , 0.02  , 0.02  , 0.03  , 33
+44, RangeList with RMQBucket, 73125 , 17    , 0.4   , 97    , 0.0   , 0.01  , 0.01  , 0.02  , 23
+44, RangeList with RMQBucket, 73125 , 19    , 0.5   , 50    , 0.0   , 0.01  , 0.01  , 0.01  , 13
+44, RangeList with RMQBucket, 73125 , 21    , 0.6   , 17    , 0.0   , 0.00  , 0.00  , 0.01  , 6
+44, RangeList with RMQBucket, 73125 , 23    , 0.7   , 17    , 0.0   , 0.00  , 0.00  , 0.01  , 6
+44, RangeList with RMQBucket, 73125 , 25    , 0.9   , 16    , 0.0   , 0.00  , 0.00  , 0.01  , 5
+44, RangeList with RMQBucket, 73125 , 27    , 1.1   , 6     , 0.0   , 0.00  , 0.00  , 0.01  , 1
+44, RangeList with RMQBucket, 73125 , 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+44, RangeList with RMQBucket, 73125 , 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+1814.98
+45, RangeList with RMQBucket, 229875, 3     , 0.1   , 1236  , 0.3   , 0.24  , 0.24  , 0.44  , 815
+45, RangeList with RMQBucket, 229875, 5     , 0.1   , 1642  , 0.3   , 0.26  , 0.26  , 0.33  , 874
+45, RangeList with RMQBucket, 229875, 7     , 0.2   , 1691  , 0.3   , 0.26  , 0.26  , 0.30  , 740
+45, RangeList with RMQBucket, 229875, 9     , 0.2   , 1619  , 0.3   , 0.25  , 0.25  , 0.27  , 608
+45, RangeList with RMQBucket, 229875, 11    , 0.2   , 1326  , 0.2   , 0.19  , 0.19  , 0.21  , 446
+45, RangeList with RMQBucket, 229875, 13    , 0.3   , 1094  , 0.2   , 0.16  , 0.16  , 0.18  , 350
+45, RangeList with RMQBucket, 229875, 15    , 0.4   , 777   , 0.1   , 0.11  , 0.11  , 0.13  , 235
+45, RangeList with RMQBucket, 229875, 17    , 0.4   , 500   , 0.1   , 0.07  , 0.07  , 0.08  , 150
+45, RangeList with RMQBucket, 229875, 19    , 0.5   , 311   , 0.0   , 0.04  , 0.05  , 0.06  , 91
+45, RangeList with RMQBucket, 229875, 21    , 0.6   , 108   , 0.0   , 0.02  , 0.02  , 0.02  , 39
+45, RangeList with RMQBucket, 229875, 23    , 0.7   , 63    , 0.0   , 0.01  , 0.01  , 0.02  , 16
+45, RangeList with RMQBucket, 229875, 25    , 0.9   , 47    , 0.0   , 0.01  , 0.01  , 0.01  , 10
+45, RangeList with RMQBucket, 229875, 27    , 1.1   , 27    , 0.0   , 0.00  , 0.00  , 0.01  , 9
+45, RangeList with RMQBucket, 229875, 29    , 1.3   , 2     , 0.0   , 0.00  , 0.00  , 0.01  , 3
+45, RangeList with RMQBucket, 229875, 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+3299.88
+46, RangeList with RMQBucket, 223500, 3     , 0.1   , 6321  , 1.7   , 1.63  , 1.65  , 2.08  , 4767
+46, RangeList with RMQBucket, 223500, 5     , 0.1   , 8716  , 2.2   , 2.20  , 2.22  , 2.29  , 5425
+46, RangeList with RMQBucket, 223500, 7     , 0.2   , 9102  , 2.3   , 2.24  , 2.26  , 2.34  , 4955
+46, RangeList with RMQBucket, 223500, 9     , 0.2   , 8468  , 2.0   , 2.01  , 2.04  , 2.08  , 4059
+46, RangeList with RMQBucket, 223500, 11    , 0.2   , 7442  , 1.4   , 1.40  , 1.42  , 1.50  , 3215
+46, RangeList with RMQBucket, 223500, 13    , 0.3   , 6183  , 1.2   , 1.14  , 1.15  , 1.23  , 2461
+46, RangeList with RMQBucket, 223500, 15    , 0.4   , 4899  , 0.8   , 0.82  , 0.83  , 0.90  , 1758
+46, RangeList with RMQBucket, 223500, 17    , 0.4   , 3951  , 0.6   , 0.60  , 0.61  , 0.65  , 1245
+46, RangeList with RMQBucket, 223500, 19    , 0.5   , 2938  , 0.4   , 0.44  , 0.44  , 0.47  , 844
+46, RangeList with RMQBucket, 223500, 21    , 0.6   , 2136  , 0.3   , 0.29  , 0.29  , 0.31  , 563
+46, RangeList with RMQBucket, 223500, 23    , 0.7   , 1509  , 0.2   , 0.20  , 0.20  , 0.21  , 358
+46, RangeList with RMQBucket, 223500, 25    , 0.9   , 1018  , 0.1   , 0.13  , 0.13  , 0.14  , 225
+46, RangeList with RMQBucket, 223500, 27    , 1.1   , 601   , 0.1   , 0.07  , 0.07  , 0.08  , 122
+46, RangeList with RMQBucket, 223500, 29    , 1.3   , 436   , 0.0   , 0.05  , 0.05  , 0.05  , 61
+46, RangeList with RMQBucket, 223500, 31    , 1.5   , 250   , 0.0   , 0.03  , 0.03  , 0.04  , 41
+
+
+2211.07
+47, RangeList with RMQBucket, 229875, 3     , 0.1   , 994   , 0.2   , 0.18  , 0.18  , 0.37  , 660
+47, RangeList with RMQBucket, 229875, 5     , 0.1   , 1280  , 0.3   , 0.24  , 0.24  , 0.31  , 697
+47, RangeList with RMQBucket, 229875, 7     , 0.2   , 1301  , 0.2   , 0.21  , 0.21  , 0.25  , 596
+47, RangeList with RMQBucket, 229875, 9     , 0.2   , 1153  , 0.2   , 0.19  , 0.19  , 0.21  , 479
+47, RangeList with RMQBucket, 229875, 11    , 0.2   , 953   , 0.1   , 0.14  , 0.14  , 0.17  , 349
+47, RangeList with RMQBucket, 229875, 13    , 0.3   , 715   , 0.1   , 0.10  , 0.10  , 0.12  , 260
+47, RangeList with RMQBucket, 229875, 15    , 0.4   , 438   , 0.1   , 0.07  , 0.07  , 0.08  , 153
+47, RangeList with RMQBucket, 229875, 17    , 0.4   , 301   , 0.0   , 0.04  , 0.04  , 0.05  , 84
+47, RangeList with RMQBucket, 229875, 19    , 0.5   , 186   , 0.0   , 0.03  , 0.03  , 0.03  , 48
+47, RangeList with RMQBucket, 229875, 21    , 0.6   , 82    , 0.0   , 0.01  , 0.01  , 0.02  , 17
+47, RangeList with RMQBucket, 229875, 23    , 0.7   , 31    , 0.0   , 0.01  , 0.01  , 0.01  , 3
+47, RangeList with RMQBucket, 229875, 25    , 0.9   , 25    , 0.0   , 0.00  , 0.00  , 0.01  , 1
+47, RangeList with RMQBucket, 229875, 27    , 1.1   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+47, RangeList with RMQBucket, 229875, 29    , 1.3   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+47, RangeList with RMQBucket, 229875, 31    , 1.5   , 0     , 0.0   , 0.00  , 0.00  , 0.00  , 0
+
+
+4616.87
+48, RangeList with RMQBucket, 229875, 3     , 0.1   , 3666  , 0.9   , 0.77  , 0.78  , 1.21  , 2678
+48, RangeList with RMQBucket, 229875, 5     , 0.1   , 4794  , 1.1   , 1.04  , 1.05  , 1.17  , 2907
+48, RangeList with RMQBucket, 229875, 7     , 0.2   , 4715  , 1.0   , 1.02  , 1.03  , 1.10  , 2472
+48, RangeList with RMQBucket, 229875, 9     , 0.2   , 4462  , 0.8   , 0.80  , 0.81  , 0.88  , 2019
+48, RangeList with RMQBucket, 229875, 11    , 0.2   , 3845  , 0.7   , 0.66  , 0.67  , 0.73  , 1581
+48, RangeList with RMQBucket, 229875, 13    , 0.3   , 3105  , 0.6   , 0.55  , 0.55  , 0.59  , 1186
+48, RangeList with RMQBucket, 229875, 15    , 0.4   , 2383  , 0.4   , 0.38  , 0.39  , 0.42  , 848
+48, RangeList with RMQBucket, 229875, 17    , 0.4   , 1862  , 0.3   , 0.29  , 0.29  , 0.31  , 602
+48, RangeList with RMQBucket, 229875, 19    , 0.5   , 1307  , 0.2   , 0.20  , 0.20  , 0.21  , 412
+48, RangeList with RMQBucket, 229875, 21    , 0.6   , 907   , 0.1   , 0.14  , 0.14  , 0.15  , 291
+48, RangeList with RMQBucket, 229875, 23    , 0.7   , 565   , 0.1   , 0.09  , 0.09  , 0.10  , 192
+48, RangeList with RMQBucket, 229875, 25    , 0.9   , 365   , 0.1   , 0.05  , 0.05  , 0.08  , 117
+48, RangeList with RMQBucket, 229875, 27    , 1.1   , 219   , 0.0   , 0.03  , 0.03  , 0.04  , 67
+48, RangeList with RMQBucket, 229875, 29    , 1.3   , 146   , 0.0   , 0.02  , 0.02  , 0.03  , 36
+48, RangeList with RMQBucket, 229875, 31    , 1.5   , 42    , 0.0   , 0.01  , 0.01  , 0.01  , 13
+
+
+4254.53
+49, RangeList with RMQBucket, 229875, 3     , 0.1   , 1886  , 0.5   , 0.39  , 0.39  , 0.73  , 1396
+49, RangeList with RMQBucket, 229875, 5     , 0.1   , 2723  , 0.6   , 0.59  , 0.59  , 0.73  , 1655
+49, RangeList with RMQBucket, 229875, 7     , 0.2   , 2826  , 0.6   , 0.54  , 0.54  , 0.63  , 1486
+49, RangeList with RMQBucket, 229875, 9     , 0.2   , 2714  , 0.5   , 0.48  , 0.49  , 0.54  , 1233
+49, RangeList with RMQBucket, 229875, 11    , 0.2   , 2442  , 0.4   , 0.41  , 0.42  , 0.46  , 968
+49, RangeList with RMQBucket, 229875, 13    , 0.3   , 2075  , 0.4   , 0.35  , 0.35  , 0.39  , 754
+49, RangeList with RMQBucket, 229875, 15    , 0.4   , 1643  , 0.2   , 0.23  , 0.23  , 0.26  , 540
+49, RangeList with RMQBucket, 229875, 17    , 0.4   , 1205  , 0.2   , 0.16  , 0.16  , 0.18  , 356
+49, RangeList with RMQBucket, 229875, 19    , 0.5   , 817   , 0.1   , 0.11  , 0.11  , 0.12  , 218
+49, RangeList with RMQBucket, 229875, 21    , 0.6   , 486   , 0.1   , 0.07  , 0.07  , 0.08  , 127
+49, RangeList with RMQBucket, 229875, 23    , 0.7   , 291   , 0.0   , 0.04  , 0.04  , 0.05  , 77
+49, RangeList with RMQBucket, 229875, 25    , 0.9   , 184   , 0.0   , 0.02  , 0.02  , 0.03  , 47
+49, RangeList with RMQBucket, 229875, 27    , 1.1   , 119   , 0.0   , 0.02  , 0.02  , 0.02  , 31
+49, RangeList with RMQBucket, 229875, 29    , 1.3   , 34    , 0.0   , 0.01  , 0.01  , 0.01  , 10
+49, RangeList with RMQBucket, 229875, 31    , 1.5   , 30    , 0.0   , 0.00  , 0.00  , 0.01  , 8
+
+
+5552.09
+50, RangeList with RMQBucket, 229875, 3     , 0.1   , 4337  , 1.1   , 0.97  , 1.01  , 1.47  , 3487
+50, RangeList with RMQBucket, 229875, 5     , 0.1   , 6236  , 1.7   , 1.62  , 1.64  , 1.74  , 4240
+50, RangeList with RMQBucket, 229875, 7     , 0.2   , 6581  , 1.6   , 1.57  , 1.63  , 1.65  , 3836
+50, RangeList with RMQBucket, 229875, 9     , 0.2   , 6210  , 1.3   , 1.22  , 1.23  , 1.33  , 3157
+50, RangeList with RMQBucket, 229875, 11    , 0.2   , 5697  , 1.2   , 1.12  , 1.16  , 1.20  , 2563
+50, RangeList with RMQBucket, 229875, 13    , 0.3   , 4882  , 0.9   , 0.92  , 0.93  , 1.01  , 2030
+50, RangeList with RMQBucket, 229875, 15    , 0.4   , 4054  , 0.7   , 0.72  , 0.73  , 0.79  , 1518
+50, RangeList with RMQBucket, 229875, 17    , 0.4   , 3281  , 0.5   , 0.53  , 0.53  , 0.58  , 1134
+50, RangeList with RMQBucket, 229875, 19    , 0.5   , 2588  , 0.4   , 0.41  , 0.41  , 0.45  , 855
+50, RangeList with RMQBucket, 229875, 21    , 0.6   , 1986  , 0.3   , 0.30  , 0.30  , 0.32  , 635
+50, RangeList with RMQBucket, 229875, 23    , 0.7   , 1336  , 0.2   , 0.22  , 0.22  , 0.23  , 433
+50, RangeList with RMQBucket, 229875, 25    , 0.9   , 801   , 0.1   , 0.12  , 0.13  , 0.14  , 253
+50, RangeList with RMQBucket, 229875, 27    , 1.1   , 514   , 0.1   , 0.08  , 0.08  , 0.09  , 140
+50, RangeList with RMQBucket, 229875, 29    , 1.3   , 239   , 0.0   , 0.03  , 0.03  , 0.04  , 68
+50, RangeList with RMQBucket, 229875, 31    , 1.5   , 79    , 0.0   , 0.01  , 0.01  , 0.02  , 17
+
+
+SerieID, Heuristic, Serie, t,    d,    ans,  av_time, min,  med,  max,  ends  
+
+2069.72
+1, RangeList with RMQBucket, 229875, 5     , 0.1   , 2526  , 0.6   , 0.53  , 0.53  , 0.84  , 1426
+1 , RangeList with RMQBucket, 229875, 9     , 0.1   , 4653  , 0.9   , 0.90  , 0.91  , 1.03  , 2059
+1 , RangeList with RMQBucket, 229875, 13    , 0.1   , 6521  , 1.2   , 1.15  , 1.15  , 1.22  , 2390
+1 , RangeList with RMQBucket, 229875, 17    , 0.1   , 7403  , 1.4   , 1.35  , 1.36  , 1.44  , 2384
+1 , RangeList with RMQBucket, 229875, 21    , 0.2   , 7695  , 1.4   , 1.33  , 1.35  , 1.38  , 2187
+1 , RangeList with RMQBucket, 229875, 25    , 0.2   , 7943  , 1.4   , 1.37  , 1.37  , 1.41  , 2106
+1 , RangeList with RMQBucket, 229875, 29    , 0.2   , 7832  , 1.4   , 1.36  , 1.37  , 1.41  , 1922
+1 , RangeList with RMQBucket, 229875, 33    , 0.2   , 7363  , 1.1   , 1.11  , 1.14  , 1.15  , 1651
+1 , RangeList with RMQBucket, 229875, 37    , 0.2   , 6674  , 1.0   , 1.00  , 1.00  , 1.06  , 1334
+1 , RangeList with RMQBucket, 229875, 41    , 0.3   , 6177  , 0.9   , 0.92  , 0.93  , 0.97  , 1187
+1 , RangeList with RMQBucket, 229875, 45    , 0.3   , 5027  , 0.8   , 0.75  , 0.75  , 0.80  , 955
+1 , RangeList with RMQBucket, 229875, 49    , 0.3   , 4234  , 0.6   , 0.61  , 0.62  , 0.65  , 807
+1 , RangeList with RMQBucket, 229875, 53    , 0.3   , 3377  , 0.5   , 0.48  , 0.48  , 0.53  , 625
+1 , RangeList with RMQBucket, 229875, 57    , 0.4   , 2862  , 0.4   , 0.40  , 0.41  , 0.42  , 510
+1 , RangeList with RMQBucket, 229875, 61    , 0.4   , 2279  , 0.3   , 0.32  , 0.32  , 0.33  , 390
+
+
+1498.25
+2, RangeList with RMQBucket, 229875, 5     , 0.1   , 5716  , 1.2   , 1.10  , 1.11  , 1.46  , 3011
+2 , RangeList with RMQBucket, 229875, 9     , 0.1   , 8627  , 1.7   , 1.67  , 1.69  , 1.75  , 3445
+2 , RangeList with RMQBucket, 229875, 13    , 0.1   , 10844 , 2.0   , 1.97  , 2.01  , 2.05  , 3544
+2 , RangeList with RMQBucket, 229875, 17    , 0.1   , 11555 , 2.1   , 2.04  , 2.09  , 2.22  , 3200
+2 , RangeList with RMQBucket, 229875, 21    , 0.2   , 11853 , 2.1   , 2.07  , 2.09  , 2.13  , 2911
+2 , RangeList with RMQBucket, 229875, 25    , 0.2   , 11838 , 2.1   , 2.05  , 2.06  , 2.09  , 2631
+2 , RangeList with RMQBucket, 229875, 29    , 0.2   , 11938 , 1.8   , 1.80  , 1.82  , 1.88  , 2376
+2 , RangeList with RMQBucket, 229875, 33    , 0.2   , 10932 , 1.7   , 1.67  , 1.69  , 1.72  , 2035
+2 , RangeList with RMQBucket, 229875, 37    , 0.2   , 9700  , 1.5   , 1.44  , 1.50  , 1.52  , 1679
+2 , RangeList with RMQBucket, 229875, 41    , 0.3   , 9122  , 1.4   , 1.34  , 1.36  , 1.38  , 1468
+2 , RangeList with RMQBucket, 229875, 45    , 0.3   , 7761  , 1.1   , 1.04  , 1.05  , 1.10  , 1162
+2 , RangeList with RMQBucket, 229875, 49    , 0.3   , 6713  , 0.9   , 0.92  , 0.92  , 0.99  , 964
+2 , RangeList with RMQBucket, 229875, 53    , 0.3   , 5407  , 0.7   , 0.74  , 0.74  , 0.77  , 732
+2 , RangeList with RMQBucket, 229875, 57    , 0.4   , 4677  , 0.6   , 0.63  , 0.63  , 0.66  , 581
+2 , RangeList with RMQBucket, 229875, 61    , 0.4   , 3901  , 0.5   , 0.50  , 0.51  , 0.52  , 444
+
+
+3984.10
+3, RangeList with RMQBucket, 229875, 5     , 0.1   , 6811  , 1.8   , 1.68  , 1.70  , 2.02  , 4330
+3 , RangeList with RMQBucket, 229875, 9     , 0.1   , 12233 , 2.9   , 2.84  , 2.85  , 2.88  , 6104
+3 , RangeList with RMQBucket, 229875, 13    , 0.1   , 16473 , 3.9   , 3.86  , 3.87  , 3.90  , 6866
+3 , RangeList with RMQBucket, 229875, 17    , 0.1   , 18434 , 4.1   , 4.08  , 4.11  , 4.13  , 6715
+3 , RangeList with RMQBucket, 229875, 21    , 0.2   , 19171 , 4.1   , 4.12  , 4.14  , 4.18  , 6297
+3 , RangeList with RMQBucket, 229875, 25    , 0.2   , 19922 , 3.6   , 3.59  , 3.61  , 3.67  , 6021
+3 , RangeList with RMQBucket, 229875, 29    , 0.2   , 20005 , 3.7   , 3.73  , 3.75  , 3.77  , 5586
+3 , RangeList with RMQBucket, 229875, 33    , 0.2   , 18993 , 3.5   , 3.46  , 3.50  , 3.58  , 4979
+3 , RangeList with RMQBucket, 229875, 37    , 0.2   , 17506 , 3.3   , 3.21  , 3.24  , 3.35  , 4303
+3 , RangeList with RMQBucket, 229875, 41    , 0.3   , 16833 , 2.9   , 2.84  , 2.89  , 2.94  , 3912
+3 , RangeList with RMQBucket, 229875, 45    , 0.3   , 15004 , 2.6   , 2.53  , 2.57  , 2.62  , 3318
+3 , RangeList with RMQBucket, 229875, 49    , 0.3   , 13796 , 2.3   , 2.29  , 2.35  , 2.38  , 2928
+3 , RangeList with RMQBucket, 229875, 53    , 0.3   , 12267 , 2.1   , 2.03  , 2.06  , 2.10  , 2484
+3 , RangeList with RMQBucket, 229875, 57    , 0.4   , 11135 , 1.8   , 1.77  , 1.80  , 1.84  , 2202
+3 , RangeList with RMQBucket, 229875, 61    , 0.4   , 9484  , 1.5   , 1.51  , 1.52  , 1.57  , 1853
+
+
+4644.92
+4, RangeList with RMQBucket, 229875, 5     , 0.1   , 6133  , 1.6   , 1.52  , 1.57  , 1.98  , 4035
+4 , RangeList with RMQBucket, 229875, 9     , 0.1   , 11687 , 2.9   , 2.87  , 2.89  , 3.00  , 6146
+4 , RangeList with RMQBucket, 229875, 13    , 0.1   , 15580 , 3.6   , 3.59  , 3.61  , 3.67  , 6973
+4 , RangeList with RMQBucket, 229875, 17    , 0.1   , 18070 , 4.2   , 4.17  , 4.22  , 4.25  , 7115
+4 , RangeList with RMQBucket, 229875, 21    , 0.2   , 19200 , 3.8   , 3.74  , 3.78  , 3.86  , 6907
+4 , RangeList with RMQBucket, 229875, 25    , 0.2   , 19530 , 4.0   , 3.95  , 3.98  , 4.02  , 6482
+4 , RangeList with RMQBucket, 229875, 29    , 0.2   , 19057 , 3.8   , 3.78  , 3.80  , 3.83  , 5870
+4 , RangeList with RMQBucket, 229875, 33    , 0.2   , 18312 , 3.4   , 3.39  , 3.43  , 3.46  , 5301
+4 , RangeList with RMQBucket, 229875, 37    , 0.2   , 16905 , 3.3   , 3.25  , 3.27  , 3.36  , 4606
+4 , RangeList with RMQBucket, 229875, 41    , 0.3   , 15879 , 3.0   , 3.00  , 3.04  , 3.09  , 4116
+4 , RangeList with RMQBucket, 229875, 45    , 0.3   , 14157 , 2.7   , 2.62  , 2.65  , 2.69  , 3553
+4 , RangeList with RMQBucket, 229875, 49    , 0.3   , 12707 , 2.4   , 2.32  , 2.36  , 2.42  , 3071
+4 , RangeList with RMQBucket, 229875, 53    , 0.3   , 11085 , 2.1   , 2.02  , 2.05  , 2.14  , 2614
+4 , RangeList with RMQBucket, 229875, 57    , 0.4   , 9670  , 1.6   , 1.57  , 1.60  , 1.69  , 2217
+4 , RangeList with RMQBucket, 229875, 61    , 0.4   , 7990  , 1.3   , 1.27  , 1.28  , 1.34  , 1802
+
+
+1727.28
+5, RangeList with RMQBucket, 229875, 5     , 0.1   , 742   , 0.1   , 0.12  , 0.12  , 0.22  , 355
+5 , RangeList with RMQBucket, 229875, 9     , 0.1   , 1251  , 0.2   , 0.17  , 0.17  , 0.22  , 460
+5 , RangeList with RMQBucket, 229875, 13    , 0.1   , 1726  , 0.3   , 0.24  , 0.24  , 0.29  , 540
+5 , RangeList with RMQBucket, 229875, 17    , 0.1   , 1966  , 0.3   , 0.28  , 0.28  , 0.32  , 540
+5 , RangeList with RMQBucket, 229875, 21    , 0.2   , 2055  , 0.3   , 0.28  , 0.28  , 0.31  , 494
+5 , RangeList with RMQBucket, 229875, 25    , 0.2   , 2124  , 0.3   , 0.29  , 0.29  , 0.33  , 460
+5 , RangeList with RMQBucket, 229875, 29    , 0.2   , 2052  , 0.3   , 0.28  , 0.28  , 0.31  , 408
+5 , RangeList with RMQBucket, 229875, 33    , 0.2   , 1859  , 0.3   , 0.26  , 0.26  , 0.27  , 356
+5 , RangeList with RMQBucket, 229875, 37    , 0.2   , 1547  , 0.2   , 0.21  , 0.21  , 0.22  , 275
+5 , RangeList with RMQBucket, 229875, 41    , 0.3   , 1394  , 0.2   , 0.19  , 0.19  , 0.20  , 230
+5 , RangeList with RMQBucket, 229875, 45    , 0.3   , 1038  , 0.1   , 0.14  , 0.14  , 0.16  , 167
+5 , RangeList with RMQBucket, 229875, 49    , 0.3   , 797   , 0.1   , 0.11  , 0.11  , 0.12  , 127
+5 , RangeList with RMQBucket, 229875, 53    , 0.3   , 600   , 0.1   , 0.08  , 0.08  , 0.09  , 88
+5 , RangeList with RMQBucket, 229875, 57    , 0.4   , 479   , 0.1   , 0.06  , 0.06  , 0.07  , 75
+5 , RangeList with RMQBucket, 229875, 61    , 0.4   , 393   , 0.0   , 0.05  , 0.05  , 0.06  , 64
+
+
+4379.75
+6, RangeList with RMQBucket, 229875, 5     , 0.1   , 15348 , 4.2   , 4.10  , 4.15  , 4.40  , 9982
+6 , RangeList with RMQBucket, 229875, 9     , 0.1   , 25306 , 6.0   , 6.00  , 6.03  , 6.05  , 12853
+6 , RangeList with RMQBucket, 229875, 13    , 0.1   , 32427 , 7.3   , 7.26  , 7.28  , 7.36  , 13829
+6 , RangeList with RMQBucket, 229875, 17    , 0.1   , 35020 , 7.9   , 7.83  , 7.86  , 7.87  , 13162
+6 , RangeList with RMQBucket, 229875, 21    , 0.2   , 36384 , 6.9   , 6.85  , 6.88  , 6.89  , 12302
+6 , RangeList with RMQBucket, 229875, 25    , 0.2   , 37253 , 7.0   , 6.92  , 6.97  , 6.99  , 11486
+6 , RangeList with RMQBucket, 229875, 29    , 0.2   , 37440 , 7.1   , 7.11  , 7.15  , 7.17  , 10714
+6 , RangeList with RMQBucket, 229875, 33    , 0.2   , 35953 , 6.5   , 6.46  , 6.50  , 6.53  , 9547
+6 , RangeList with RMQBucket, 229875, 37    , 0.2   , 33331 , 6.1   , 6.03  , 6.06  , 6.07  , 8288
+6 , RangeList with RMQBucket, 229875, 41    , 0.3   , 32247 , 5.9   , 5.85  , 5.88  , 5.90  , 7551
+6 , RangeList with RMQBucket, 229875, 45    , 0.3   , 29373 , 5.3   , 5.24  , 5.29  , 5.36  , 6582
+6 , RangeList with RMQBucket, 229875, 49    , 0.3   , 27715 , 5.0   , 4.95  , 4.95  , 5.00  , 5969
+6 , RangeList with RMQBucket, 229875, 53    , 0.3   , 25137 , 4.6   , 4.54  , 4.58  , 4.61  , 5163
+6 , RangeList with RMQBucket, 229875, 57    , 0.4   , 23445 , 3.8   , 3.81  , 3.82  , 3.87  , 4623
+6 , RangeList with RMQBucket, 229875, 61    , 0.4   , 20949 , 3.4   , 3.35  , 3.36  , 3.44  , 3972
+
+
+3298.85
+7, RangeList with RMQBucket, 229875, 5     , 0.1   , 6470  , 1.6   , 1.53  , 1.56  , 1.96  , 4029
+7 , RangeList with RMQBucket, 229875, 9     , 0.1   , 11807 , 2.6   , 2.60  , 2.65  , 2.68  , 5912
+7 , RangeList with RMQBucket, 229875, 13    , 0.1   , 15623 , 3.5   , 3.43  , 3.44  , 3.49  , 6585
+7 , RangeList with RMQBucket, 229875, 17    , 0.1   , 17705 , 3.6   , 3.54  , 3.60  , 3.60  , 6547
+7 , RangeList with RMQBucket, 229875, 21    , 0.2   , 18764 , 3.8   , 3.81  , 3.84  , 3.89  , 6238
+7 , RangeList with RMQBucket, 229875, 25    , 0.2   , 19405 , 4.1   , 4.04  , 4.07  , 4.13  , 5922
+7 , RangeList with RMQBucket, 229875, 29    , 0.2   , 19348 , 3.9   , 3.85  , 3.88  , 3.91  , 5499
+7 , RangeList with RMQBucket, 229875, 33    , 0.2   , 18274 , 3.7   , 3.64  , 3.65  , 3.67  , 4913
+7 , RangeList with RMQBucket, 229875, 37    , 0.2   , 17030 , 3.4   , 3.40  , 3.41  , 3.43  , 4305
+7 , RangeList with RMQBucket, 229875, 41    , 0.3   , 16067 , 2.7   , 2.69  , 2.74  , 2.78  , 3800
+7 , RangeList with RMQBucket, 229875, 45    , 0.3   , 14255 , 2.4   , 2.39  , 2.42  , 2.45  , 3224
+7 , RangeList with RMQBucket, 229875, 49    , 0.3   , 12998 , 2.2   , 2.13  , 2.16  , 2.21  , 2813
+7 , RangeList with RMQBucket, 229875, 53    , 0.3   , 11354 , 1.9   , 1.86  , 1.89  , 2.10  , 2307
+7 , RangeList with RMQBucket, 229875, 57    , 0.4   , 9977  , 1.5   , 1.50  , 1.50  , 1.65  , 1925
+7 , RangeList with RMQBucket, 229875, 61    , 0.4   , 8085  , 1.2   , 1.21  , 1.22  , 1.28  , 1548
+
+
+2670.28
+8, RangeList with RMQBucket, 229875, 5     , 0.1   , 2384  , 0.5   , 0.45  , 0.45  , 0.74  , 1292
+8 , RangeList with RMQBucket, 229875, 9     , 0.1   , 4237  , 0.8   , 0.74  , 0.75  , 0.86  , 1763
+8 , RangeList with RMQBucket, 229875, 13    , 0.1   , 5653  , 1.0   , 0.96  , 0.97  , 1.06  , 1969
+8 , RangeList with RMQBucket, 229875, 17    , 0.1   , 6573  , 1.1   , 1.08  , 1.09  , 1.16  , 1954
+8 , RangeList with RMQBucket, 229875, 21    , 0.2   , 7074  , 1.0   , 1.00  , 1.01  , 1.09  , 1858
+8 , RangeList with RMQBucket, 229875, 25    , 0.2   , 7447  , 1.1   , 1.08  , 1.09  , 1.14  , 1761
+8 , RangeList with RMQBucket, 229875, 29    , 0.2   , 7373  , 1.1   , 1.06  , 1.06  , 1.12  , 1598
+8 , RangeList with RMQBucket, 229875, 33    , 0.2   , 6866  , 1.0   , 1.00  , 1.03  , 1.05  , 1407
+8 , RangeList with RMQBucket, 229875, 37    , 0.2   , 6341  , 0.9   , 0.88  , 0.88  , 0.94  , 1198
+8 , RangeList with RMQBucket, 229875, 41    , 0.3   , 6125  , 0.8   , 0.82  , 0.82  , 0.86  , 1014
+8 , RangeList with RMQBucket, 229875, 45    , 0.3   , 5442  , 0.7   , 0.71  , 0.71  , 0.73  , 832
+8 , RangeList with RMQBucket, 229875, 49    , 0.3   , 4628  , 0.6   , 0.62  , 0.62  , 0.65  , 697
+8 , RangeList with RMQBucket, 229875, 53    , 0.3   , 3950  , 0.5   , 0.51  , 0.51  , 0.54  , 547
+8 , RangeList with RMQBucket, 229875, 57    , 0.4   , 3302  , 0.4   , 0.43  , 0.43  , 0.44  , 427
+8 , RangeList with RMQBucket, 229875, 61    , 0.4   , 2557  , 0.3   , 0.32  , 0.32  , 0.33  , 316
+
+
+3095.86
+9, RangeList with RMQBucket, 229875, 5     , 0.1   , 17333 , 4.5   , 4.41  , 4.45  , 4.67  , 10373
+9 , RangeList with RMQBucket, 229875, 9     , 0.1   , 27153 , 5.3   , 5.26  , 5.30  , 5.31  , 12743
+9 , RangeList with RMQBucket, 229875, 13    , 0.1   , 34068 , 6.7   , 6.65  , 6.68  , 6.68  , 13424
+9 , RangeList with RMQBucket, 229875, 17    , 0.1   , 37335 , 7.5   , 7.46  , 7.50  , 7.52  , 12885
+9 , RangeList with RMQBucket, 229875, 21    , 0.2   , 39064 , 7.3   , 7.31  , 7.35  , 7.38  , 12201
+9 , RangeList with RMQBucket, 229875, 25    , 0.2   , 40322 , 7.6   , 7.50  , 7.55  , 7.65  , 11539
+9 , RangeList with RMQBucket, 229875, 29    , 0.2   , 41090 , 7.4   , 7.31  , 7.37  , 7.37  , 10870
+9 , RangeList with RMQBucket, 229875, 33    , 0.2   , 40160 , 7.4   , 7.33  , 7.36  , 7.37  , 9920
+9 , RangeList with RMQBucket, 229875, 37    , 0.2   , 38021 , 7.0   , 6.96  , 7.00  , 7.01  , 8916
+9 , RangeList with RMQBucket, 229875, 41    , 0.3   , 37206 , 6.9   , 6.91  , 6.95  , 6.97  , 8302
+9 , RangeList with RMQBucket, 229875, 45    , 0.3   , 34611 , 5.6   , 5.59  , 5.65  , 5.66  , 7335
+9 , RangeList with RMQBucket, 229875, 49    , 0.3   , 32961 , 5.4   , 5.39  , 5.44  , 5.46  , 6737
+9 , RangeList with RMQBucket, 229875, 53    , 0.3   , 30264 , 4.9   , 4.84  , 4.87  , 4.90  , 5948
+9 , RangeList with RMQBucket, 229875, 57    , 0.4   , 28718 , 4.7   , 4.66  , 4.69  , 4.70  , 5502
+9 , RangeList with RMQBucket, 229875, 61    , 0.4   , 26243 , 4.4   , 4.35  , 4.37  , 4.40  , 4835
+
+
+3260.91
+10, RangeList with RMQBucket, 229875, 5     , 0.1   , 18098 , 4.8   , 4.70  , 4.74  , 5.04  , 11072
+10, RangeList with RMQBucket, 229875, 9     , 0.1   , 28028 , 7.1   , 6.77  , 6.81  , 8.34  , 13285
+10, RangeList with RMQBucket, 229875, 13    , 0.1   , 34932 , 7.1   , 7.10  , 7.15  , 7.17  , 13867
+10, RangeList with RMQBucket, 229875, 17    , 0.1   , 37891 , 7.5   , 7.50  , 7.55  , 7.58  , 13195
+10, RangeList with RMQBucket, 229875, 21    , 0.2   , 39474 , 7.8   , 7.77  , 7.81  , 7.82  , 12349
+10, RangeList with RMQBucket, 229875, 25    , 0.2   , 40673 , 7.4   , 7.33  , 7.38  , 7.39  , 11583
+10, RangeList with RMQBucket, 229875, 29    , 0.2   , 41376 , 7.4   , 7.33  , 7.38  , 7.40  , 10911
+10, RangeList with RMQBucket, 229875, 33    , 0.2   , 39994 , 7.3   , 7.25  , 7.28  , 7.29  , 9896
+10, RangeList with RMQBucket, 229875, 37    , 0.2   , 37746 , 6.6   , 6.53  , 6.57  , 6.63  , 8760
+10, RangeList with RMQBucket, 229875, 41    , 0.3   , 36907 , 6.5   , 6.47  , 6.52  , 6.54  , 8079
+10, RangeList with RMQBucket, 229875, 45    , 0.3   , 34206 , 6.0   , 5.98  , 6.03  , 6.05  , 7078
+10, RangeList with RMQBucket, 229875, 49    , 0.3   , 32507 , 5.6   , 5.54  , 5.59  , 5.61  , 6438
+10, RangeList with RMQBucket, 229875, 53    , 0.3   , 29283 , 5.1   , 5.08  , 5.13  , 5.13  , 5589
+10, RangeList with RMQBucket, 229875, 57    , 0.4   , 27278 , 4.8   , 4.82  , 4.83  , 4.87  , 5056
+10, RangeList with RMQBucket, 229875, 61    , 0.4   , 24515 , 3.8   , 3.73  , 3.75  , 3.83  , 4317
+
+
+1457.30
+11, RangeList with RMQBucket, 185250, 5     , 0.1   , 16329 , 3.9   , 3.80  , 3.84  , 4.00  , 9595
+11, RangeList with RMQBucket, 185250, 9     , 0.1   , 25136 , 5.4   , 5.35  , 5.39  , 5.40  , 11192
+11, RangeList with RMQBucket, 185250, 13    , 0.1   , 29122 , 5.6   , 5.58  , 5.63  , 5.65  , 10841
+11, RangeList with RMQBucket, 185250, 17    , 0.1   , 33326 , 6.3   , 6.27  , 6.31  , 6.34  , 10732
+11, RangeList with RMQBucket, 185250, 21    , 0.2   , 34162 , 6.2   , 6.19  , 6.22  , 6.24  , 9974
+11, RangeList with RMQBucket, 185250, 25    , 0.2   , 32598 , 5.9   , 5.83  , 5.87  , 5.89  , 8761
+11, RangeList with RMQBucket, 185250, 29    , 0.2   , 34432 , 6.1   , 6.03  , 6.08  , 6.10  , 8493
+11, RangeList with RMQBucket, 185250, 33    , 0.2   , 32233 , 5.7   , 5.64  , 5.68  , 5.69  , 7464
+11, RangeList with RMQBucket, 185250, 37    , 0.2   , 32325 , 5.6   , 5.59  , 5.60  , 5.64  , 7022
+11, RangeList with RMQBucket, 185250, 41    , 0.3   , 30344 , 4.5   , 4.49  , 4.54  , 4.58  , 6236
+11, RangeList with RMQBucket, 185250, 45    , 0.3   , 28654 , 4.3   , 4.30  , 4.36  , 4.39  , 5588
+11, RangeList with RMQBucket, 185250, 49    , 0.3   , 26298 , 4.0   , 3.94  , 3.99  , 4.00  , 4894
+11, RangeList with RMQBucket, 185250, 53    , 0.3   , 24983 , 3.8   , 3.81  , 3.83  , 3.86  , 4447
+11, RangeList with RMQBucket, 185250, 57    , 0.4   , 22475 , 3.3   , 3.31  , 3.33  , 3.38  , 3865
+11, RangeList with RMQBucket, 185250, 61    , 0.4   , 20862 , 3.2   , 3.11  , 3.16  , 3.28  , 3444
+
+
+1305.46
+12, RangeList with RMQBucket, 185250, 5     , 0.1   , 16329 , 3.9   , 3.80  , 3.84  , 4.03  , 9595
+12, RangeList with RMQBucket, 185250, 9     , 0.1   , 25136 , 5.4   , 5.36  , 5.40  , 5.57  , 11192
+12, RangeList with RMQBucket, 185250, 13    , 0.1   , 29122 , 5.6   , 5.59  , 5.63  , 5.64  , 10841
+12, RangeList with RMQBucket, 185250, 17    , 0.1   , 33326 , 6.3   , 6.27  , 6.31  , 6.34  , 10732
+12, RangeList with RMQBucket, 185250, 21    , 0.2   , 34162 , 6.2   , 6.21  , 6.23  , 6.25  , 9974
+12, RangeList with RMQBucket, 185250, 25    , 0.2   , 32598 , 5.8   , 5.81  , 5.84  , 5.87  , 8761
+12, RangeList with RMQBucket, 185250, 29    , 0.2   , 34432 , 6.1   , 6.04  , 6.08  , 6.09  , 8493
+12, RangeList with RMQBucket, 185250, 33    , 0.2   , 32233 , 5.7   , 5.64  , 5.69  , 5.72  , 7464
+12, RangeList with RMQBucket, 185250, 37    , 0.2   , 32325 , 5.6   , 5.60  , 5.63  , 5.66  , 7022
+12, RangeList with RMQBucket, 185250, 41    , 0.3   , 30344 , 4.5   , 4.49  , 4.50  , 4.57  , 6236
+12, RangeList with RMQBucket, 185250, 45    , 0.3   , 28654 , 4.3   , 4.31  , 4.34  , 4.40  , 5588
+12, RangeList with RMQBucket, 185250, 49    , 0.3   , 26298 , 4.0   , 3.95  , 3.98  , 4.01  , 4894
+12, RangeList with RMQBucket, 185250, 53    , 0.3   , 24983 , 3.9   , 3.80  , 3.87  , 3.92  , 4447
+12, RangeList with RMQBucket, 185250, 57    , 0.4   , 22475 , 3.5   , 3.33  , 3.55  , 3.59  , 3865
+12, RangeList with RMQBucket, 185250, 61    , 0.4   , 20862 , 3.2   , 3.12  , 3.14  , 3.29  , 3444
+
+
+3140.70
+13, RangeList with RMQBucket, 222375, 5     , 0.1   , 1457  , 0.3   , 0.27  , 0.27  , 0.48  , 858
+13, RangeList with RMQBucket, 222375, 9     , 0.1   , 2813  , 0.5   , 0.51  , 0.51  , 0.67  , 1287
+13, RangeList with RMQBucket, 222375, 13    , 0.1   , 3794  , 0.7   , 0.70  , 0.71  , 0.82  , 1507
+13, RangeList with RMQBucket, 222375, 17    , 0.1   , 4477  , 0.8   , 0.76  , 0.76  , 0.85  , 1565
+13, RangeList with RMQBucket, 222375, 21    , 0.2   , 4657  , 0.8   , 0.80  , 0.80  , 0.91  , 1505
+13, RangeList with RMQBucket, 222375, 25    , 0.2   , 4775  , 0.8   , 0.78  , 0.78  , 0.85  , 1416
+13, RangeList with RMQBucket, 222375, 29    , 0.2   , 4569  , 0.8   , 0.73  , 0.75  , 0.77  , 1233
+13, RangeList with RMQBucket, 222375, 33    , 0.2   , 4140  , 0.7   , 0.65  , 0.66  , 0.69  , 1025
+13, RangeList with RMQBucket, 222375, 37    , 0.2   , 3525  , 0.5   , 0.51  , 0.51  , 0.54  , 829
+13, RangeList with RMQBucket, 222375, 41    , 0.3   , 3037  , 0.4   , 0.44  , 0.44  , 0.46  , 675
+13, RangeList with RMQBucket, 222375, 45    , 0.3   , 2534  , 0.4   , 0.36  , 0.36  , 0.41  , 537
+13, RangeList with RMQBucket, 222375, 49    , 0.3   , 2184  , 0.3   , 0.31  , 0.31  , 0.32  , 428
+13, RangeList with RMQBucket, 222375, 53    , 0.3   , 1635  , 0.2   , 0.23  , 0.23  , 0.24  , 323
+13, RangeList with RMQBucket, 222375, 57    , 0.4   , 1313  , 0.2   , 0.18  , 0.18  , 0.20  , 246
+13, RangeList with RMQBucket, 222375, 61    , 0.4   , 926   , 0.1   , 0.12  , 0.12  , 0.13  , 178
+
+
+3292.30
+14, RangeList with RMQBucket, 222375, 5     , 0.1   , 1457  , 0.3   , 0.27  , 0.27  , 0.47  , 858
+14, RangeList with RMQBucket, 222375, 9     , 0.1   , 2813  , 0.5   , 0.51  , 0.51  , 0.62  , 1287
+14, RangeList with RMQBucket, 222375, 13    , 0.1   , 3794  , 0.7   , 0.70  , 0.70  , 0.81  , 1507
+14, RangeList with RMQBucket, 222375, 17    , 0.1   , 4477  , 0.8   , 0.76  , 0.77  , 0.89  , 1565
+14, RangeList with RMQBucket, 222375, 21    , 0.2   , 4657  , 0.8   , 0.79  , 0.79  , 0.87  , 1505
+14, RangeList with RMQBucket, 222375, 25    , 0.2   , 4775  , 0.8   , 0.78  , 0.78  , 0.84  , 1416
+14, RangeList with RMQBucket, 222375, 29    , 0.2   , 4569  , 0.7   , 0.73  , 0.73  , 0.77  , 1233
+14, RangeList with RMQBucket, 222375, 33    , 0.2   , 4140  , 0.7   , 0.65  , 0.65  , 0.69  , 1025
+14, RangeList with RMQBucket, 222375, 37    , 0.2   , 3525  , 0.5   , 0.51  , 0.51  , 0.54  , 829
+14, RangeList with RMQBucket, 222375, 41    , 0.3   , 3037  , 0.4   , 0.44  , 0.45  , 0.46  , 675
+14, RangeList with RMQBucket, 222375, 45    , 0.3   , 2534  , 0.4   , 0.36  , 0.36  , 0.38  , 537
+14, RangeList with RMQBucket, 222375, 49    , 0.3   , 2184  , 0.3   , 0.31  , 0.31  , 0.32  , 428
+14, RangeList with RMQBucket, 222375, 53    , 0.3   , 1635  , 0.2   , 0.23  , 0.23  , 0.24  , 323
+14, RangeList with RMQBucket, 222375, 57    , 0.4   , 1313  , 0.2   , 0.18  , 0.18  , 0.19  , 246
+14, RangeList with RMQBucket, 222375, 61    , 0.4   , 926   , 0.1   , 0.12  , 0.12  , 0.13  , 178
+
+
+4275.15
+15, RangeList with RMQBucket, 222375, 5     , 0.1   , 7924  , 2.3   , 2.19  , 2.20  , 2.60  , 5285
+15, RangeList with RMQBucket, 222375, 9     , 0.1   , 14791 , 3.5   , 3.53  , 3.55  , 3.57  , 7744
+15, RangeList with RMQBucket, 222375, 13    , 0.1   , 19637 , 4.9   , 4.86  , 4.88  , 4.92  , 8764
+15, RangeList with RMQBucket, 222375, 17    , 0.1   , 22354 , 5.2   , 4.70  , 4.76  , 6.82  , 8836
+15, RangeList with RMQBucket, 222375, 21    , 0.2   , 23441 , 5.0   , 4.97  , 5.03  , 5.03  , 8441
+15, RangeList with RMQBucket, 222375, 25    , 0.2   , 24232 , 4.9   , 4.87  , 4.90  , 4.93  , 8019
+15, RangeList with RMQBucket, 222375, 29    , 0.2   , 24223 , 4.8   , 4.81  , 4.85  , 4.88  , 7380
+15, RangeList with RMQBucket, 222375, 33    , 0.2   , 23062 , 4.7   , 4.64  , 4.66  , 4.69  , 6517
+15, RangeList with RMQBucket, 222375, 37    , 0.2   , 21567 , 4.0   , 3.93  , 3.95  , 3.99  , 5726
+15, RangeList with RMQBucket, 222375, 41    , 0.3   , 20417 , 3.8   , 3.77  , 3.79  , 3.83  , 5104
+15, RangeList with RMQBucket, 222375, 45    , 0.3   , 18406 , 3.3   , 3.30  , 3.33  , 3.35  , 4391
+15, RangeList with RMQBucket, 222375, 49    , 0.3   , 17102 , 3.2   , 3.12  , 3.16  , 3.19  , 3889
+15, RangeList with RMQBucket, 222375, 53    , 0.3   , 15379 , 2.7   , 2.67  , 2.71  , 2.74  , 3253
+15, RangeList with RMQBucket, 222375, 57    , 0.4   , 13971 , 2.4   , 2.29  , 2.35  , 2.50  , 2835
+15, RangeList with RMQBucket, 222375, 61    , 0.4   , 12179 , 2.0   , 1.94  , 1.96  , 2.05  , 2350
+
+
+3424.20
+16, RangeList with RMQBucket, 222375, 5     , 0.1   , 6710  , 1.7   , 1.61  , 1.63  , 2.04  , 4249
+16, RangeList with RMQBucket, 222375, 9     , 0.1   , 12057 , 2.9   , 2.87  , 2.91  , 2.93  , 5950
+16, RangeList with RMQBucket, 222375, 13    , 0.1   , 16285 , 3.3   , 3.29  , 3.30  , 3.35  , 6725
+16, RangeList with RMQBucket, 222375, 17    , 0.1   , 18259 , 3.9   , 3.83  , 3.84  , 3.89  , 6624
+16, RangeList with RMQBucket, 222375, 21    , 0.2   , 19258 , 3.9   , 3.85  , 3.86  , 3.92  , 6237
+16, RangeList with RMQBucket, 222375, 25    , 0.2   , 20194 , 4.0   , 4.01  , 4.02  , 4.08  , 5984
+16, RangeList with RMQBucket, 222375, 29    , 0.2   , 20436 , 3.6   , 3.60  , 3.63  , 3.67  , 5597
+16, RangeList with RMQBucket, 222375, 33    , 0.2   , 19723 , 3.6   , 3.54  , 3.55  , 3.61  , 5031
+16, RangeList with RMQBucket, 222375, 37    , 0.2   , 18385 , 3.3   , 3.23  , 3.26  , 3.27  , 4415
+16, RangeList with RMQBucket, 222375, 41    , 0.3   , 17530 , 3.2   , 3.10  , 3.15  , 3.23  , 3975
+16, RangeList with RMQBucket, 222375, 45    , 0.3   , 15831 , 2.6   , 2.55  , 2.59  , 2.63  , 3403
+16, RangeList with RMQBucket, 222375, 49    , 0.3   , 14769 , 2.4   , 2.40  , 2.44  , 2.49  , 3060
+16, RangeList with RMQBucket, 222375, 53    , 0.3   , 13353 , 2.2   , 2.12  , 2.13  , 2.21  , 2619
+16, RangeList with RMQBucket, 222375, 57    , 0.4   , 12408 , 2.0   , 1.92  , 1.96  , 1.99  , 2345
+16, RangeList with RMQBucket, 222375, 61    , 0.4   , 10814 , 1.7   , 1.67  , 1.68  , 1.76  , 1994
+
+
+2793.86
+17, RangeList with RMQBucket, 222375, 5     , 0.1   , 6901  , 1.8   , 1.78  , 1.79  , 2.09  , 4429
+17, RangeList with RMQBucket, 222375, 9     , 0.1   , 12066 , 2.6   , 2.62  , 2.64  , 2.69  , 6000
+17, RangeList with RMQBucket, 222375, 13    , 0.1   , 16186 , 3.3   , 3.29  , 3.30  , 3.34  , 6765
+17, RangeList with RMQBucket, 222375, 17    , 0.1   , 17903 , 3.8   , 3.81  , 3.82  , 3.87  , 6553
+17, RangeList with RMQBucket, 222375, 21    , 0.2   , 18735 , 3.9   , 3.83  , 3.84  , 3.89  , 6214
+17, RangeList with RMQBucket, 222375, 25    , 0.2   , 19455 , 4.0   , 3.99  , 4.01  , 4.04  , 5960
+17, RangeList with RMQBucket, 222375, 29    , 0.2   , 19552 , 3.5   , 3.45  , 3.48  , 3.53  , 5624
+17, RangeList with RMQBucket, 222375, 33    , 0.2   , 18545 , 3.4   , 3.42  , 3.46  , 3.47  , 5068
+17, RangeList with RMQBucket, 222375, 37    , 0.2   , 16859 , 3.1   , 3.08  , 3.13  , 3.21  , 4401
+17, RangeList with RMQBucket, 222375, 41    , 0.3   , 16102 , 2.8   , 2.76  , 2.80  , 2.85  , 4012
+17, RangeList with RMQBucket, 222375, 45    , 0.3   , 14296 , 2.5   , 2.44  , 2.46  , 2.54  , 3371
+17, RangeList with RMQBucket, 222375, 49    , 0.3   , 13291 , 2.2   , 2.21  , 2.23  , 2.27  , 2979
+17, RangeList with RMQBucket, 222375, 53    , 0.3   , 11684 , 2.0   , 1.95  , 1.96  , 2.02  , 2508
+17, RangeList with RMQBucket, 222375, 57    , 0.4   , 10676 , 1.8   , 1.78  , 1.82  , 1.84  , 2215
+17, RangeList with RMQBucket, 222375, 61    , 0.4   , 9234  , 1.4   , 1.35  , 1.40  , 1.43  , 1852
+
+
+3746.98
+18, RangeList with RMQBucket, 219750, 5     , 0.1   , 7803  , 1.9   , 1.81  , 1.84  , 2.24  , 4707
+18, RangeList with RMQBucket, 219750, 9     , 0.1   , 13382 , 3.0   , 3.02  , 3.03  , 3.09  , 6200
+18, RangeList with RMQBucket, 219750, 13    , 0.1   , 17977 , 3.7   , 3.63  , 3.64  , 3.70  , 6957
+18, RangeList with RMQBucket, 219750, 17    , 0.1   , 20034 , 4.1   , 4.05  , 4.07  , 4.15  , 6813
+18, RangeList with RMQBucket, 219750, 21    , 0.2   , 21340 , 4.1   , 4.05  , 4.07  , 4.11  , 6552
+18, RangeList with RMQBucket, 219750, 25    , 0.2   , 22150 , 4.3   , 4.23  , 4.25  , 4.29  , 6223
+18, RangeList with RMQBucket, 219750, 29    , 0.2   , 22799 , 4.3   , 4.23  , 4.24  , 4.29  , 5925
+18, RangeList with RMQBucket, 219750, 33    , 0.2   , 22220 , 4.1   , 4.11  , 4.13  , 4.16  , 5364
+18, RangeList with RMQBucket, 219750, 37    , 0.2   , 21025 , 3.3   , 3.28  , 3.32  , 3.40  , 4759
+18, RangeList with RMQBucket, 219750, 41    , 0.3   , 20493 , 3.2   , 3.21  , 3.25  , 3.27  , 4360
+18, RangeList with RMQBucket, 219750, 45    , 0.3   , 18601 , 3.0   , 2.99  , 3.00  , 3.06  , 3782
+18, RangeList with RMQBucket, 219750, 49    , 0.3   , 17510 , 2.8   , 2.73  , 2.76  , 2.79  , 3424
+18, RangeList with RMQBucket, 219750, 53    , 0.3   , 15548 , 2.4   , 2.36  , 2.39  , 2.45  , 2902
+18, RangeList with RMQBucket, 219750, 57    , 0.4   , 13955 , 2.2   , 2.14  , 2.16  , 2.21  , 2519
+18, RangeList with RMQBucket, 219750, 61    , 0.4   , 12035 , 1.7   , 1.70  , 1.71  , 1.78  , 2109
+
+
+1348.01
+19, RangeList with RMQBucket, 222375, 5     , 0.1   , 831   , 0.1   , 0.12  , 0.12  , 0.19  , 350
+19, RangeList with RMQBucket, 222375, 9     , 0.1   , 1362  , 0.2   , 0.19  , 0.19  , 0.22  , 451
+19, RangeList with RMQBucket, 222375, 13    , 0.1   , 1867  , 0.3   , 0.26  , 0.26  , 0.29  , 512
+19, RangeList with RMQBucket, 222375, 17    , 0.1   , 2117  , 0.3   , 0.27  , 0.27  , 0.31  , 500
+19, RangeList with RMQBucket, 222375, 21    , 0.2   , 2175  , 0.3   , 0.29  , 0.29  , 0.31  , 462
+19, RangeList with RMQBucket, 222375, 25    , 0.2   , 2210  , 0.3   , 0.28  , 0.28  , 0.30  , 416
+19, RangeList with RMQBucket, 222375, 29    , 0.2   , 2058  , 0.3   , 0.27  , 0.27  , 0.30  , 361
+19, RangeList with RMQBucket, 222375, 33    , 0.2   , 1854  , 0.2   , 0.24  , 0.24  , 0.26  , 285
+19, RangeList with RMQBucket, 222375, 37    , 0.2   , 1511  , 0.2   , 0.20  , 0.20  , 0.22  , 225
+19, RangeList with RMQBucket, 222375, 41    , 0.3   , 1352  , 0.2   , 0.18  , 0.18  , 0.19  , 180
+19, RangeList with RMQBucket, 222375, 45    , 0.3   , 960   , 0.1   , 0.13  , 0.13  , 0.14  , 128
+19, RangeList with RMQBucket, 222375, 49    , 0.3   , 722   , 0.1   , 0.10  , 0.10  , 0.11  , 99
+19, RangeList with RMQBucket, 222375, 53    , 0.3   , 468   , 0.1   , 0.06  , 0.06  , 0.07  , 68
+19, RangeList with RMQBucket, 222375, 57    , 0.4   , 384   , 0.1   , 0.05  , 0.05  , 0.06  , 45
+19, RangeList with RMQBucket, 222375, 61    , 0.4   , 305   , 0.0   , 0.04  , 0.04  , 0.04  , 30
+
+
+2849.39
+20, RangeList with RMQBucket, 222375, 5     , 0.1   , 1735  , 0.4   , 0.31  , 0.31  , 0.52  , 979
+20, RangeList with RMQBucket, 222375, 9     , 0.1   , 3372  , 0.7   , 0.64  , 0.64  , 0.76  , 1556
+20, RangeList with RMQBucket, 222375, 13    , 0.1   , 4726  , 0.8   , 0.77  , 0.77  , 0.89  , 1832
+20, RangeList with RMQBucket, 222375, 17    , 0.1   , 5649  , 1.0   , 0.97  , 1.01  , 1.07  , 1929
+20, RangeList with RMQBucket, 222375, 21    , 0.2   , 5945  , 1.0   , 0.98  , 0.98  , 1.07  , 1827
+20, RangeList with RMQBucket, 222375, 25    , 0.2   , 6180  , 1.0   , 1.02  , 1.03  , 1.09  , 1757
+20, RangeList with RMQBucket, 222375, 29    , 0.2   , 5971  , 0.9   , 0.89  , 0.89  , 0.94  , 1602
+20, RangeList with RMQBucket, 222375, 33    , 0.2   , 5531  , 0.9   , 0.85  , 0.85  , 0.89  , 1384
+20, RangeList with RMQBucket, 222375, 37    , 0.2   , 4956  , 0.8   , 0.75  , 0.75  , 0.79  , 1157
+20, RangeList with RMQBucket, 222375, 41    , 0.3   , 4570  , 0.7   , 0.68  , 0.68  , 0.72  , 1011
+20, RangeList with RMQBucket, 222375, 45    , 0.3   , 3884  , 0.6   , 0.54  , 0.55  , 0.58  , 846
+20, RangeList with RMQBucket, 222375, 49    , 0.3   , 3404  , 0.5   , 0.49  , 0.49  , 0.51  , 715
+20, RangeList with RMQBucket, 222375, 53    , 0.3   , 2962  , 0.4   , 0.42  , 0.42  , 0.43  , 570
+20, RangeList with RMQBucket, 222375, 57    , 0.4   , 2541  , 0.4   , 0.35  , 0.35  , 0.36  , 490
+20, RangeList with RMQBucket, 222375, 61    , 0.4   , 1966  , 0.3   , 0.28  , 0.28  , 0.29  , 354
+
+
+3084.86
+21, RangeList with RMQBucket, 215625, 5     , 0.1   , 5681  , 1.5   , 1.42  , 1.42  , 1.66  , 3794
+21, RangeList with RMQBucket, 215625, 9     , 0.1   , 10801 , 2.4   , 2.36  , 2.38  , 2.41  , 5656
+21, RangeList with RMQBucket, 215625, 13    , 0.1   , 14936 , 3.3   , 3.29  , 3.30  , 3.34  , 6606
+21, RangeList with RMQBucket, 215625, 17    , 0.1   , 16964 , 3.9   , 3.84  , 3.85  , 3.90  , 6567
+21, RangeList with RMQBucket, 215625, 21    , 0.2   , 17768 , 3.8   , 3.75  , 3.78  , 3.82  , 6225
+21, RangeList with RMQBucket, 215625, 25    , 0.2   , 18561 , 3.9   , 3.88  , 3.91  , 3.92  , 5968
+21, RangeList with RMQBucket, 215625, 29    , 0.2   , 18564 , 3.7   , 3.72  , 3.75  , 3.77  , 5506
+21, RangeList with RMQBucket, 215625, 33    , 0.2   , 17800 , 3.5   , 3.47  , 3.48  , 3.51  , 4852
+21, RangeList with RMQBucket, 215625, 37    , 0.2   , 16629 , 3.3   , 3.25  , 3.26  , 3.33  , 4228
+21, RangeList with RMQBucket, 215625, 41    , 0.3   , 16115 , 2.6   , 2.58  , 2.61  , 2.67  , 3800
+21, RangeList with RMQBucket, 215625, 45    , 0.3   , 14473 , 2.4   , 2.34  , 2.37  , 2.45  , 3255
+21, RangeList with RMQBucket, 215625, 49    , 0.3   , 13499 , 2.3   , 2.22  , 2.26  , 2.34  , 2879
+21, RangeList with RMQBucket, 215625, 53    , 0.3   , 12088 , 1.9   , 1.88  , 1.92  , 2.01  , 2438
+21, RangeList with RMQBucket, 215625, 57    , 0.4   , 11080 , 1.7   , 1.73  , 1.73  , 1.80  , 2163
+21, RangeList with RMQBucket, 215625, 61    , 0.4   , 9632  , 1.4   , 1.39  , 1.42  , 1.51  , 1844
+
+
+3307.27
+22, RangeList with RMQBucket, 215625, 5     , 0.1   , 6635  , 1.8   , 1.69  , 1.71  , 2.10  , 4285
+22, RangeList with RMQBucket, 215625, 9     , 0.1   , 11762 , 2.7   , 2.71  , 2.71  , 2.77  , 6010
+22, RangeList with RMQBucket, 215625, 13    , 0.1   , 15844 , 3.8   , 3.71  , 3.76  , 3.79  , 6762
+22, RangeList with RMQBucket, 215625, 17    , 0.1   , 17858 , 3.6   , 3.60  , 3.62  , 3.66  , 6692
+22, RangeList with RMQBucket, 215625, 21    , 0.2   , 18982 , 3.9   , 3.81  , 3.85  , 3.92  , 6320
+22, RangeList with RMQBucket, 215625, 25    , 0.2   , 19889 , 3.8   , 3.78  , 3.80  , 3.93  , 6033
+22, RangeList with RMQBucket, 215625, 29    , 0.2   , 20185 , 3.8   , 3.82  , 3.83  , 3.87  , 5641
+22, RangeList with RMQBucket, 215625, 33    , 0.2   , 19419 , 3.7   , 3.69  , 3.71  , 3.74  , 5023
+22, RangeList with RMQBucket, 215625, 37    , 0.2   , 17989 , 3.1   , 3.09  , 3.12  , 3.14  , 4408
+22, RangeList with RMQBucket, 215625, 41    , 0.3   , 17481 , 3.0   , 3.01  , 3.04  , 3.10  , 4044
+22, RangeList with RMQBucket, 215625, 45    , 0.3   , 15993 , 2.7   , 2.64  , 2.68  , 2.70  , 3485
+22, RangeList with RMQBucket, 215625, 49    , 0.3   , 15247 , 2.5   , 2.47  , 2.50  , 2.58  , 3176
+22, RangeList with RMQBucket, 215625, 53    , 0.3   , 13819 , 2.3   , 2.26  , 2.29  , 2.35  , 2746
+22, RangeList with RMQBucket, 215625, 57    , 0.4   , 12948 , 2.0   , 1.98  , 2.01  , 2.08  , 2445
+22, RangeList with RMQBucket, 215625, 61    , 0.4   , 11317 , 1.8   , 1.74  , 1.76  , 1.84  , 2093
+
+
+2195.79
+23, RangeList with RMQBucket, 229875, 5     , 0.1   , 2526  , 0.6   , 0.50  , 0.50  , 0.87  , 1426
+23, RangeList with RMQBucket, 229875, 9     , 0.1   , 4653  , 0.9   , 0.84  , 0.84  , 0.99  , 2059
+23, RangeList with RMQBucket, 229875, 13    , 0.1   , 6521  , 1.1   , 1.09  , 1.10  , 1.20  , 2390
+23, RangeList with RMQBucket, 229875, 17    , 0.1   , 7403  , 1.3   , 1.29  , 1.29  , 1.38  , 2384
+23, RangeList with RMQBucket, 229875, 21    , 0.2   , 7695  , 1.3   , 1.28  , 1.29  , 1.39  , 2187
+23, RangeList with RMQBucket, 229875, 25    , 0.2   , 7943  , 1.3   , 1.30  , 1.31  , 1.38  , 2106
+23, RangeList with RMQBucket, 229875, 29    , 0.2   , 7832  , 1.3   , 1.30  , 1.30  , 1.38  , 1922
+23, RangeList with RMQBucket, 229875, 33    , 0.2   , 7363  , 1.1   , 1.07  , 1.08  , 1.13  , 1651
+23, RangeList with RMQBucket, 229875, 37    , 0.2   , 6674  , 1.0   , 0.96  , 0.96  , 1.01  , 1334
+23, RangeList with RMQBucket, 229875, 41    , 0.3   , 6177  , 0.9   , 0.88  , 0.89  , 0.95  , 1187
+23, RangeList with RMQBucket, 229875, 45    , 0.3   , 5027  , 0.7   , 0.73  , 0.73  , 0.77  , 955
+23, RangeList with RMQBucket, 229875, 49    , 0.3   , 4234  , 0.7   , 0.63  , 0.67  , 0.77  , 807
+23, RangeList with RMQBucket, 229875, 53    , 0.3   , 3377  , 0.5   , 0.47  , 0.48  , 0.50  , 625
+23, RangeList with RMQBucket, 229875, 57    , 0.4   , 2862  , 0.4   , 0.40  , 0.40  , 0.42  , 510
+23, RangeList with RMQBucket, 229875, 61    , 0.4   , 2279  , 0.3   , 0.32  , 0.32  , 0.33  , 390
+
+
+2375.94
+24, RangeList with RMQBucket, 215625, 5     , 0.1   , 6400  , 1.5   , 1.41  , 1.43  , 1.80  , 3688
+24, RangeList with RMQBucket, 215625, 9     , 0.1   , 10412 , 2.2   , 2.15  , 2.20  , 2.37  , 4565
+24, RangeList with RMQBucket, 215625, 13    , 0.1   , 13318 , 2.7   , 2.66  , 2.69  , 2.74  , 4849
+24, RangeList with RMQBucket, 215625, 17    , 0.1   , 14966 , 3.0   , 2.93  , 2.97  , 3.01  , 4726
+24, RangeList with RMQBucket, 215625, 21    , 0.2   , 15728 , 2.6   , 2.57  , 2.58  , 2.63  , 4428
+24, RangeList with RMQBucket, 215625, 25    , 0.2   , 16419 , 2.8   , 2.78  , 2.81  , 2.83  , 4175
+24, RangeList with RMQBucket, 215625, 29    , 0.2   , 16627 , 2.8   , 2.72  , 2.77  , 2.83  , 3870
+24, RangeList with RMQBucket, 215625, 33    , 0.2   , 15975 , 2.6   , 2.61  , 2.64  , 2.69  , 3466
+24, RangeList with RMQBucket, 215625, 37    , 0.2   , 14864 , 2.3   , 2.29  , 2.33  , 2.37  , 3032
+24, RangeList with RMQBucket, 215625, 41    , 0.3   , 14261 , 2.2   , 2.20  , 2.22  , 2.30  , 2742
+24, RangeList with RMQBucket, 215625, 45    , 0.3   , 12958 , 2.0   , 1.92  , 1.95  , 2.05  , 2323
+24, RangeList with RMQBucket, 215625, 49    , 0.3   , 11973 , 1.8   , 1.77  , 1.79  , 1.90  , 2040
+24, RangeList with RMQBucket, 215625, 53    , 0.3   , 10496 , 1.6   , 1.55  , 1.56  , 1.66  , 1695
+24, RangeList with RMQBucket, 215625, 57    , 0.4   , 9236  , 1.4   , 1.38  , 1.39  , 1.43  , 1432
+24, RangeList with RMQBucket, 215625, 61    , 0.4   , 7766  , 1.0   , 1.04  , 1.04  , 1.09  , 1168
+
+
+432.24
+25, RangeList with RMQBucket, 43500 , 5     , 0.1   , 4855  , 1.0   , 0.95  , 0.95  , 1.21  , 3013
+25, RangeList with RMQBucket, 43500 , 9     , 0.1   , 6813  , 1.3   , 1.27  , 1.28  , 1.33  , 3298
+25, RangeList with RMQBucket, 43500 , 13    , 0.1   , 7959  , 1.5   , 1.43  , 1.43  , 1.48  , 3211
+25, RangeList with RMQBucket, 43500 , 17    , 0.1   , 8389  , 1.6   , 1.51  , 1.54  , 1.72  , 2959
+25, RangeList with RMQBucket, 43500 , 21    , 0.2   , 8643  , 1.3   , 1.30  , 1.31  , 1.38  , 2695
+25, RangeList with RMQBucket, 43500 , 25    , 0.2   , 8783  , 1.3   , 1.30  , 1.30  , 1.35  , 2487
+25, RangeList with RMQBucket, 43500 , 29    , 0.2   , 8803  , 1.3   , 1.30  , 1.30  , 1.33  , 2287
+25, RangeList with RMQBucket, 43500 , 33    , 0.2   , 8591  , 1.3   , 1.25  , 1.25  , 1.28  , 2040
+25, RangeList with RMQBucket, 43500 , 37    , 0.2   , 8220  , 1.1   , 1.12  , 1.13  , 1.16  , 1785
+25, RangeList with RMQBucket, 43500 , 41    , 0.3   , 8016  , 1.1   , 1.07  , 1.08  , 1.10  , 1620
+25, RangeList with RMQBucket, 43500 , 45    , 0.3   , 7582  , 1.0   , 0.99  , 1.00  , 1.02  , 1420
+25, RangeList with RMQBucket, 43500 , 49    , 0.3   , 7318  , 1.0   , 0.97  , 0.97  , 0.98  , 1292
+25, RangeList with RMQBucket, 43500 , 53    , 0.3   , 6730  , 0.9   , 0.87  , 0.87  , 0.90  , 1133
+25, RangeList with RMQBucket, 43500 , 57    , 0.4   , 6329  , 0.8   , 0.82  , 0.82  , 0.83  , 1028
+25, RangeList with RMQBucket, 43500 , 61    , 0.4   , 5760  , 0.7   , 0.73  , 0.73  , 0.74  , 882
+
+
+1625.59
+26, RangeList with RMQBucket, 215625, 5     , 0.1   , 612   , 0.1   , 0.09  , 0.09  , 0.19  , 262
+26, RangeList with RMQBucket, 215625, 9     , 0.1   , 1045  , 0.1   , 0.14  , 0.14  , 0.18  , 361
+26, RangeList with RMQBucket, 215625, 13    , 0.1   , 1403  , 0.2   , 0.20  , 0.20  , 0.25  , 444
+26, RangeList with RMQBucket, 215625, 17    , 0.1   , 1643  , 0.2   , 0.24  , 0.24  , 0.28  , 483
+26, RangeList with RMQBucket, 215625, 21    , 0.2   , 1705  , 0.3   , 0.24  , 0.24  , 0.28  , 440
+26, RangeList with RMQBucket, 215625, 25    , 0.2   , 1742  , 0.2   , 0.23  , 0.23  , 0.26  , 407
+26, RangeList with RMQBucket, 215625, 29    , 0.2   , 1538  , 0.2   , 0.21  , 0.21  , 0.24  , 346
+26, RangeList with RMQBucket, 215625, 33    , 0.2   , 1314  , 0.2   , 0.18  , 0.18  , 0.20  , 282
+26, RangeList with RMQBucket, 215625, 37    , 0.2   , 1056  , 0.2   , 0.15  , 0.15  , 0.16  , 218
+26, RangeList with RMQBucket, 215625, 41    , 0.3   , 883   , 0.1   , 0.13  , 0.13  , 0.14  , 184
+26, RangeList with RMQBucket, 215625, 45    , 0.3   , 609   , 0.1   , 0.09  , 0.09  , 0.10  , 141
+26, RangeList with RMQBucket, 215625, 49    , 0.3   , 469   , 0.1   , 0.07  , 0.07  , 0.08  , 110
+26, RangeList with RMQBucket, 215625, 53    , 0.3   , 324   , 0.1   , 0.05  , 0.05  , 0.06  , 81
+26, RangeList with RMQBucket, 215625, 57    , 0.4   , 261   , 0.0   , 0.04  , 0.04  , 0.05  , 64
+26, RangeList with RMQBucket, 215625, 61    , 0.4   , 230   , 0.0   , 0.03  , 0.03  , 0.04  , 50
+
+
+4637.22
+27, RangeList with RMQBucket, 215625, 5     , 0.1   , 10118 , 2.8   , 2.72  , 2.74  , 3.04  , 6898
+27, RangeList with RMQBucket, 215625, 9     , 0.1   , 18707 , 4.5   , 4.48  , 4.50  , 4.53  , 9970
+27, RangeList with RMQBucket, 215625, 13    , 0.1   , 24636 , 5.5   , 5.50  , 5.53  , 5.55  , 11048
+27, RangeList with RMQBucket, 215625, 17    , 0.1   , 27352 , 6.1   , 6.07  , 6.12  , 6.13  , 10809
+27, RangeList with RMQBucket, 215625, 21    , 0.2   , 28914 , 5.3   , 5.23  , 5.27  , 5.29  , 10355
+27, RangeList with RMQBucket, 215625, 25    , 0.2   , 30109 , 5.8   , 5.74  , 5.78  , 5.82  , 9993
+27, RangeList with RMQBucket, 215625, 29    , 0.2   , 30087 , 5.7   , 5.72  , 5.75  , 5.77  , 9275
+27, RangeList with RMQBucket, 215625, 33    , 0.2   , 28757 , 5.6   , 5.56  , 5.61  , 5.65  , 8307
+27, RangeList with RMQBucket, 215625, 37    , 0.2   , 27115 , 5.1   , 5.03  , 5.07  , 5.08  , 7493
+27, RangeList with RMQBucket, 215625, 41    , 0.3   , 25733 , 4.9   , 4.88  , 4.91  , 4.95  , 6796
+27, RangeList with RMQBucket, 215625, 45    , 0.3   , 23627 , 4.4   , 4.38  , 4.39  , 4.52  , 5918
+27, RangeList with RMQBucket, 215625, 49    , 0.3   , 21789 , 4.1   , 4.11  , 4.13  , 4.18  , 5230
+27, RangeList with RMQBucket, 215625, 53    , 0.3   , 19555 , 3.7   , 3.66  , 3.67  , 3.75  , 4523
+27, RangeList with RMQBucket, 215625, 57    , 0.4   , 17395 , 3.0   , 2.92  , 2.95  , 3.03  , 3950
+27, RangeList with RMQBucket, 215625, 61    , 0.4   , 15049 , 2.6   , 2.56  , 2.56  , 2.64  , 3343
+
+
+1421.40
+28, RangeList with RMQBucket, 215625, 5     , 0.1   , 762   , 0.1   , 0.12  , 0.12  , 0.23  , 374
+28, RangeList with RMQBucket, 215625, 9     , 0.1   , 1393  , 0.2   , 0.21  , 0.21  , 0.26  , 493
+28, RangeList with RMQBucket, 215625, 13    , 0.1   , 1922  , 0.3   , 0.29  , 0.29  , 0.34  , 567
+28, RangeList with RMQBucket, 215625, 17    , 0.1   , 2241  , 0.3   , 0.30  , 0.30  , 0.34  , 568
+28, RangeList with RMQBucket, 215625, 21    , 0.2   , 2273  , 0.3   , 0.31  , 0.31  , 0.34  , 514
+28, RangeList with RMQBucket, 215625, 25    , 0.2   , 2388  , 0.3   , 0.31  , 0.31  , 0.34  , 481
+28, RangeList with RMQBucket, 215625, 29    , 0.2   , 2369  , 0.3   , 0.31  , 0.31  , 0.34  , 430
+28, RangeList with RMQBucket, 215625, 33    , 0.2   , 2223  , 0.3   , 0.30  , 0.30  , 0.31  , 373
+28, RangeList with RMQBucket, 215625, 37    , 0.2   , 1906  , 0.2   , 0.24  , 0.24  , 0.28  , 293
+28, RangeList with RMQBucket, 215625, 41    , 0.3   , 1677  , 0.2   , 0.21  , 0.21  , 0.23  , 238
+28, RangeList with RMQBucket, 215625, 45    , 0.3   , 1272  , 0.2   , 0.16  , 0.16  , 0.18  , 176
+28, RangeList with RMQBucket, 215625, 49    , 0.3   , 1041  , 0.1   , 0.14  , 0.14  , 0.15  , 137
+28, RangeList with RMQBucket, 215625, 53    , 0.3   , 741   , 0.1   , 0.10  , 0.10  , 0.11  , 98
+28, RangeList with RMQBucket, 215625, 57    , 0.4   , 554   , 0.1   , 0.07  , 0.07  , 0.08  , 70
+28, RangeList with RMQBucket, 215625, 61    , 0.4   , 428   , 0.1   , 0.05  , 0.05  , 0.06  , 49
+
+
+973.83
+29, RangeList with RMQBucket, 229875, 5     , 0.1   , 177   , 0.0   , 0.02  , 0.02  , 0.06  , 69
+29, RangeList with RMQBucket, 229875, 9     , 0.1   , 239   , 0.0   , 0.03  , 0.03  , 0.04  , 69
+29, RangeList with RMQBucket, 229875, 13    , 0.1   , 306   , 0.0   , 0.04  , 0.04  , 0.05  , 64
+29, RangeList with RMQBucket, 229875, 17    , 0.1   , 326   , 0.0   , 0.04  , 0.04  , 0.05  , 59
+29, RangeList with RMQBucket, 229875, 21    , 0.2   , 276   , 0.0   , 0.03  , 0.03  , 0.04  , 53
+29, RangeList with RMQBucket, 229875, 25    , 0.2   , 270   , 0.0   , 0.03  , 0.03  , 0.04  , 48
+29, RangeList with RMQBucket, 229875, 29    , 0.2   , 246   , 0.0   , 0.03  , 0.03  , 0.04  , 45
+29, RangeList with RMQBucket, 229875, 33    , 0.2   , 191   , 0.0   , 0.02  , 0.03  , 0.03  , 34
+29, RangeList with RMQBucket, 229875, 37    , 0.2   , 131   , 0.0   , 0.02  , 0.02  , 0.03  , 24
+29, RangeList with RMQBucket, 229875, 41    , 0.3   , 120   , 0.0   , 0.01  , 0.01  , 0.02  , 19
+29, RangeList with RMQBucket, 229875, 45    , 0.3   , 87    , 0.0   , 0.01  , 0.01  , 0.02  , 14
+29, RangeList with RMQBucket, 229875, 49    , 0.3   , 64    , 0.0   , 0.01  , 0.01  , 0.01  , 9
+29, RangeList with RMQBucket, 229875, 53    , 0.3   , 32    , 0.0   , 0.00  , 0.00  , 0.01  , 3
+29, RangeList with RMQBucket, 229875, 57    , 0.4   , 36    , 0.0   , 0.01  , 0.01  , 0.01  , 3
+29, RangeList with RMQBucket, 229875, 61    , 0.4   , 32    , 0.0   , 0.01  , 0.01  , 0.01  , 2
+
+
+2467.32
+30, RangeList with RMQBucket, 229875, 5     , 0.1   , 1566  , 0.3   , 0.28  , 0.28  , 0.48  , 855
+30, RangeList with RMQBucket, 229875, 9     , 0.1   , 2994  , 0.5   , 0.53  , 0.53  , 0.64  , 1291
+30, RangeList with RMQBucket, 229875, 13    , 0.1   , 3960  , 0.7   , 0.61  , 0.65  , 0.71  , 1465
+30, RangeList with RMQBucket, 229875, 17    , 0.1   , 4865  , 0.8   , 0.80  , 0.80  , 0.88  , 1607
+30, RangeList with RMQBucket, 229875, 21    , 0.2   , 5162  , 0.8   , 0.81  , 0.82  , 0.89  , 1506
+30, RangeList with RMQBucket, 229875, 25    , 0.2   , 5076  , 0.8   , 0.77  , 0.77  , 0.86  , 1345
+30, RangeList with RMQBucket, 229875, 29    , 0.2   , 5137  , 0.8   , 0.79  , 0.79  , 0.84  , 1263
+30, RangeList with RMQBucket, 229875, 33    , 0.2   , 4780  , 0.7   , 0.68  , 0.68  , 0.72  , 1113
+30, RangeList with RMQBucket, 229875, 37    , 0.2   , 4196  , 0.6   , 0.59  , 0.60  , 0.62  , 893
+30, RangeList with RMQBucket, 229875, 41    , 0.3   , 3965  , 0.5   , 0.54  , 0.54  , 0.56  , 796
+30, RangeList with RMQBucket, 229875, 45    , 0.3   , 3351  , 0.5   , 0.47  , 0.47  , 0.49  , 643
+30, RangeList with RMQBucket, 229875, 49    , 0.3   , 2977  , 0.4   , 0.41  , 0.42  , 0.44  , 552
+30, RangeList with RMQBucket, 229875, 53    , 0.3   , 2340  , 0.3   , 0.32  , 0.32  , 0.34  , 431
+30, RangeList with RMQBucket, 229875, 57    , 0.4   , 1894  , 0.3   , 0.26  , 0.26  , 0.27  , 332
+30, RangeList with RMQBucket, 229875, 61    , 0.4   , 1416  , 0.2   , 0.20  , 0.20  , 0.21  , 258
+
+
+2232.45
+31, RangeList with RMQBucket, 217500, 5     , 0.1   , 5523  , 1.3   , 1.20  , 1.22  , 1.68  , 3102
+31, RangeList with RMQBucket, 217500, 9     , 0.1   , 9193  , 1.8   , 1.78  , 1.80  , 1.91  , 3962
+31, RangeList with RMQBucket, 217500, 13    , 0.1   , 12216 , 2.4   , 2.41  , 2.44  , 2.46  , 4392
+31, RangeList with RMQBucket, 217500, 17    , 0.1   , 13331 , 2.5   , 2.41  , 2.45  , 2.53  , 4234
+31, RangeList with RMQBucket, 217500, 21    , 0.2   , 14030 , 2.6   , 2.53  , 2.56  , 2.59  , 3994
+31, RangeList with RMQBucket, 217500, 25    , 0.2   , 14470 , 2.7   , 2.63  , 2.65  , 2.68  , 3733
+31, RangeList with RMQBucket, 217500, 29    , 0.2   , 14423 , 2.5   , 2.49  , 2.52  , 2.55  , 3463
+31, RangeList with RMQBucket, 217500, 33    , 0.2   , 13539 , 2.3   , 2.30  , 2.33  , 2.41  , 3033
+31, RangeList with RMQBucket, 217500, 37    , 0.2   , 12260 , 2.1   , 2.06  , 2.09  , 2.15  , 2584
+31, RangeList with RMQBucket, 217500, 41    , 0.3   , 11498 , 1.7   , 1.64  , 1.66  , 1.73  , 2271
+31, RangeList with RMQBucket, 217500, 45    , 0.3   , 10174 , 1.5   , 1.45  , 1.46  , 1.57  , 1895
+31, RangeList with RMQBucket, 217500, 49    , 0.3   , 9345  , 1.4   , 1.34  , 1.34  , 1.39  , 1665
+31, RangeList with RMQBucket, 217500, 53    , 0.3   , 7820  , 1.1   , 1.09  , 1.09  , 1.14  , 1369
+31, RangeList with RMQBucket, 217500, 57    , 0.4   , 6942  , 1.0   , 0.98  , 0.98  , 1.05  , 1166
+31, RangeList with RMQBucket, 217500, 61    , 0.4   , 5666  , 0.8   , 0.79  , 0.79  , 0.82  , 911
+
+
+6518.03
+32, RangeList with RMQBucket, 229875, 5     , 0.1   , 24321 , 6.6   , 6.52  , 6.55  , 7.06  , 15278
+32, RangeList with RMQBucket, 229875, 9     , 0.1   , 36555 , 8.2   , 8.13  , 8.18  , 8.28  , 18033
+32, RangeList with RMQBucket, 229875, 13    , 0.1   , 44644 , 9.3   , 9.28  , 9.29  , 9.33  , 18622
+32, RangeList with RMQBucket, 229875, 17    , 0.1   , 48281 , 10.3  , 10.24 , 10.25 , 10.39 , 17718
+32, RangeList with RMQBucket, 229875, 21    , 0.2   , 50211 , 10.3  , 10.25 , 10.25 , 10.27 , 16645
+32, RangeList with RMQBucket, 229875, 25    , 0.2   , 51501 , 9.1   , 9.05  , 9.07  , 9.14  , 15702
+32, RangeList with RMQBucket, 229875, 29    , 0.2   , 52233 , 9.2   , 9.19  , 9.23  , 9.24  , 14814
+32, RangeList with RMQBucket, 229875, 33    , 0.2   , 50881 , 9.2   , 9.20  , 9.21  , 9.21  , 13494
+32, RangeList with RMQBucket, 229875, 37    , 0.2   , 48562 , 8.6   , 8.55  , 8.60  , 8.63  , 12161
+32, RangeList with RMQBucket, 229875, 41    , 0.3   , 47476 , 8.4   , 8.30  , 8.37  , 8.41  , 11332
+32, RangeList with RMQBucket, 229875, 45    , 0.3   , 44264 , 8.0   , 7.93  , 7.98  , 7.99  , 10118
+32, RangeList with RMQBucket, 229875, 49    , 0.3   , 42258 , 7.1   , 7.03  , 7.10  , 7.18  , 9289
+32, RangeList with RMQBucket, 229875, 53    , 0.3   , 39063 , 6.6   , 6.57  , 6.61  , 6.63  , 8193
+32, RangeList with RMQBucket, 229875, 57    , 0.4   , 36877 , 6.2   , 6.14  , 6.19  , 6.22  , 7430
+32, RangeList with RMQBucket, 229875, 61    , 0.4   , 33748 , 5.8   , 5.76  , 5.80  , 5.82  , 6568
+
+
+2208.20
+33, RangeList with RMQBucket, 229875, 5     , 0.1   , 5133  , 1.2   , 1.09  , 1.10  , 1.51  , 2835
+33, RangeList with RMQBucket, 229875, 9     , 0.1   , 8405  , 1.6   , 1.59  , 1.61  , 1.66  , 3602
+33, RangeList with RMQBucket, 229875, 13    , 0.1   , 10964 , 2.0   , 1.95  , 1.96  , 2.02  , 3909
+33, RangeList with RMQBucket, 229875, 17    , 0.1   , 12116 , 2.2   , 2.20  , 2.23  , 2.27  , 3793
+33, RangeList with RMQBucket, 229875, 21    , 0.2   , 12734 , 2.3   , 2.26  , 2.28  , 2.33  , 3596
+33, RangeList with RMQBucket, 229875, 25    , 0.2   , 13131 , 2.3   , 2.30  , 2.32  , 2.36  , 3357
+33, RangeList with RMQBucket, 229875, 29    , 0.2   , 13327 , 2.4   , 2.32  , 2.35  , 2.38  , 3121
+33, RangeList with RMQBucket, 229875, 33    , 0.2   , 12834 , 2.0   , 1.89  , 1.97  , 2.14  , 2746
+33, RangeList with RMQBucket, 229875, 37    , 0.2   , 11820 , 1.8   , 1.74  , 1.77  , 1.88  , 2398
+33, RangeList with RMQBucket, 229875, 41    , 0.3   , 11343 , 1.7   , 1.69  , 1.71  , 1.75  , 2159
+33, RangeList with RMQBucket, 229875, 45    , 0.3   , 10220 , 1.5   , 1.45  , 1.46  , 1.50  , 1798
+33, RangeList with RMQBucket, 229875, 49    , 0.3   , 9430  , 1.4   , 1.33  , 1.36  , 1.41  , 1576
+33, RangeList with RMQBucket, 229875, 53    , 0.3   , 8348  , 1.2   , 1.14  , 1.15  , 1.20  , 1295
+33, RangeList with RMQBucket, 229875, 57    , 0.4   , 7435  , 1.0   , 0.99  , 0.99  , 1.04  , 1126
+33, RangeList with RMQBucket, 229875, 61    , 0.4   , 6430  , 0.9   , 0.86  , 0.86  , 0.89  , 940
+
+
+3585.29
+34, RangeList with RMQBucket, 229875, 5     , 0.1   , 2573  , 0.5   , 0.47  , 0.48  , 0.80  , 1441
+34, RangeList with RMQBucket, 229875, 9     , 0.1   , 4803  , 0.9   , 0.86  , 0.86  , 0.99  , 2159
+34, RangeList with RMQBucket, 229875, 13    , 0.1   , 6738  , 1.3   , 1.28  , 1.32  , 1.41  , 2558
+34, RangeList with RMQBucket, 229875, 17    , 0.1   , 7626  , 1.4   , 1.39  , 1.41  , 1.48  , 2576
+34, RangeList with RMQBucket, 229875, 21    , 0.2   , 8034  , 1.5   , 1.45  , 1.46  , 1.54  , 2426
+34, RangeList with RMQBucket, 229875, 25    , 0.2   , 8386  , 1.6   , 1.55  , 1.58  , 1.62  , 2298
+34, RangeList with RMQBucket, 229875, 29    , 0.2   , 8492  , 1.3   , 1.30  , 1.30  , 1.38  , 2111
+34, RangeList with RMQBucket, 229875, 33    , 0.2   , 8175  , 1.2   , 1.21  , 1.22  , 1.28  , 1871
+34, RangeList with RMQBucket, 229875, 37    , 0.2   , 7435  , 1.1   , 1.09  , 1.12  , 1.16  , 1629
+34, RangeList with RMQBucket, 229875, 41    , 0.3   , 6724  , 1.0   , 0.99  , 1.00  , 1.05  , 1409
+34, RangeList with RMQBucket, 229875, 45    , 0.3   , 5737  , 0.9   , 0.85  , 0.85  , 0.91  , 1147
+34, RangeList with RMQBucket, 229875, 49    , 0.3   , 4921  , 0.7   , 0.69  , 0.70  , 0.73  , 978
+34, RangeList with RMQBucket, 229875, 53    , 0.3   , 4087  , 0.6   , 0.57  , 0.57  , 0.63  , 797
+34, RangeList with RMQBucket, 229875, 57    , 0.4   , 3498  , 0.5   , 0.50  , 0.50  , 0.52  , 655
+34, RangeList with RMQBucket, 229875, 61    , 0.4   , 2883  , 0.4   , 0.40  , 0.41  , 0.42  , 534
+
+
+1891.21
+35, RangeList with RMQBucket, 219375, 5     , 0.1   , 14504 , 3.5   , 3.39  , 3.40  , 3.74  , 7776
+35, RangeList with RMQBucket, 219375, 9     , 0.1   , 21350 , 4.2   , 4.22  , 4.24  , 4.27  , 8799
+35, RangeList with RMQBucket, 219375, 13    , 0.1   , 25930 , 5.0   , 4.97  , 5.02  , 5.03  , 8939
+35, RangeList with RMQBucket, 219375, 17    , 0.1   , 27673 , 5.0   , 4.95  , 4.99  , 5.02  , 8237
+35, RangeList with RMQBucket, 219375, 21    , 0.2   , 28707 , 5.1   , 5.10  , 5.14  , 5.16  , 7694
+35, RangeList with RMQBucket, 219375, 25    , 0.2   , 29484 , 5.1   , 5.07  , 5.11  , 5.12  , 7156
+35, RangeList with RMQBucket, 219375, 29    , 0.2   , 29914 , 5.2   , 5.13  , 5.14  , 5.18  , 6651
+35, RangeList with RMQBucket, 219375, 33    , 0.2   , 29002 , 4.9   , 4.86  , 4.90  , 4.91  , 5920
+35, RangeList with RMQBucket, 219375, 37    , 0.2   , 27484 , 4.1   , 4.11  , 4.15  , 4.17  , 5203
+35, RangeList with RMQBucket, 219375, 41    , 0.3   , 26765 , 4.1   , 4.08  , 4.10  , 4.12  , 4756
+35, RangeList with RMQBucket, 219375, 45    , 0.3   , 24996 , 3.8   , 3.82  , 3.85  , 3.85  , 4174
+35, RangeList with RMQBucket, 219375, 49    , 0.3   , 23673 , 3.6   , 3.56  , 3.60  , 3.63  , 3761
+35, RangeList with RMQBucket, 219375, 53    , 0.3   , 21407 , 3.2   , 3.21  , 3.23  , 3.30  , 3245
+35, RangeList with RMQBucket, 219375, 57    , 0.4   , 19788 , 3.0   , 2.99  , 3.02  , 3.05  , 2914
+35, RangeList with RMQBucket, 219375, 61    , 0.4   , 17426 , 2.5   , 2.48  , 2.54  , 2.60  , 2439
+
+
+1741.69
+36, RangeList with RMQBucket, 219375, 5     , 0.1   , 14504 , 3.5   , 3.39  , 3.40  , 3.73  , 7776
+36, RangeList with RMQBucket, 219375, 9     , 0.1   , 21350 , 4.3   , 4.22  , 4.24  , 4.30  , 8799
+36, RangeList with RMQBucket, 219375, 13    , 0.1   , 25930 , 5.0   , 4.96  , 5.01  , 5.03  , 8939
+36, RangeList with RMQBucket, 219375, 17    , 0.1   , 27673 , 5.0   , 4.95  , 4.97  , 5.00  , 8237
+36, RangeList with RMQBucket, 219375, 21    , 0.2   , 28707 , 5.1   , 5.11  , 5.15  , 5.15  , 7694
+36, RangeList with RMQBucket, 219375, 25    , 0.2   , 29484 , 5.1   , 5.07  , 5.12  , 5.21  , 7156
+36, RangeList with RMQBucket, 219375, 29    , 0.2   , 29914 , 5.2   , 5.13  , 5.18  , 5.19  , 6651
+36, RangeList with RMQBucket, 219375, 33    , 0.2   , 29002 , 4.9   , 4.87  , 4.88  , 4.92  , 5920
+36, RangeList with RMQBucket, 219375, 37    , 0.2   , 27484 , 4.1   , 4.12  , 4.13  , 4.19  , 5203
+36, RangeList with RMQBucket, 219375, 41    , 0.3   , 26765 , 4.1   , 4.08  , 4.12  , 4.16  , 4756
+36, RangeList with RMQBucket, 219375, 45    , 0.3   , 24996 , 3.8   , 3.81  , 3.85  , 3.86  , 4174
+36, RangeList with RMQBucket, 219375, 49    , 0.3   , 23673 , 3.6   , 3.56  , 3.60  , 3.65  , 3761
+36, RangeList with RMQBucket, 219375, 53    , 0.3   , 21407 , 3.3   , 3.23  , 3.24  , 3.31  , 3245
+36, RangeList with RMQBucket, 219375, 57    , 0.4   , 19788 , 3.0   , 3.00  , 3.03  , 3.06  , 2914
+36, RangeList with RMQBucket, 219375, 61    , 0.4   , 17426 , 2.5   , 2.48  , 2.52  , 2.62  , 2439
+
+
+1751.62
+37, RangeList with RMQBucket, 73125 , 5     , 0.1   , 880   , 0.2   , 0.16  , 0.16  , 0.29  , 470
+37, RangeList with RMQBucket, 73125 , 9     , 0.1   , 1642  , 0.3   , 0.29  , 0.29  , 0.36  , 704
+37, RangeList with RMQBucket, 73125 , 13    , 0.1   , 2229  , 0.4   , 0.38  , 0.38  , 0.44  , 804
+37, RangeList with RMQBucket, 73125 , 17    , 0.1   , 2578  , 0.4   , 0.41  , 0.41  , 0.46  , 851
+37, RangeList with RMQBucket, 73125 , 21    , 0.2   , 2829  , 0.4   , 0.44  , 0.44  , 0.49  , 844
+37, RangeList with RMQBucket, 73125 , 25    , 0.2   , 2960  , 0.5   , 0.47  , 0.47  , 0.51  , 808
+37, RangeList with RMQBucket, 73125 , 29    , 0.2   , 2955  , 0.5   , 0.45  , 0.45  , 0.48  , 761
+37, RangeList with RMQBucket, 73125 , 33    , 0.2   , 2892  , 0.5   , 0.44  , 0.44  , 0.47  , 686
+37, RangeList with RMQBucket, 73125 , 37    , 0.2   , 2700  , 0.4   , 0.40  , 0.40  , 0.42  , 594
+37, RangeList with RMQBucket, 73125 , 41    , 0.3   , 2541  , 0.4   , 0.37  , 0.37  , 0.40  , 545
+37, RangeList with RMQBucket, 73125 , 45    , 0.3   , 2211  , 0.3   , 0.28  , 0.28  , 0.30  , 439
+37, RangeList with RMQBucket, 73125 , 49    , 0.3   , 1965  , 0.3   , 0.25  , 0.25  , 0.27  , 359
+37, RangeList with RMQBucket, 73125 , 53    , 0.3   , 1677  , 0.2   , 0.22  , 0.22  , 0.23  , 291
+37, RangeList with RMQBucket, 73125 , 57    , 0.4   , 1427  , 0.2   , 0.18  , 0.18  , 0.20  , 238
+37, RangeList with RMQBucket, 73125 , 61    , 0.4   , 1179  , 0.2   , 0.16  , 0.16  , 0.19  , 197
+
+
+1865.12
+38, RangeList with RMQBucket, 73125 , 5     , 0.1   , 6015  , 1.4   , 1.30  , 1.30  , 1.68  , 3784
+38, RangeList with RMQBucket, 73125 , 9     , 0.1   , 9600  , 1.8   , 1.77  , 1.79  , 1.87  , 4728
+38, RangeList with RMQBucket, 73125 , 13    , 0.1   , 12092 , 2.3   , 2.29  , 2.34  , 2.36  , 5013
+38, RangeList with RMQBucket, 73125 , 17    , 0.1   , 13211 , 2.3   , 2.29  , 2.30  , 2.37  , 4820
+38, RangeList with RMQBucket, 73125 , 21    , 0.2   , 13781 , 2.5   , 2.48  , 2.50  , 2.52  , 4508
+38, RangeList with RMQBucket, 73125 , 25    , 0.2   , 14075 , 2.4   , 2.43  , 2.43  , 2.52  , 4242
+38, RangeList with RMQBucket, 73125 , 29    , 0.2   , 14311 , 2.4   , 2.40  , 2.45  , 2.50  , 3989
+38, RangeList with RMQBucket, 73125 , 33    , 0.2   , 13820 , 2.4   , 2.37  , 2.40  , 2.43  , 3644
+38, RangeList with RMQBucket, 73125 , 37    , 0.2   , 13073 , 2.0   , 1.95  , 1.97  , 2.01  , 3262
+38, RangeList with RMQBucket, 73125 , 41    , 0.3   , 12781 , 1.9   , 1.92  , 1.94  , 1.98  , 3046
+38, RangeList with RMQBucket, 73125 , 45    , 0.3   , 11615 , 1.8   , 1.73  , 1.74  , 1.78  , 2670
+38, RangeList with RMQBucket, 73125 , 49    , 0.3   , 11074 , 1.7   , 1.67  , 1.68  , 1.72  , 2466
+38, RangeList with RMQBucket, 73125 , 53    , 0.3   , 10038 , 1.5   , 1.45  , 1.45  , 1.51  , 2114
+38, RangeList with RMQBucket, 73125 , 57    , 0.4   , 9340  , 1.4   , 1.34  , 1.35  , 1.38  , 1876
+38, RangeList with RMQBucket, 73125 , 61    , 0.4   , 8366  , 1.2   , 1.22  , 1.23  , 1.26  , 1610
+
+
+1184.95
+39, RangeList with RMQBucket, 73125 , 5     , 0.1   , 224   , 0.0   , 0.03  , 0.03  , 0.07  , 89
+39, RangeList with RMQBucket, 73125 , 9     , 0.1   , 373   , 0.0   , 0.05  , 0.05  , 0.06  , 115
+39, RangeList with RMQBucket, 73125 , 13    , 0.1   , 464   , 0.1   , 0.06  , 0.06  , 0.10  , 125
+39, RangeList with RMQBucket, 73125 , 17    , 0.1   , 450   , 0.1   , 0.07  , 0.07  , 0.09  , 129
+39, RangeList with RMQBucket, 73125 , 21    , 0.2   , 454   , 0.1   , 0.07  , 0.07  , 0.09  , 135
+39, RangeList with RMQBucket, 73125 , 25    , 0.2   , 420   , 0.1   , 0.06  , 0.06  , 0.08  , 112
+39, RangeList with RMQBucket, 73125 , 29    , 0.2   , 426   , 0.1   , 0.05  , 0.05  , 0.06  , 80
+39, RangeList with RMQBucket, 73125 , 33    , 0.2   , 421   , 0.1   , 0.05  , 0.05  , 0.06  , 67
+39, RangeList with RMQBucket, 73125 , 37    , 0.2   , 372   , 0.0   , 0.05  , 0.05  , 0.06  , 57
+39, RangeList with RMQBucket, 73125 , 41    , 0.3   , 306   , 0.0   , 0.04  , 0.04  , 0.04  , 38
+39, RangeList with RMQBucket, 73125 , 45    , 0.3   , 183   , 0.0   , 0.02  , 0.02  , 0.03  , 27
+39, RangeList with RMQBucket, 73125 , 49    , 0.3   , 121   , 0.0   , 0.01  , 0.01  , 0.02  , 14
+39, RangeList with RMQBucket, 73125 , 53    , 0.3   , 78    , 0.0   , 0.01  , 0.01  , 0.02  , 7
+39, RangeList with RMQBucket, 73125 , 57    , 0.4   , 54    , 0.0   , 0.01  , 0.01  , 0.01  , 5
+39, RangeList with RMQBucket, 73125 , 61    , 0.4   , 29    , 0.0   , 0.01  , 0.01  , 0.01  , 4
+
+
+1284.76
+40, RangeList with RMQBucket, 73125 , 5     , 0.1   , 7764  , 1.8   , 1.74  , 1.77  , 2.16  , 5311
+40, RangeList with RMQBucket, 73125 , 9     , 0.1   , 12525 , 2.9   , 2.87  , 2.90  , 2.98  , 6665
+40, RangeList with RMQBucket, 73125 , 13    , 0.1   , 15535 , 3.0   , 3.00  , 3.04  , 3.05  , 6986
+40, RangeList with RMQBucket, 73125 , 17    , 0.1   , 16657 , 3.3   , 3.23  , 3.25  , 3.30  , 6598
+40, RangeList with RMQBucket, 73125 , 21    , 0.2   , 17335 , 3.4   , 3.44  , 3.45  , 3.45  , 6203
+40, RangeList with RMQBucket, 73125 , 25    , 0.2   , 17608 , 3.2   , 3.15  , 3.16  , 3.20  , 5813
+40, RangeList with RMQBucket, 73125 , 29    , 0.2   , 17660 , 3.2   , 3.19  , 3.20  , 3.26  , 5457
+40, RangeList with RMQBucket, 73125 , 33    , 0.2   , 17045 , 3.1   , 3.10  , 3.12  , 3.16  , 4954
+40, RangeList with RMQBucket, 73125 , 37    , 0.2   , 15956 , 2.8   , 2.74  , 2.77  , 2.85  , 4391
+40, RangeList with RMQBucket, 73125 , 41    , 0.3   , 15462 , 2.7   , 2.68  , 2.72  , 2.77  , 4070
+40, RangeList with RMQBucket, 73125 , 45    , 0.3   , 14278 , 2.5   , 2.38  , 2.45  , 2.61  , 3559
+40, RangeList with RMQBucket, 73125 , 49    , 0.3   , 13559 , 2.3   , 2.24  , 2.27  , 2.35  , 3216
+40, RangeList with RMQBucket, 73125 , 53    , 0.3   , 12427 , 1.8   , 1.73  , 1.73  , 1.82  , 2837
+40, RangeList with RMQBucket, 73125 , 57    , 0.4   , 11740 , 1.7   , 1.63  , 1.65  , 1.72  , 2560
+40, RangeList with RMQBucket, 73125 , 61    , 0.4   , 10617 , 1.5   , 1.53  , 1.54  , 1.57  , 2246
+
+
+1248.11
+41, RangeList with RMQBucket, 73125 , 5     , 0.1   , 3274  , 0.7   , 0.69  , 0.69  , 0.91  , 2244
+41, RangeList with RMQBucket, 73125 , 9     , 0.1   , 6029  , 1.3   , 1.25  , 1.26  , 1.41  , 3244
+41, RangeList with RMQBucket, 73125 , 13    , 0.1   , 8095  , 1.5   , 1.45  , 1.47  , 1.56  , 3623
+41, RangeList with RMQBucket, 73125 , 17    , 0.1   , 9092  , 1.6   , 1.58  , 1.59  , 1.66  , 3605
+41, RangeList with RMQBucket, 73125 , 21    , 0.2   , 9442  , 1.7   , 1.72  , 1.73  , 1.81  , 3367
+41, RangeList with RMQBucket, 73125 , 25    , 0.2   , 9893  , 1.8   , 1.77  , 1.78  , 1.86  , 3228
+41, RangeList with RMQBucket, 73125 , 29    , 0.2   , 9957  , 1.7   , 1.62  , 1.64  , 1.73  , 3034
+41, RangeList with RMQBucket, 73125 , 33    , 0.2   , 9620  , 1.6   , 1.59  , 1.60  , 1.64  , 2722
+41, RangeList with RMQBucket, 73125 , 37    , 0.2   , 9057  , 1.5   , 1.46  , 1.47  , 1.52  , 2420
+41, RangeList with RMQBucket, 73125 , 41    , 0.3   , 8873  , 1.4   , 1.42  , 1.43  , 1.47  , 2200
+41, RangeList with RMQBucket, 73125 , 45    , 0.3   , 8095  , 1.2   , 1.20  , 1.20  , 1.28  , 1892
+41, RangeList with RMQBucket, 73125 , 49    , 0.3   , 7556  , 1.2   , 1.13  , 1.17  , 1.17  , 1710
+41, RangeList with RMQBucket, 73125 , 53    , 0.3   , 6743  , 1.0   , 0.98  , 0.99  , 1.03  , 1489
+41, RangeList with RMQBucket, 73125 , 57    , 0.4   , 6254  , 0.9   , 0.92  , 0.94  , 0.97  , 1304
+41, RangeList with RMQBucket, 73125 , 61    , 0.4   , 5496  , 0.8   , 0.80  , 0.81  , 0.83  , 1106
+
+
+826.21
+42, RangeList with RMQBucket, 73125 , 5     , 0.1   , 5547  , 1.2   , 1.09  , 1.09  , 1.46  , 3584
+42, RangeList with RMQBucket, 73125 , 9     , 0.1   , 8904  , 1.7   , 1.67  , 1.68  , 1.81  , 4394
+42, RangeList with RMQBucket, 73125 , 13    , 0.1   , 11228 , 2.2   , 2.11  , 2.14  , 2.19  , 4642
+42, RangeList with RMQBucket, 73125 , 17    , 0.1   , 12347 , 2.5   , 2.42  , 2.50  , 2.53  , 4488
+42, RangeList with RMQBucket, 73125 , 21    , 0.2   , 13066 , 2.2   , 2.19  , 2.22  , 2.26  , 4253
+42, RangeList with RMQBucket, 73125 , 25    , 0.2   , 13545 , 2.2   , 2.21  , 2.23  , 2.30  , 4015
+42, RangeList with RMQBucket, 73125 , 29    , 0.2   , 13808 , 2.3   , 2.27  , 2.32  , 2.38  , 3790
+42, RangeList with RMQBucket, 73125 , 33    , 0.2   , 13306 , 2.3   , 2.25  , 2.27  , 2.35  , 3439
+42, RangeList with RMQBucket, 73125 , 37    , 0.2   , 12511 , 2.0   , 1.97  , 2.00  , 2.03  , 3067
+42, RangeList with RMQBucket, 73125 , 41    , 0.3   , 12130 , 1.9   , 1.90  , 1.91  , 1.96  , 2836
+42, RangeList with RMQBucket, 73125 , 45    , 0.3   , 11122 , 1.8   , 1.77  , 1.79  , 1.82  , 2488
+42, RangeList with RMQBucket, 73125 , 49    , 0.3   , 10521 , 1.7   , 1.65  , 1.67  , 1.71  , 2264
+42, RangeList with RMQBucket, 73125 , 53    , 0.3   , 9487  , 1.5   , 1.50  , 1.50  , 1.55  , 1961
+42, RangeList with RMQBucket, 73125 , 57    , 0.4   , 8957  , 1.4   , 1.36  , 1.37  , 1.40  , 1763
+42, RangeList with RMQBucket, 73125 , 61    , 0.4   , 8064  , 1.2   , 1.18  , 1.18  , 1.22  , 1486
+
+
+1003.67
+43, RangeList with RMQBucket, 73125 , 5     , 0.1   , 743   , 0.1   , 0.12  , 0.12  , 0.21  , 419
+43, RangeList with RMQBucket, 73125 , 9     , 0.1   , 1347  , 0.2   , 0.22  , 0.22  , 0.27  , 558
+43, RangeList with RMQBucket, 73125 , 13    , 0.1   , 1874  , 0.3   , 0.30  , 0.30  , 0.39  , 678
+43, RangeList with RMQBucket, 73125 , 17    , 0.1   , 2161  , 0.3   , 0.34  , 0.34  , 0.38  , 660
+43, RangeList with RMQBucket, 73125 , 21    , 0.2   , 2286  , 0.3   , 0.32  , 0.32  , 0.35  , 608
+43, RangeList with RMQBucket, 73125 , 25    , 0.2   , 2401  , 0.3   , 0.34  , 0.34  , 0.37  , 573
+43, RangeList with RMQBucket, 73125 , 29    , 0.2   , 2461  , 0.3   , 0.34  , 0.34  , 0.36  , 529
+43, RangeList with RMQBucket, 73125 , 33    , 0.2   , 2349  , 0.3   , 0.33  , 0.33  , 0.36  , 464
+43, RangeList with RMQBucket, 73125 , 37    , 0.2   , 2226  , 0.3   , 0.30  , 0.30  , 0.33  , 395
+43, RangeList with RMQBucket, 73125 , 41    , 0.3   , 2128  , 0.3   , 0.28  , 0.28  , 0.29  , 364
+43, RangeList with RMQBucket, 73125 , 45    , 0.3   , 1944  , 0.3   , 0.25  , 0.25  , 0.26  , 300
+43, RangeList with RMQBucket, 73125 , 49    , 0.3   , 1719  , 0.2   , 0.22  , 0.22  , 0.23  , 256
+43, RangeList with RMQBucket, 73125 , 53    , 0.3   , 1529  , 0.2   , 0.20  , 0.20  , 0.21  , 210
+43, RangeList with RMQBucket, 73125 , 57    , 0.4   , 1380  , 0.2   , 0.18  , 0.18  , 0.19  , 192
+43, RangeList with RMQBucket, 73125 , 61    , 0.4   , 1117  , 0.1   , 0.15  , 0.15  , 0.15  , 144
+
+
+620.46
+44, RangeList with RMQBucket, 73125 , 5     , 0.1   , 423   , 0.1   , 0.07  , 0.07  , 0.12  , 206
+44, RangeList with RMQBucket, 73125 , 9     , 0.1   , 712   , 0.1   , 0.10  , 0.10  , 0.16  , 253
+44, RangeList with RMQBucket, 73125 , 13    , 0.1   , 917   , 0.1   , 0.13  , 0.13  , 0.15  , 271
+44, RangeList with RMQBucket, 73125 , 17    , 0.1   , 1094  , 0.1   , 0.14  , 0.14  , 0.16  , 269
+44, RangeList with RMQBucket, 73125 , 21    , 0.2   , 1223  , 0.2   , 0.15  , 0.15  , 0.17  , 253
+44, RangeList with RMQBucket, 73125 , 25    , 0.2   , 1300  , 0.2   , 0.16  , 0.16  , 0.18  , 236
+44, RangeList with RMQBucket, 73125 , 29    , 0.2   , 1217  , 0.1   , 0.14  , 0.14  , 0.15  , 205
+44, RangeList with RMQBucket, 73125 , 33    , 0.2   , 1099  , 0.1   , 0.13  , 0.13  , 0.14  , 164
+44, RangeList with RMQBucket, 73125 , 37    , 0.2   , 1052  , 0.1   , 0.13  , 0.13  , 0.14  , 150
+44, RangeList with RMQBucket, 73125 , 41    , 0.3   , 963   , 0.1   , 0.11  , 0.11  , 0.12  , 122
+44, RangeList with RMQBucket, 73125 , 45    , 0.3   , 934   , 0.1   , 0.10  , 0.10  , 0.11  , 101
+44, RangeList with RMQBucket, 73125 , 49    , 0.3   , 895   , 0.1   , 0.10  , 0.10  , 0.11  , 91
+44, RangeList with RMQBucket, 73125 , 53    , 0.3   , 831   , 0.1   , 0.09  , 0.09  , 0.10  , 80
+44, RangeList with RMQBucket, 73125 , 57    , 0.4   , 759   , 0.1   , 0.09  , 0.09  , 0.09  , 72
+44, RangeList with RMQBucket, 73125 , 61    , 0.4   , 622   , 0.1   , 0.08  , 0.08  , 0.08  , 54
+
+
+1814.42
+45, RangeList with RMQBucket, 229875, 5     , 0.1   , 3140  , 0.6   , 0.55  , 0.55  , 0.87  , 1770
+45, RangeList with RMQBucket, 229875, 9     , 0.1   , 5532  , 1.0   , 1.00  , 1.01  , 1.12  , 2314
+45, RangeList with RMQBucket, 229875, 13    , 0.1   , 7389  , 1.3   , 1.27  , 1.28  , 1.36  , 2558
+45, RangeList with RMQBucket, 229875, 17    , 0.1   , 8433  , 1.5   , 1.47  , 1.48  , 1.55  , 2557
+45, RangeList with RMQBucket, 229875, 21    , 0.2   , 8775  , 1.6   , 1.53  , 1.55  , 1.60  , 2395
+45, RangeList with RMQBucket, 229875, 25    , 0.2   , 9007  , 1.4   , 1.34  , 1.35  , 1.43  , 2206
+45, RangeList with RMQBucket, 229875, 29    , 0.2   , 9111  , 1.4   , 1.36  , 1.36  , 1.44  , 2018
+45, RangeList with RMQBucket, 229875, 33    , 0.2   , 8589  , 1.3   , 1.28  , 1.30  , 1.38  , 1769
+45, RangeList with RMQBucket, 229875, 37    , 0.2   , 7923  , 1.1   , 1.07  , 1.08  , 1.13  , 1491
+45, RangeList with RMQBucket, 229875, 41    , 0.3   , 7252  , 1.0   , 0.98  , 0.99  , 1.03  , 1274
+45, RangeList with RMQBucket, 229875, 45    , 0.3   , 6362  , 0.9   , 0.87  , 0.88  , 0.92  , 1066
+45, RangeList with RMQBucket, 229875, 49    , 0.3   , 5577  , 0.8   , 0.76  , 0.77  , 0.79  , 909
+45, RangeList with RMQBucket, 229875, 53    , 0.3   , 4748  , 0.7   , 0.65  , 0.65  , 0.68  , 743
+45, RangeList with RMQBucket, 229875, 57    , 0.4   , 4056  , 0.5   , 0.52  , 0.52  , 0.55  , 629
+45, RangeList with RMQBucket, 229875, 61    , 0.4   , 3381  , 0.4   , 0.44  , 0.44  , 0.46  , 518
+
+
+3307.85
+46, RangeList with RMQBucket, 223500, 5     , 0.1   , 14161 , 3.7   , 3.65  , 3.70  , 4.02  , 8969
+46, RangeList with RMQBucket, 223500, 9     , 0.1   , 23493 , 5.8   , 5.80  , 5.85  , 5.87  , 11627
+46, RangeList with RMQBucket, 223500, 13    , 0.1   , 30299 , 6.3   , 6.28  , 6.33  , 6.35  , 12577
+46, RangeList with RMQBucket, 223500, 17    , 0.1   , 33432 , 6.8   , 6.76  , 6.80  , 6.87  , 12253
+46, RangeList with RMQBucket, 223500, 21    , 0.2   , 35258 , 6.6   , 6.52  , 6.57  , 6.58  , 11655
+46, RangeList with RMQBucket, 223500, 25    , 0.2   , 36509 , 7.0   , 7.01  , 7.06  , 7.07  , 11029
+46, RangeList with RMQBucket, 223500, 29    , 0.2   , 37176 , 7.1   , 7.05  , 7.09  , 7.11  , 10388
+46, RangeList with RMQBucket, 223500, 33    , 0.2   , 36173 , 6.7   , 6.63  , 6.66  , 6.68  , 9409
+46, RangeList with RMQBucket, 223500, 37    , 0.2   , 33925 , 6.4   , 6.37  , 6.42  , 6.47  , 8385
+46, RangeList with RMQBucket, 223500, 41    , 0.3   , 32907 , 6.1   , 6.11  , 6.15  , 6.17  , 7733
+46, RangeList with RMQBucket, 223500, 45    , 0.3   , 30161 , 5.6   , 5.54  , 5.57  , 5.59  , 6749
+46, RangeList with RMQBucket, 223500, 49    , 0.3   , 28629 , 4.6   , 4.60  , 4.62  , 4.67  , 6118
+46, RangeList with RMQBucket, 223500, 53    , 0.3   , 26029 , 4.2   , 4.20  , 4.24  , 4.27  , 5317
+46, RangeList with RMQBucket, 223500, 57    , 0.4   , 24376 , 4.1   , 4.02  , 4.05  , 4.16  , 4763
+46, RangeList with RMQBucket, 223500, 61    , 0.4   , 21564 , 3.5   , 3.51  , 3.52  , 3.56  , 4086
+
+
+2213.17
+47, RangeList with RMQBucket, 229875, 5     , 0.1   , 2526  , 0.6   , 0.50  , 0.50  , 0.83  , 1426
+47, RangeList with RMQBucket, 229875, 9     , 0.1   , 4653  , 0.9   , 0.84  , 0.85  , 0.97  , 2059
+47, RangeList with RMQBucket, 229875, 13    , 0.1   , 6521  , 1.1   , 1.09  , 1.09  , 1.20  , 2390
+47, RangeList with RMQBucket, 229875, 17    , 0.1   , 7403  , 1.3   , 1.30  , 1.31  , 1.37  , 2384
+47, RangeList with RMQBucket, 229875, 21    , 0.2   , 7695  , 1.3   , 1.28  , 1.29  , 1.36  , 2187
+47, RangeList with RMQBucket, 229875, 25    , 0.2   , 7943  , 1.3   , 1.30  , 1.31  , 1.39  , 2106
+47, RangeList with RMQBucket, 229875, 29    , 0.2   , 7832  , 1.3   , 1.32  , 1.35  , 1.37  , 1922
+47, RangeList with RMQBucket, 229875, 33    , 0.2   , 7363  , 1.1   , 1.06  , 1.06  , 1.16  , 1651
+47, RangeList with RMQBucket, 229875, 37    , 0.2   , 6674  , 1.0   , 0.95  , 0.97  , 1.05  , 1334
+47, RangeList with RMQBucket, 229875, 41    , 0.3   , 6177  , 0.9   , 0.88  , 0.89  , 0.93  , 1187
+47, RangeList with RMQBucket, 229875, 45    , 0.3   , 5027  , 0.8   , 0.73  , 0.76  , 0.77  , 955
+47, RangeList with RMQBucket, 229875, 49    , 0.3   , 4234  , 0.7   , 0.65  , 0.67  , 0.72  , 807
+47, RangeList with RMQBucket, 229875, 53    , 0.3   , 3377  , 0.5   , 0.47  , 0.47  , 0.52  , 625
+47, RangeList with RMQBucket, 229875, 57    , 0.4   , 2862  , 0.4   , 0.40  , 0.40  , 0.43  , 510
+47, RangeList with RMQBucket, 229875, 61    , 0.4   , 2279  , 0.3   , 0.32  , 0.32  , 0.33  , 390
+
+
+4619.88
+48, RangeList with RMQBucket, 229875, 5     , 0.1   , 8965  , 2.3   , 2.24  , 2.27  , 2.51  , 5590
+48, RangeList with RMQBucket, 229875, 9     , 0.1   , 15338 , 3.4   , 3.40  , 3.41  , 3.50  , 7452
+48, RangeList with RMQBucket, 229875, 13    , 0.1   , 19816 , 4.5   , 4.48  , 4.54  , 4.55  , 8083
+48, RangeList with RMQBucket, 229875, 17    , 0.1   , 22257 , 4.8   , 4.79  , 4.83  , 4.85  , 7997
+48, RangeList with RMQBucket, 229875, 21    , 0.2   , 23457 , 5.0   , 5.01  , 5.03  , 5.05  , 7500
+48, RangeList with RMQBucket, 229875, 25    , 0.2   , 24131 , 4.2   , 4.18  , 4.19  , 4.25  , 7130
+48, RangeList with RMQBucket, 229875, 29    , 0.2   , 23998 , 4.4   , 4.34  , 4.38  , 4.41  , 6533
+48, RangeList with RMQBucket, 229875, 33    , 0.2   , 22924 , 4.1   , 4.10  , 4.14  , 4.16  , 5812
+48, RangeList with RMQBucket, 229875, 37    , 0.2   , 21273 , 3.8   , 3.81  , 3.84  , 3.86  , 5059
+48, RangeList with RMQBucket, 229875, 41    , 0.3   , 20260 , 3.7   , 3.68  , 3.69  , 3.72  , 4537
+48, RangeList with RMQBucket, 229875, 45    , 0.3   , 18582 , 3.1   , 3.10  , 3.11  , 3.18  , 3933
+48, RangeList with RMQBucket, 229875, 49    , 0.3   , 17296 , 2.9   , 2.87  , 2.89  , 2.93  , 3479
+48, RangeList with RMQBucket, 229875, 53    , 0.3   , 15430 , 2.6   , 2.51  , 2.54  , 2.64  , 3003
+48, RangeList with RMQBucket, 229875, 57    , 0.4   , 13905 , 2.2   , 2.17  , 2.19  , 2.25  , 2606
+48, RangeList with RMQBucket, 229875, 61    , 0.4   , 12193 , 2.0   , 1.88  , 1.96  , 2.08  , 2194
+
+
+4253.12
+49, RangeList with RMQBucket, 229875, 5     , 0.1   , 5220  , 1.4   , 1.32  , 1.34  , 1.87  , 3366
+49, RangeList with RMQBucket, 229875, 9     , 0.1   , 10148 , 2.4   , 2.38  , 2.41  , 2.45  , 5071
+49, RangeList with RMQBucket, 229875, 13    , 0.1   , 13473 , 3.3   , 3.25  , 3.29  , 3.34  , 5664
+49, RangeList with RMQBucket, 229875, 17    , 0.1   , 15724 , 3.1   , 3.11  , 3.15  , 3.18  , 5844
+49, RangeList with RMQBucket, 229875, 21    , 0.2   , 16563 , 3.6   , 3.54  , 3.56  , 3.61  , 5531
+49, RangeList with RMQBucket, 229875, 25    , 0.2   , 17122 , 3.5   , 3.45  , 3.46  , 3.54  , 5207
+49, RangeList with RMQBucket, 229875, 29    , 0.2   , 16926 , 3.4   , 3.35  , 3.38  , 3.43  , 4734
+49, RangeList with RMQBucket, 229875, 33    , 0.2   , 16223 , 3.2   , 3.15  , 3.17  , 3.20  , 4185
+49, RangeList with RMQBucket, 229875, 37    , 0.2   , 15392 , 2.6   , 2.59  , 2.61  , 2.71  , 3666
+49, RangeList with RMQBucket, 229875, 41    , 0.3   , 14533 , 2.5   , 2.47  , 2.49  , 2.54  , 3238
+49, RangeList with RMQBucket, 229875, 45    , 0.3   , 13317 , 2.2   , 2.16  , 2.17  , 2.23  , 2773
+49, RangeList with RMQBucket, 229875, 49    , 0.3   , 12239 , 2.0   , 2.00  , 2.02  , 2.07  , 2414
+49, RangeList with RMQBucket, 229875, 53    , 0.3   , 10985 , 1.8   , 1.74  , 1.78  , 1.79  , 2044
+49, RangeList with RMQBucket, 229875, 57    , 0.4   , 9789  , 1.4   , 1.42  , 1.43  , 1.48  , 1724
+49, RangeList with RMQBucket, 229875, 61    , 0.4   , 8294  , 1.2   , 1.18  , 1.18  , 1.25  , 1399
+
+
+5547.75
+50, RangeList with RMQBucket, 229875, 5     , 0.1   , 11643 , 3.3   , 3.19  , 3.19  , 3.61  , 7837
+50, RangeList with RMQBucket, 229875, 9     , 0.1   , 20835 , 4.6   , 4.60  , 4.64  , 4.71  , 10928
+50, RangeList with RMQBucket, 229875, 13    , 0.1   , 27218 , 6.2   , 6.19  , 6.24  , 6.26  , 12106
+50, RangeList with RMQBucket, 229875, 17    , 0.1   , 30140 , 6.5   , 6.48  , 6.51  , 6.58  , 11781
+50, RangeList with RMQBucket, 229875, 21    , 0.2   , 31579 , 6.6   , 6.58  , 6.61  , 6.65  , 11094
+50, RangeList with RMQBucket, 229875, 25    , 0.2   , 32886 , 7.0   , 6.95  , 7.01  , 7.07  , 10472
+50, RangeList with RMQBucket, 229875, 29    , 0.2   , 33146 , 5.8   , 5.78  , 5.82  , 5.83  , 9735
+50, RangeList with RMQBucket, 229875, 33    , 0.2   , 32180 , 5.7   , 5.64  , 5.67  , 5.82  , 8803
+50, RangeList with RMQBucket, 229875, 37    , 0.2   , 30498 , 5.2   , 5.22  , 5.24  , 5.28  , 7843
+50, RangeList with RMQBucket, 229875, 41    , 0.3   , 29804 , 5.2   , 5.20  , 5.25  , 5.29  , 7165
+50, RangeList with RMQBucket, 229875, 45    , 0.3   , 27307 , 4.9   , 4.83  , 4.86  , 4.89  , 6240
+50, RangeList with RMQBucket, 229875, 49    , 0.3   , 25761 , 4.2   , 4.16  , 4.17  , 4.23  , 5612
+50, RangeList with RMQBucket, 229875, 53    , 0.3   , 23596 , 3.9   , 3.89  , 3.91  , 3.97  , 4906
+50, RangeList with RMQBucket, 229875, 57    , 0.4   , 22122 , 3.6   , 3.62  , 3.63  , 3.69  , 4431
+50, RangeList with RMQBucket, 229875, 61    , 0.4   , 20097 , 3.3   , 3.32  , 3.34  , 3.39  , 3874
+
+

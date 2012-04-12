@@ -53,7 +53,7 @@ int main(int argc, char* argv[])
 	else help();
 
 	DataHandler<double> *data_set = new RealDataHandler<double>();
-	data_set->load_dataset("/home/cvalentim/Mestrado/research/data_structures/instances/real_data/data/");
+	data_set->load_dataset("/home/cvalentim/Mestrado/research/data_structures/instances/real_data/new_series_rev/");
 
 	Heuristic<double> *h;
 	switch (type_h){
@@ -71,7 +71,7 @@ int main(int argc, char* argv[])
 			break;
 	}
 	Executer<double> *env = new Executer<double>();
-	// execute 15 queries and repeat each query five times
+	// execute 15 queries and repeat each query 50 times
 	env->exec(data_set, h, 15, 5, outsize);
 	return 0;
 }

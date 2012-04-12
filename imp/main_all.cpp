@@ -23,7 +23,7 @@ using namespace std;
 #define HFPAIRS 2
 
 void help(){
-	cout<<"./<program> <OUTSIZE_SMALL | OUTSIZE_LARGE> <RMQ_BUCKET | FPAIR | ALLPAIRS_FPAIR | RMQ_ST>"<<endl;
+	cout<<"./<program> <OUTSIZE_SMALL | OUTSIZE_LARGE> <RMQ_BUCKET | HFPAIRS | RMQ_ST>"<<endl;
 	cout<<"<OUTSIZE_SMALL | OUTSIZE_LARGE > -> controls the size of query answers"<<endl;
 	cout<<"RMQ_BUCKET -> Uses the RMQ based heuristic with the RMQBucket implementation for the RMQ."<<endl;
 	cout<<"RMQ_ST -> it uses the RMQ based heuristic backed by the <O(nlogn), O(1)> implementation of RMQ."<<endl;

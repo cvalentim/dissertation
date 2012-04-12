@@ -289,13 +289,12 @@ public:
 				if (A.empty())
 						return;
 				seq = A;
-				//printf("fpair size = %d\n", (int)seq.size());
 				tree.clear();
 				tree.resize(4*(int)seq.size() + 1);
 				sort(seq.begin(), seq.end(), lt_by_time<T>);
 				int n = seq.size();
 				construct(0, n, 1);
-				printf("ends = %d ends_unique = %d delta = %d\n", total_ends, total_ends_unique, total_ends - total_ends_unique);
+				//printf("ends = %d ends_unique = %d delta = %d\n", total_ends, total_ends_unique, total_ends - total_ends_unique);
 		}
 
 	

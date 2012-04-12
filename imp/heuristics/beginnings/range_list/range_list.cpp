@@ -102,6 +102,13 @@ public:
 			rtree.range_preprocess(fpairs);
 	}
 
+    // preprocessing needed just to
+    // use the findByEnd and BegByEnd
+    void light_preprocess(vector<T>& A){
+        	seq = A;
+			rmqMin->preprocess(A);
+    }
+
 	// Find all beggings within the interval [a, b) 
 	// that form a pair with the ending 'end'. Returns
 	// solutions returned through the beg parameter
@@ -111,11 +118,12 @@ public:
 				int m = rmqMin->query(a, b-1);
 				if (seq[end] - seq[m] < delta_v) return;
 				++ans;
+                beg.push_back(m);
 				findByEnd(end, a, m, beg, delta_v);
 				findByEnd(end, m + 1, b, beg, delta_v);
 	}
 
-	vector<int> BegByEnd2(vector<int>& E, int delta_t, T delta_v){
+	vector<int> BegByEnd(vector<int>& E, int delta_t, T delta_v){
 			vector<int> beg;
 			// sort in decreasing index order
 			E.push_back(0);
@@ -147,7 +155,7 @@ public:
 	long long query(int delta_t, T delta_v){
 			ans = 0;
 			vector<int> beg = _query(delta_t, delta_v);
-			assert (beg.size() == 0);
+			//assert (beg.size() == 0);
 			return ans;
 	}
 
@@ -157,7 +165,7 @@ public:
 		vector<int> endings;
 		rtree.range_query(delta_t, delta_v, endings);
 		last_query_ends = (int) endings.size();
-		return BegByEnd2(endings, delta_t, delta_v);
+		return BegByEnd(endings, delta_t, delta_v);
 	}
 };
 #endif

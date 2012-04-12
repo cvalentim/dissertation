@@ -89,6 +89,8 @@ public:
 			*/
 			int t = 1;
 			double d = 1.3;
+            // laber:
+            //double d = 0.1;
 			for (int query = 0; query < nq; ++query){
 					if (t > A.size()) break;
 
@@ -103,6 +105,7 @@ public:
 
 					vector<double> times;
 					long long ans = -1;
+                    // executes queries and generates time statistics
 					for (int r = 0; r < nr; ++r){
 							clock.start();
 							long long res = h->query(t, d);

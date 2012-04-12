@@ -1,5 +1,5 @@
 all.exe : main_all.o
-			 g++ -o all.exe main_all.o -O2
+			 g++ -o all.exe main_all.o -O2 -lrt
 
 main_all.o: main_all.cpp
 			 g++ -c main_all.cpp -O2

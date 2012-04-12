@@ -5,25 +5,31 @@
 #include <vector>
 #include <algorithm>
 #include <assert.h>
+#include "range_list/range_list.cpp"
+
 #include "../../../../rmq/cpp/rmq_bucket.cpp"
 #include "../heuristic.cpp"
 #include "../allpairs/h_fpairs.cpp"
+
 
 using namespace std;
 
 template<class T>
 class AllPairsFPairs: public Heuristic<T>
 {
-	HFPairs<T> *h;
+	HFPairs<T> *h_all;
+    RangeList<T> *h_beg;
 	int n;
 
 public:
 	AllPairsFPairs(){
-		h = new HFPairs<T>();
+		h_all = new HFPairs<T>();
+        h_beg = new RangeList<T>();
 	}
 	
 	~AllPairsFPairs(){
-		delete h;
+		delete h_all;
+        delete h_beg;
 	}
 	
 	int get_presize(){
@@ -31,32 +37,21 @@ public:
 	}
 
 	string get_name(){
-		return "AllPairs_FPair for beginnings";
+		return "Mixed";
 	}
 
 
 	void preprocess(vector<T>& A){
 		n = (int) A.size();
-		h->preprocess(A);	
+		h_all->preprocess(A);	
+        h_beg->light_preprocess(A);
 	}
 
 	// <= t and >= d
 	// the pair (a_i, a_j) has distance of j - i and size a_j - a_i
 	long long query(int delta_t, T delta_v){
-		vector<pair<int, int> > allpairs_answer = h->enumQuery(delta_t, delta_v);
-//		cout<<"Allpais: "<<endl;
-//		for (int i = 0; i < allpairs_answer.size(); ++i)
-//			cout<<"("<<allpairs_answer[i].first<<", "<<allpairs_answer[i].second<<")"<<endl;
-		vector<bool> hash(n, false);
-		long long unique_inics = 0;
-		for (int i = 0; i < allpairs_answer.size(); ++i){
-			if (hash[allpairs_answer[i].first]) continue;
-			++unique_inics;
-			hash[allpairs_answer[i].first] = true;
-//			cout<<allpairs_answer[i].first<<", ";
-		}
-//		cout<<endl;
-		return unique_inics;	
+         vector<int> ends = h_all->genSpecialEnds(delta_t, delta_v);
+         return h_beg->BegByEnd(ends, delta_t, delta_v).size();
 	}
 
 };
