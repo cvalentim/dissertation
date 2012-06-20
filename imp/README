@@ -1,0 +1,92 @@
+=== COMO USAR === 
+
+Para compilar o código do problema AllPairs use:
+>>make -f Makefile-all
+
+Para compilar o código do problema Beginnings use:
+>>make -f Makefile-beg
+
+Os executaveis gerados contém um help com os parâmetros necessários
+para execução.
+
+Existe um script já pronto para compilar e executar uma sequência
+de testes. Ele se chama run.sh e pode ser chamado com os
+parâmetros "BEG" (para executar testes para o problema beginnings)
+ou "ALL" (funciona de forma análoga). Note que o script ira
+criar uma pasta "sandbox_beg" (se passado o parâmetro "BEG") 
+ou "sandbox_all" (se passado o parâmetro "ALL"). Dentro dessas
+pastas estarão todos os outputs como all_fpairs.out, all_rmqBucket.csv, etc. gerados pela execução dos testes. Ainda dentro dessa pasta existe um link simbólico para o uma script chamado "bigtable_maker.py". Esse script recebe  (através do stdin) saídas geradas pelo algoritmo (como o all_fpairs.out, etc.) no formato
+abaixo:
+
+SerieID, Heuristic, Serie, t,    d,    ans,  av_time, min,  med,  max,  ends  
+
+9.76736
+1, Allpairs: RMQBased with RMQBucket, 229875, 3     , 0.1   , 1369  , 7.1   , 7.07  , 7.11  , 7.15  , -
+1 , Allpairs: RMQBased with RMQBucket, 229875, 5     , 0.1   , 2477  , 8.7   , 8.70  , 8.74  , 8.76  , -
+1 , Allpairs: RMQBased with RMQBucket, 229875, 7     , 0.2   , 3032  , 11.0  , 10.99 , 10.99 , 11.02 , -
+1 , Allpairs: RMQBased with RMQBucket, 229875, 9     , 0.2   , 3236  , 12.0  , 11.96 , 11.96 , 11.99 , -
+
+e gera uma tabela com todos os resultados juntos. Em geral eu costumo entrar, por exemplo,
+dentro da pasta sandbox_all, e executar:
+
+>> cat all_fpair.out all_rev.csv all_rmqBucket.out all_rmqSt.out | python bigtable_maker.py
+
+para criar um tabelão com todos os resultados dos experimentos.
+
+Estou mandando a pasta sandbox_all como exemplo, mas note que ela é gerada
+toda vez que o script run.sh é executado com o parâmetro "ALL".
+
+=== COMO MUDAR o DATASET === 
+
+Para mudar parâmetros relacionados ao dataset usado é preciso
+mudar os valores hardcoded dentro de data_set_handler.cpp:
+
+- ndata_sets
+- no sprintf(abs_path, '...', path.c_str(), ns) colocar entre
+'...' o nome dos arquivos a serem usados.
+
+Além disso, é preciso trocar dentro do main_all.cpp e main_beg.cpp
+o caminho para os datasets. Note que os arquivos e nomes dentro
+de um dataset tem formatos e nomes específicos. Siga os
+exemplos dentro da pasta instances. 
+
+== ESTRUTURA DO CODIGO == 
+
+Os principais componentes e mais reusáveis do código
+estão dentro da pasta heuristics, que são as implementações
+e testes das diversas heurísticas.
+
+Fora essa pasta temos mais 4 arquivos importantes:
+
+1. main_beg.cpp e main_all.cpp função que inclui os 
+arquivos certos dependendo do problema.
+
+2. data_set_handler.cpp responsáveis por interagir
+com os datasets, a idéia desse arquivo é estabelecer
+um formato único de dados a ser usado pelo resto do código
+(algo como um driver de database).
+
+3. executer.cpp coordena a execução dos testes, é dentro
+dele que os t's e d's usados dentro das consultas são gerados.
+
+
+Dentro do heuristics/ nós temos a seguinte estrutura de pastas:
+allpairs/
+beginnings/
+heuristic.cpp
+
+heuristic.cpp é uma classe abstrata que define uma interface
+para heuristicas, allpairs/ contém todas as heuristicas para
+o problema AllPairs e o beginnings funciona de forma análoga.
+
+Dentro de cada pasta há além das heuristicas um conjunto de testes
+unitários. É importante que alguns testes estão quebrados no momento
+devido a mudança de interface e funcionamento das heurísticas,
+porém, isso não quer dizer que as heurísticas não funcionam.
+
+=== RMQ ===
+
+As implementações das RMQ estão em um projeto distinto. Estou
+mandando elas em anexo, porém é preciso acertar os paths dentro
+do main_all.cpp e main_beg.cpp para o lugar que você colocar no seu HD.
+
