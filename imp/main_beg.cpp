@@ -36,14 +36,15 @@ void help(){
 
 int main(int argc, char* argv[])
 {
-	int type_h, outsize;
+	int type_h, outsize, onlyPre = 0;
 
 	if (argc < 2) {
-			help();
+		help();
 	}
 
 	if (strcmp(argv[1], "OUTSIZE_SMALL") == 0) outsize = 0;
 	else if (strcmp(argv[1], "OUTSIZE_LARGE") == 0) outsize = 1;
+	else if (strcmp(argv[1], "PRE") == 0) onlyPre = 1;
 	else help();
 
 	if (strcmp(argv[2], "RMQ_BUCKET") == 0) type_h = RMQ_BUCKET;
@@ -53,7 +54,7 @@ int main(int argc, char* argv[])
 	else help();
 
 	DataHandler<double> *data_set = new RealDataHandler<double>();
-	data_set->load_dataset("/home/cvalentim/Mestrado/research/data_structures/instances/real_data/new_series_rev/");
+	data_set->load_dataset("/home/cvalentim/Mestrado/research/data_structures/instances/real_data/data/");
 
 	Heuristic<double> *h;
 	switch (type_h){
@@ -71,8 +72,11 @@ int main(int argc, char* argv[])
 			break;
 	}
 	Executer<double> *env = new Executer<double>();
-	// execute 15 queries and repeat each query 50 times
-	env->exec(data_set, h, 15, 5, outsize);
+	if (onlyPre)
+		// just preprocessing, repeat each 15 times
+		env->execPre(data_set, h, 10);
+	else // execute 15 queries and repeat each query 50 times
+		env->exec(data_set, h, 15, 10, outsize);
 	return 0;
 }
 #endif

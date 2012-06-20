@@ -87,7 +87,7 @@ public:
 	// to discover the heuristic name and
 	// type of RMQ being used
 	string get_name(){
-		return "RangeList with " + rmqMin->name();
+		return "Beg-SP(" + rmqMin->name() + ")";
 	}
 
 	// this heuristic preprocessing is

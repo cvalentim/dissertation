@@ -158,7 +158,7 @@ class HFPairs: public Heuristic<T>{
 					end0.push_back(m);
 					in_end0[m] = nquery;
 			}
-			ans.push_back(make_pair(f, m));
+			//ans.push_back(make_pair(f, m));
             ++nans;
 			genEventsStart(f, s, m - 1, d);
 			genEventsStart(f, m + 1, e, d);
@@ -172,7 +172,7 @@ class HFPairs: public Heuristic<T>{
 			if (seq[f] - seq[m] < d) return;
 			if (in_start0[m] != nquery){
 					start1.push_back(m);
-				  	ans.push_back(make_pair(m, f));
+				  	//ans.push_back(make_pair(m, f));
                     ++nans;
 			}
 			genEventsEnd(f, s, m - 1, d);
@@ -228,7 +228,7 @@ public:
 	}
 	
 	string get_name(){
-			return  "F-pairs for allpairs problem with RMQBucket";
+			return  "AllPairs-SP";
 	}
 
 
@@ -262,7 +262,7 @@ public:
 	// the pair (a_i, a_j) has distance of j - i and size a_j - a_i
 	long long query(int t, T d){
         int found_ans = (long long) enumQuery(t, d).size();
-        assert (found_ans == nans);
+       // assert (found_ans == nans);
         return nans;
 	}
 };

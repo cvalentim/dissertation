@@ -37,7 +37,7 @@ public:
 	}
 
 	string get_name(){
-		return "Mixed";
+		return "Beg-Hybrid";
 	}
 
 

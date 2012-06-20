@@ -19,7 +19,8 @@ class PureRmq : public Heuristic<T>{
     RMQ<T> *rmqMax;
 
 	vector<pair<int, int> > ans;
-
+    int nans;
+    
 	/* all pairs which matching the index f in the
 		closed interval [s, e] */
 	void calculate(int f, int s, int e, double d)
@@ -30,7 +31,8 @@ class PureRmq : public Heuristic<T>{
 		assert(0 <= e && e < seq.size());
 		int m = rmqMax->query(s, e);
 		if (seq[m] - seq[f] < d) return;
-		ans.push_back(make_pair(f, m));
+		//ans.push_back(make_pair(f, m));
+        ++nans;
 		calculate(f, s, m - 1, d);
 		calculate(f, m + 1, e, d); 
 	}
@@ -49,7 +51,7 @@ public:
 	}
 
 	string get_name(){
-		return "Allpairs: RMQBased with " + rmqMax->name();
+		return "AllPairs-RMQ(" + rmqMax->name() + ")";
 	}
 
 	void preprocess(vector<T>& A)
@@ -60,6 +62,7 @@ public:
 
 	vector<pair<int, int> > enumQuery(int t, T d){
 		ans.clear();
+        nans = 0;
 		for (int i = 0; i < seq.size(); ++i){
 			calculate(i, i + 1, min(i + t, (int)seq.size() - 1), d);
 		}
@@ -68,7 +71,9 @@ public:
 
 	long long query(int t, T d){
 		assert (t > 0);
-		return (long long) enumQuery(t, d).size();
+		int found_ans =  (long long) enumQuery(t, d).size();
+        //assert (found_ans == nans);
+        return nans;
 	}
 };
 #endif

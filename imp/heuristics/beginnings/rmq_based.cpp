@@ -55,7 +55,7 @@ public:
 	}
 
 	string get_name(){
-		return "RMQH with " + rmqMax->name();
+		return "Beg-RMQ(" + rmqMax->name() + ")";
 	}
 
 	// this heuristic preprocessing is
