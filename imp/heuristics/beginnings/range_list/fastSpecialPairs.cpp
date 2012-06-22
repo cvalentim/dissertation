@@ -8,7 +8,7 @@ using namespace std;
 
 template<class T>
 struct SpecialPair{
-	int s, e;	
+	int s, e;
 	T vs, ve;
 
 	SpecialPair(){} 
@@ -30,6 +30,18 @@ struct SpecialPair{
 		return ve - vs;
 	}
 
+	bool operator<(const SpecialPair<T>& other) const{
+        if (getDesviation() != other.getDesviation()) return getDesviation() < other.getDesviation();
+        if (s != other.s) return s < other.s;
+        return e < other.e;
+    }
+
+    bool operator>(const SpecialPair<T>& other) const{
+        if (getDesviation() != other.getDesviation()) return getDesviation() > other.getDesviation();
+        if (s != other.s) return s > other.s;
+        return e > other.e;
+    }
+
 	bool operator==(const SpecialPair<T>& rhs) const{
 		return s == rhs.s && e == rhs.e;
 	}
@@ -42,7 +54,7 @@ struct SpecialPair{
 };
 
 template<typename T>
-void genSpecialPairs(vector<T>& A, vector<SpecialPair<T> >& res){
+void genSpecialPairs(const vector<T>& A, vector<SpecialPair<T> >& res){
 	int n = A.size();
 	vector<int> startCandidate(n);
 	vector<T> biggestEnd(n, -1);

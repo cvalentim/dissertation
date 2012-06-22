@@ -9,7 +9,8 @@
 
 #include "../../../../rmq/cpp/rmq_bucket.cpp"
 #include "../heuristic.cpp"
-#include "../allpairs/h_fpairs.cpp"
+//#include "../allpairs/h_fpairs.cpp"
+#include "../allpairs/specialPairsH.cpp"
 
 
 using namespace std;

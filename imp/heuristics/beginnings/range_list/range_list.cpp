@@ -24,8 +24,8 @@
 #include <algorithm> //for sort
 #include <iostream>
 
-#include "fpair.cpp"
-#include "fpair_range_list.cpp"
+//#include "fastSpecialPairs.cpp"
+#include "rangeTree.cpp"
 
 #include "../../../../../rmq/cpp/rmq_bucket.cpp" // for an <O(n), O(\log n)> RMQ
 #include "../../heuristic.cpp" // for the abstract heuristic class
@@ -62,11 +62,10 @@ class RangeList : public Heuristic<T>{
 	long long ans;
 
 	//
-	RangeTreeFPair<T> rtree;
+	RangeTree<T> rtree;
 
+	friend class lt_by_d<T>;
 
-	friend class lt_by_d<T>;	
-	
 public:
 	// number of ends in the last query
 	int last_query_ends;
@@ -96,10 +95,10 @@ public:
 	{
 			seq = A;
 			rmqMin->preprocess(A);
-			vector<FPair<T> > fpairs;
-			find_fpairs(seq, fpairs);
-			//cout<<fpairs.size()<<endl;	
-			rtree.range_preprocess(fpairs);
+			//vector<SpecialPair<T> > specialPairs;
+			//genSpecialPairs(seq, specialPairs);
+			//cout<<specialPairs.size()<<endl;	
+			rtree.preprocess(seq);
 	}
 
     // preprocessing needed just to
@@ -163,7 +162,11 @@ public:
 		// only positive deltas
 		assert (delta_t > 0);
 		vector<int> endings;
-		rtree.range_query(delta_t, delta_v, endings);
+		rtree.queryEnds(delta_t, delta_v, endings);
+		/*cout<<"Ends found = "<<endl;
+		for (int i = 0;  i < endings.size(); ++i)
+			cout<<endings[i]<<" ";
+		cout<<endl;*/
 		last_query_ends = (int) endings.size();
 		return BegByEnd(endings, delta_t, delta_v);
 	}

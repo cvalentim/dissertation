@@ -61,7 +61,7 @@
 #include <iostream>
 #include <cstdio>
 
-#include "fpair.cpp"
+#include "fastSpecialPairs.cpp"
 
 using namespace std;
 
@@ -91,19 +91,19 @@ struct TNode{
 };
 
 template<class T>
-bool lt_by_time(const FPair<T>& f1, const FPair<T>& f2){
-		if (f1.get_delta_t() != f2.get_delta_t())
-				return f1.get_delta_t() < f2.get_delta_t();
+bool lt_by_time(const SpecialPair<T>& f1, const SpecialPair<T>& f2) {
+		if (f1.getDelta() != f2.getDelta())
+				return f1.getDelta() < f2.getDelta();
 		if (f1.s != f2.s)
 				return f1.s < f2.s;
 		return f1.e < f2.e;
 }
 
 template<class T>
-class RangeTreeFPair;
+class RangeTreeSpecialPair;
 
 template<class T>
-bool lt_lexico(const FPair<T>& f1, const FPair<T>& f2){
+bool lt_lexico(const SpecialPair<T>& f1, const SpecialPair<T>& f2){
 		if (f1.s != f2.s) return f1.s < f2.s;
 		return f1.e < f2.e;
 }
@@ -112,29 +112,29 @@ bool lt_lexico(const FPair<T>& f1, const FPair<T>& f2){
 template<class T>
 struct lt_by_end:std::binary_function<int , int, bool>
 {
-   	lt_by_end(RangeTreeFPair<T> *p):rangeTree(p) {}
+   	lt_by_end(RangeTreeSpecialPair<T> *p):rangeTree(p) {}
 
     bool operator() (const int& index1, const int& index2) {
 				if (rangeTree->seq[index1].e != rangeTree->seq[index2].e)
 						return rangeTree->seq[index1].e < rangeTree->seq[index2].e;
 				return rangeTree->seq[index1].s < rangeTree->seq[index2].s;
     }
-    RangeTreeFPair<T> *rangeTree;
+    RangeTreeSpecialPair<T> *rangeTree;
 };
 
 template<class T>
 struct lt_by_value:std::binary_function<int , int, bool>
 {
-   	lt_by_value(RangeTreeFPair<T> *p):rangeTree(p) {}
+   	lt_by_value(RangeTreeSpecialPair<T> *p):rangeTree(p) {}
 
     bool operator() (const int& index1, const int& index2) {
-				if (rangeTree->seq[index1].get_delta_v() != rangeTree->seq[index2].get_delta_v())
-						return rangeTree->seq[index1].get_delta_v() < rangeTree->seq[index2].get_delta_v();
+				if (rangeTree->seq[index1].getDesviation() != rangeTree->seq[index2].getDesviation())
+						return rangeTree->seq[index1].getDesviation() < rangeTree->seq[index2].getDesviation();
 				if (rangeTree->seq[index1].s != rangeTree->seq[index2].s)
 						rangeTree->seq[index1].s <  rangeTree->seq[index2].s;
 				return rangeTree->seq[index1].e < rangeTree->seq[index2].e;
     }
-    RangeTreeFPair<T> *rangeTree;
+    RangeTreeSpecialPair<T> *rangeTree;
 };
 
 
@@ -142,39 +142,39 @@ struct lt_by_value:std::binary_function<int , int, bool>
 template<class T>
 struct equal_end:std::binary_function<int , int, bool>
 {
-   	equal_end(RangeTreeFPair<T> *p):rangeTree(p) {}
+   	equal_end(RangeTreeSpecialPair<T> *p):rangeTree(p) {}
 
     bool operator()(const int& index1, const int& index2) {
 				return rangeTree->seq[index1].e == rangeTree->seq[index2].e;
     }
-    RangeTreeFPair<T> *rangeTree;
+    RangeTreeSpecialPair<T> *rangeTree;
 };
 
 template<class T>
-class RangeTreeFPair{
+class RangeTreeSpecialPair{
 
 		vector<TNode<T> > tree;
 		
-		vector<FPair<T> > seq;
+		vector<SpecialPair<T> > seq;
 
 		int l1;
 
 		T hi;
 
 		int get_left(int x){
-				return 2 * x;
+			return 2 * x;
 		}
 	
 		int get_right(int x){
-				return 2 * x + 1;
-		}	
+			return 2 * x + 1;
+		}
 	
 		bool is_leaf(int node){
-				return tree[node].is_leaf;
+			return tree[node].is_leaf;
 		}
 
-		bool isValid(const FPair<T>& f){
-					return 0 <= f.get_delta_t() && f.get_delta_t() <= l1 && f.get_delta_v() >= hi;
+		bool isValid(SpecialPair<T>& f){
+			return 0 <= f.getDelta() && f.getDelta() <= l1 && f.getDesviation() >= hi;
 		}
 
 		void PrintPath(const vector<int>& path){
@@ -189,11 +189,11 @@ class RangeTreeFPair{
 		int total_ends, total_ends_unique;
 public:
 
-		RangeTreeFPair(){
+		RangeTreeSpecialPair(){
 			total_ends = total_ends_unique = 0;
 		}
 
-		~RangeTreeFPair(){
+		~RangeTreeSpecialPair(){
 				seq.clear();
 				tree.clear();
 		}
@@ -206,10 +206,10 @@ public:
 						assert (0 == 1);
 				}
 				if (s + 1 == e){
-						tree[node] = TNode<T>(seq[s].get_delta_t());
+						tree[node] = TNode<T>(seq[s].getDelta());
 						tree[node].range.push_back(s);
 						tree[node].is_leaf = true;
-						return seq[s].get_delta_t();
+						return seq[s].getDelta();
 				}
 				// Otherwise, it is internal node
 				// So it value will be smallest in the left subtree,
@@ -253,7 +253,7 @@ public:
 				int node = get_left(curr);
 				const vector<int >& range = tree[node].range;
 				for (int i = 0; i < range.size(); ++i){
-							if (seq[range[i]].get_delta_v() < hi)
+							if (seq[range[i]].getDesviation() < hi)
 													break;
 							res.push_back(seq[range[i]].e);
 				}
@@ -285,7 +285,7 @@ public:
 
 
 		// Range Tree code begins here
-		void range_preprocess(const vector<FPair<T> >& A){
+		void range_preprocess(vector<SpecialPair<T> >& A){
 				if (A.empty())
 						return;
 				seq = A;
