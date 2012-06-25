@@ -20,6 +20,8 @@ function beginnings {
 	./beg.exe OUTSIZE_SMALL RMQ_ST >> beg_rmqSt.out
 	echo "BEG: Small with AllPairs_fpair"
 	./beg.exe OUTSIZE_SMALL ALLPAIRS_FPAIR >> beg_allpairs_fpair.out
+	echo "BEG: Small with Naive"
+	./beg.exe OUTSIZE_SMALL NAIVE >> beg_naive.out
 	# Large output
 	echo "BEG: Large with rmqBucket"
 	./beg.exe OUTSIZE_LARGE RMQ_BUCKET >> beg_rmqBucket.out
@@ -29,7 +31,9 @@ function beginnings {
 	./beg.exe OUTSIZE_LARGE RMQ_ST >> beg_rmqSt.out
 	echo "BEG: Large with AllPairs_fpair"
 	./beg.exe OUTSIZE_LARGE ALLPAIRS_FPAIR >> beg_allpairs_fpair.out
-	cat beg_rmqBucket.out beg_fpair.out beg_rmqSt.out beg_allpairs_fpair.out | python2.6 bigtable_maker.py | tee begQuery.out | column -t -s , | tee begQuery-`date +"%y-%m-%d"`.out 
+	echo "BEG: Large with Naive"
+	./beg.exe OUTSIZE_LARGE NAIVE >> beg_naive.out
+	cat beg_rmqBucket.out beg_fpair.out beg_rmqSt.out beg_allpairs_fpair.out beg_naive.out | python2.6 bigtable_maker.py | tee begQuery.out | column -t -s , | tee begQuery-`date +"%y-%m-%d"`.out 
 	python2.6 plot.py BEG
 	python2.6 plotEnds.py
 	cd ..
@@ -54,6 +58,9 @@ function allpairs {
 	./all.exe OUTSIZE_SMALL HFPAIR >> all_fpair.out
 	echo "ALL: Small with rmqSt"
 	./all.exe OUTSIZE_SMALL RMQ_ST >> all_rmqSt.out
+	echo "ALL: Small with naive"
+	./all.exe OUTSIZE_SMALL NAIVE >> all_naive.out
+
 	# Large output
 	echo "ALL: Large with rmqBucket"
 	./all.exe OUTSIZE_LARGE RMQ_BUCKET >> all_rmqBucket.out
@@ -61,7 +68,10 @@ function allpairs {
 	./all.exe OUTSIZE_LARGE HFPAIR >> all_fpair.out
 	echo "ALL: Large with rmqSt"
 	./all.exe OUTSIZE_LARGE RMQ_ST >> all_rmqSt.out
-	cat all_rmqBucket.out all_fpair.out all_rmqSt.out | python2.6 bigtable_maker.py | tee allQuery.out | column -t -s , | tee allQuery-`date +"%y-%m-%d"`.out
+	echo "ALL: Large with naive"
+	./all.exe OUTSIZE_LARGE NAIVE >> all_naive.out
+
+	cat all_rmqBucket.out all_fpair.out all_rmqSt.out all_naive.out | python2.6 bigtable_maker.py | tee allQuery.out | column -t -s , | tee allQuery-`date +"%y-%m-%d"`.out
 	python2.6 plot.py ALL
 	cd ..
 	echo "Done."

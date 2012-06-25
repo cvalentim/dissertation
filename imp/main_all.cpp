@@ -10,8 +10,9 @@
 #include <algorithm>
 #include <cstring>
 
-#include "heuristics/allpairs/h_fpairs.cpp"
+#include "heuristics/allpairs/specialPairsH.cpp"
 #include "heuristics/allpairs/pure_rmq.cpp"
+#include "heuristics/allpairs/naiveScan.cpp"
 #include "heuristics/heuristic.cpp"
 #include "data_set_handler.cpp"
 #include "executer.cpp"
@@ -21,6 +22,7 @@ using namespace std;
 #define RMQ_BUCKET 0
 #define RMQ_ST 1
 #define HFPAIRS 2
+#define NAIVE 3
 
 void help(){
 	cout<<"./<program> <OUTSIZE_SMALL | OUTSIZE_LARGE> <RMQ_BUCKET | HFPAIRS | RMQ_ST>"<<endl;
@@ -28,6 +30,7 @@ void help(){
 	cout<<"RMQ_BUCKET -> Uses the RMQ based heuristic with the RMQBucket implementation for the RMQ."<<endl;
 	cout<<"RMQ_ST -> it uses the RMQ based heuristic backed by the <O(nlogn), O(1)> implementation of RMQ."<<endl;
 	cout<<"HFPAIRS -> uses the heuristic based on FPairs."<<endl;
+	cout<<"NAIVE -> simple O(nk) scan."<<endl;
 	exit(0);
 }
 
@@ -47,6 +50,7 @@ int main(int argc, char* argv[])
 	if (strcmp(argv[2], "RMQ_BUCKET") == 0) type_h = RMQ_BUCKET;
 	else if (strcmp(argv[2], "HFPAIR") == 0) type_h = HFPAIRS;
 	else if (strcmp(argv[2], "RMQ_ST") == 0) type_h = RMQ_ST;
+	else if (strcmp(argv[2], "NAIVE") == 0) type_h = NAIVE;
 	else help();
 
 	DataHandler<double> *data_set = new RealDataHandler<double>();
@@ -62,6 +66,9 @@ int main(int argc, char* argv[])
 			break;
 		case HFPAIRS:
 			h = new HFPairs<double>();
+			break;
+		case NAIVE:
+			h = new NaiveScan<double>();
 			break;
 	}
 	Executer<double> *env = new Executer<double>();
