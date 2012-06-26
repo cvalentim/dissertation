@@ -78,6 +78,8 @@ def main():
 			nh = len(bigtable[key])
 			print >>sys.stderr, nh
 			continue
+		#print nh, len(bigtable[key])
+		#print key
 		assert nh == len(bigtable[key])
 	print_table(bigtable, ends_table)
 

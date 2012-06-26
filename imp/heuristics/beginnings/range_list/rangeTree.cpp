@@ -90,8 +90,10 @@ struct TNode
 };
 
 template<class T>
-bool ltByDesviation(const SpecialPair<T>& a, const SpecialPair<T>& b){
-	if (a.getDesviation() != b.getDesviation()) return a.getDesviation() < b.getDesviation();
+inline bool ltByDesviation(const SpecialPair<T>& a, const SpecialPair<T>& b){
+	T desvA = a.getDesviation();
+	T desvB = b.getDesviation();
+	if (desvA != desvB) return desvA < desvB;
 	if (a.s != b.s) return a.s < b.s;
 	return a.e < b.e;
 }
@@ -119,12 +121,7 @@ public:
 		return 2*x + 1;
 	}
 	
-	bool isOut(int x){
-		return x >= tree.size();
-	}
-
 	bool isLeaf(int x){
-		//return isOut(getLeft(x)) && isOut(getRight(x)); 
 		return leaf[x];
 	}
 
@@ -132,7 +129,7 @@ public:
 		//cout<<"lo = "<<lo<<" hi = "<<hi<<" root = "<<root<<endl;
 		if (lo == hi) return -10000000; 
 		if (lo + 1 ==  hi) {
-			tree[root] = TNode<T>(lo);
+			tree[root].value = lo;
 			pTable[lo].push_back(root);
 			leaf[root] = true;
 			return lo;
@@ -140,18 +137,20 @@ public:
 		int m = (lo + hi - 1)/2 + 1;
 		int left = construct(lo, m, getLeft(root));
 		int right = construct(m, hi, getRight(root));
-		tree[root] = TNode<T>(left); 
+		tree[root].value = left; 
 		for (int x = lo; x < hi; ++x)
 			pTable[x].push_back(root);
-		//cout<<"root = "<<root<<" value = "<<tree[root].value<<" lo = "<<lo<<" hi = "<<hi<<endl;
 		return max(left, right);
 	}
 
 	// Range Tree code begins here
 	void  createRangeTree(int n){
 		tree.resize(4*n + 1);
-		leaf.resize(4*n + 1, false);
-		//cout<<"calling construct with n = "<<n<<endl;
+		leaf.resize(4*n + 1);
+		for (int i = 0; i < 4*n + 1; ++i){
+			leaf[i] = false;
+			tree[i].range.clear();
+		}
 		construct(0, n, 1);
 	}
 
@@ -177,27 +176,18 @@ public:
 	}
 
 	void removeDuplicatedEnds(int n){
-		vector<int> hash(n + 1, 0);
+		vector<int> hash(n + 1, -1);
 		remove(1, hash);
 	}
 
-	void fase1(const vector<T>& seq){
+	void preprocess(const vector<T>& seq){
 		setbuf(stdout, NULL);
 		specialPairs.clear();
 		genSpecialPairs(seq, specialPairs);
-	}
-
-	void fase2(const vector<T>& seq){
 		pTable.resize(seq.size() + 1);
 		for (int i = 0; i < pTable.size(); ++i) pTable[i].clear();
 		createRangeTree(seq.size());
-	}
-
-	void fase3(){
 		sort(specialPairs.rbegin(), specialPairs.rend(), ltByDesviation<T>);
-	}
-
-	void fase4(){
 		for (int i = 0; i < specialPairs.size(); ++i){
 			int t = specialPairs[i].getDelta();
 			for (int p = 0; p < pTable[t].size(); ++p){
@@ -206,28 +196,6 @@ public:
 				tree[node].range.push_back(i);
 			}
 		}
-	}
-
-	void preprocess(const vector<T>& seq){
-		fase1(seq);
-		fase2(seq);
-		fase3();
-		fase4();
-		// generates and store the special pair list
-	// create the range tree and also init
-		// the pointer table
-		// sort and insert properly the special pairs
-		// in the tree using the pTable. Each range list
-		// in a tree node will have the ends sorted by 
-	/*	cout<<"special pairs list = "<<endl;
-		for (int i = 0; i < specialPairs.size(); ++i)
-			cout<<specialPairs[i]<<" ";
-		cout<<endl;*/
-
-
-	// now all we need to do is remove 
-		// duplicate ends inside the same node
-		// in the tree
 		removeDuplicatedEnds(seq.size());
 
 		/*cout<<"PREPROCESSING tree = "<<endl;
@@ -245,7 +213,7 @@ public:
 	}
 
 	// QUERY ROUTINES
-	void add(int node, int d, vector<int>& res){
+	void add(int node, T d, vector<int>& res){
 		vector<int>& range = tree[node].range;
 		for (int i = 0; i < range.size(); ++i){
 			int spIndex = range[i];
@@ -255,7 +223,7 @@ public:
 		}
 	}
 
-	void addList(int root, int t, int d, vector<int>& res){
+	void addList(int root, int t, T d, vector<int>& res){
 		if (isLeaf(root)){
 			if (tree[root].value <= t)
 				add(root, d, res);
@@ -265,7 +233,7 @@ public:
 		add(left, d, res);
 	}
 
-	void findRightPath(int t, int d, vector<int>& res){
+	void findRightPath(int t, T d, vector<int>& res){
 		int root = 1;
 		//cout<<"finding right path="<<endl;
 		while (!isLeaf(root)){

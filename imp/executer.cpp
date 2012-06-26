@@ -118,9 +118,9 @@ class Executer{
 		//cout<<clock.elapsed()<<endl;
 		cout<<"#pretime: "<<id_serie<<">"<<A.size()<<">"<<h->get_name()<<">"<<clock.elapsed()<<endl;
 		int t = 1;
-		double d = 1.3;
+		//double d = 1.3;
 		// for the extended corpus of 100 series do:
-		//double d = 0.1;
+		double d = 0.1;
 		for (int query = 0; query < nq; ++query){
 			if (t > A.size()) {
 				cout<<"t"<<"("<<t<<")"<<" is larger then the serie size. Aborting.";

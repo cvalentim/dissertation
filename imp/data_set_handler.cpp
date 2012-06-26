@@ -57,7 +57,7 @@ template<class T>
 class RealDataHandler: public DataHandler<T>{
 	virtual string get_data_path(string path, int ns){
 		char abs_path[200];
-		sprintf(abs_path, "%sserie%d.in", path.c_str(), ns);
+		sprintf(abs_path, "%snew_serie%d.in", path.c_str(), ns);
 		return string(abs_path);
 	}
 	public:
@@ -66,7 +66,7 @@ class RealDataHandler: public DataHandler<T>{
 		// real data set. The first six (1...6) are stock data from
 		// the stock market, the next six (7...12) are the first
 		// six series reversed, in order to simulate the negative query.
-		DataHandler<T>::ndata_sets = 12;
+		DataHandler<T>::ndata_sets = 50;
 	}
 };
 

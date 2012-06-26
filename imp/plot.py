@@ -36,6 +36,7 @@ if __name__ == '__main__':
 	r1 = []
 	r2 = []
 	header = lines[0].split(',')
+	print header
 	if isAll:
 		heuristics = [header[6], header[7], header[8], header[9]]
 	else:

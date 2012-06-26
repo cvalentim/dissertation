@@ -24,7 +24,6 @@
 #include <algorithm> //for sort
 #include <iostream>
 
-//#include "fastSpecialPairs.cpp"
 #include "rangeTree.cpp"
 
 #include "../../../../../rmq/cpp/rmq_bucket.cpp" // for an <O(n), O(\log n)> RMQ
@@ -95,9 +94,6 @@ public:
 	{
 			seq = A;
 			rmqMin->preprocess(A);
-			//vector<SpecialPair<T> > specialPairs;
-			//genSpecialPairs(seq, specialPairs);
-			//cout<<specialPairs.size()<<endl;	
 			rtree.preprocess(seq);
 	}
 
@@ -154,7 +150,6 @@ public:
 	long long query(int delta_t, T delta_v){
 			ans = 0;
 			vector<int> beg = _query(delta_t, delta_v);
-			//assert (beg.size() == 0);
 			return ans;
 	}
 
@@ -163,10 +158,6 @@ public:
 		assert (delta_t > 0);
 		vector<int> endings;
 		rtree.queryEnds(delta_t, delta_v, endings);
-		/*cout<<"Ends found = "<<endl;
-		for (int i = 0;  i < endings.size(); ++i)
-			cout<<endings[i]<<" ";
-		cout<<endl;*/
 		last_query_ends = (int) endings.size();
 		return BegByEnd(endings, delta_t, delta_v);
 	}

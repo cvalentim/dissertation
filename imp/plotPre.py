@@ -38,13 +38,13 @@ if __name__ == '__main__':
 		print "ax = ", ax
 		ay = [float(x) for x in line[1:]]
 		print "ay = ", ay
-		p.bar(ax, ay, width=0.5, facecolor=colors[i-1], align='center', label=line[0])
+		p.bar(ax, ay, facecolor=colors[i-1], align='center', label=line[0])
 		pylab.xticks(range(13))
 		plt.legend(prop={'size':12})
-		if isAll:
-			pylab.ylim([0, 500])
-		else:
-			pylab.ylim([0, 6000])
+		#if isAll:
+			#pylab.ylim([0, 500])
+		#else:
+			#pylab.ylim([0, 6000])
 	if isAll:
 		plt.savefig('allPretime.png')
 	else:

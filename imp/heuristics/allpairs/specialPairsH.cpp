@@ -98,6 +98,29 @@ class HFPairs: public Heuristic<T>{
 		delta_time.clear();
 	}
 
+	void create_delta_time2(){
+		vector<SpecialPair<T> > Sp;
+		genSpecialPairs(seq, Sp);
+		vector<int> amount(seq.size() + 1, 0);
+		for (int i = 0; i < Sp.size(); ++i)
+			amount[Sp[i].getDelta()]++;
+		vector<int> startAt(seq.size() + 1);
+		howMany.resize(seq.size() + 1);
+		startAt[0] = 0;
+		howMany[0] = 0;
+		for (int i = 1; i < seq.size() + 1; ++i){
+			howMany[i] = howMany[i - 1] + amount[i];
+			startAt[i] = howMany[i - 1];
+		}
+		specialPairs.resize(Sp.size());
+		for (int i = 0; i < Sp.size(); ++i){
+			int t = Sp[i].getDelta();
+			specialPairs[startAt[t]] = Sp[i];
+			++startAt[t];
+		}
+		rmq_delta_time->preprocess(specialPairs);
+	}
+
  	// closed interval [s, e]
 	void findStart0(int s, int e, int t, T d){
 		if (s > e) return;
@@ -219,7 +242,7 @@ public:
 		nquery = 0;
 		fill(in_start0.begin(), in_start0.end(), nquery);
 		fill(in_end0.begin(), in_end0.end(), nquery);
-		create_delta_time();
+		create_delta_time2();
 	}
 
 	vector<pair<int, int> > enumQuery(int t, T d){
