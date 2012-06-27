@@ -102,7 +102,6 @@ template<class T>
 class RangeTree
 {
 	vector<TNode<T> > tree;
-	vector<vector<int> > pTable;
 	vector<SpecialPair<T> > specialPairs;
 	vector<bool> leaf;
 
@@ -126,11 +125,9 @@ public:
 	}
 
 	int construct(int lo, int hi, int root){
-		//cout<<"lo = "<<lo<<" hi = "<<hi<<" root = "<<root<<endl;
 		if (lo == hi) return -10000000; 
 		if (lo + 1 ==  hi) {
 			tree[root].value = lo;
-			pTable[lo].push_back(root);
 			leaf[root] = true;
 			return lo;
 		}
@@ -138,9 +135,22 @@ public:
 		int left = construct(lo, m, getLeft(root));
 		int right = construct(m, hi, getRight(root));
 		tree[root].value = left; 
-		for (int x = lo; x < hi; ++x)
-			pTable[x].push_back(root);
 		return max(left, right);
+	}
+
+	void insert(int t, int root,  int lo, int hi, int index){
+		while (lo + 1 < hi){
+			tree[root].range.push_back(index);
+			int m = (lo + hi - 1)/2 + 1;
+			if (lo <= t && t < m){
+				root = getLeft(root);
+				hi = m;
+			}else{
+				root = getRight(root);
+				lo = m;
+			}	
+		}
+		tree[root].range.push_back(index);
 	}
 
 	// Range Tree code begins here
@@ -184,32 +194,15 @@ public:
 		setbuf(stdout, NULL);
 		specialPairs.clear();
 		genSpecialPairs(seq, specialPairs);
-		pTable.resize(seq.size() + 1);
-		for (int i = 0; i < pTable.size(); ++i) pTable[i].clear();
 		createRangeTree(seq.size());
 		sort(specialPairs.rbegin(), specialPairs.rend(), ltByDesviation<T>);
+
+		int n = seq.size();
 		for (int i = 0; i < specialPairs.size(); ++i){
 			int t = specialPairs[i].getDelta();
-			for (int p = 0; p < pTable[t].size(); ++p){
-				int node = pTable[t][p];
-			//	cout<<"tree.size = "<<tree.size()<<" node = "<<node<<endl;
-				tree[node].range.push_back(i);
-			}
+			insert(t, 1, 0, n, i);
 		}
-		removeDuplicatedEnds(seq.size());
-
-		/*cout<<"PREPROCESSING tree = "<<endl;
-		for (int i = 0; i < tree.size(); ++i)
-			cout<<tree[i]<<" ";
-		cout<<endl;
-		cout<<"seq.size = "<<seq.size()<<endl;
-		cout<<"lists = "<<endl;
-		for (int i = 0; i < tree.size(); ++i){
-			cout<<"root = "<<i<<" :";
-			for (int j = 0; j < tree[i].range.size(); ++j)
-				cout<<specialPairs[tree[i].range[j]]<<" ";
-			cout<<endl;
-		}*/
+		//removeDuplicatedEnds(seq.size());
 	}
 
 	// QUERY ROUTINES
@@ -235,9 +228,7 @@ public:
 
 	void findRightPath(int t, T d, vector<int>& res){
 		int root = 1;
-		//cout<<"finding right path="<<endl;
 		while (!isLeaf(root)){
-		//	cout<<"root = "<<root<<endl;
 			if (tree[root].value > t)
 				root = getLeft(root);
 			else{

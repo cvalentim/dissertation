@@ -22,7 +22,7 @@ long long brute_force(const vector<int>& A, int t, int d){
 
 
 void test_random(){
-		int n = 51;
+		int n = 50;
 		int interations = 100000;
 		vector<int> A(n);
 		for (int i = 0; i < n; ++i) A[i] = i + 1;

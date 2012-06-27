@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
 	else help();
 
 	DataHandler<double> *data_set = new RealDataHandler<double>();
-	data_set->load_dataset("/home/cvalentim/Mestrado/research/data_structures/instances/real_data/newData/");
+	data_set->load_dataset("/home/cvalentim/Mestrado/research/data_structures/instances/real_data/newDataRev/");
 
 	Heuristic<double> *h;
 	switch (type_h){
